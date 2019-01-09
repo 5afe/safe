@@ -83,7 +83,7 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/pairing/``
 * **JSON Payload:**
 
-.. code:: json
+.. code::
 
     {
         "temporaryAuthorization": {
@@ -105,7 +105,7 @@ Notification Service.
 
   - 201 - OK, payload:
 
-.. code:: json
+.. code::
 
     {
         "devicePair": [
@@ -126,7 +126,7 @@ Notification Service.
 * **Endpoint:** ``DELETE /api/v1/pairing/``
 * **JSON Payload:**
 
-.. code:: json
+.. code::
 
     {
         "device": “<address>", // Address must be in a checksummed format (EIP 55)
@@ -158,7 +158,7 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/notifications/``
 * **JSON Payload:**
 
-.. code:: json
+.. code::
 
     {
         "devices": [“<new browser extension address in checksummed EIP55 format>"],
@@ -172,7 +172,7 @@ Notification Service.
 
 * - ``<notification contents>`` is a JSON string:
 
-.. code:: json
+.. code::
 
     {
       "type": "safeCreation",
@@ -212,7 +212,7 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/safes/{address}/transactions/estimate``
 * **JSON Payload:**
 
-.. code:: json
+.. code::
 
     {
       "safe": "<sender safe address>",
@@ -226,7 +226,7 @@ Notification Service.
 * **Responses:**
   - 200 - OK, payload:
 
-.. code:: json
+.. code::
 
     {
       "safeTxGas": 0,
@@ -253,7 +253,7 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/safes/{address}/transactions/``
 * **JSON Payload:**
 
-.. code:: json
+.. code::
 
     {
       "safe": "<sender safe address>",
@@ -282,7 +282,7 @@ Notification Service.
 * **Responses:**
   - 201 - OK, payload:
 
-.. code:: json
+.. code::
 
     {
       "transactionHash": "string" // 32-byte transaction hash as a hex data string
@@ -313,7 +313,7 @@ Notification Service.
 * The signature implicitly encodes the browser extension’s address.
   To extract the address of the signer, use the “ecrecover” algorithm.
 
-.. code:: json
+.. code::
 
     {
         "expirationDate": “<date>", // format: yyyy-MM-dd’T’HH:mm:ss+00:00 ; UTC timezone; example: 2018-04-18T14:46:09+00:00

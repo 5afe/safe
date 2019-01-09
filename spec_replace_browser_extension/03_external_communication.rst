@@ -87,12 +87,12 @@ Notification Service.
 
     {
         "temporaryAuthorization": {
-        "expirationDate": "<date>", // format: yyyy-MM-dd’T’HH:mm:ss+00:00 ; UTC timezone; example: 2018-04-18T14:46:09+00:00
-        "signature": { // signs sha3("GNO" + <expirationDate>) - this is signature from browser extension
-            "v": 0, // <integer>,
-            "r": "<string>", // stringified int
-            "s": "<string>" // stringified int
-        },
+            "expirationDate": "<date>", // format: yyyy-MM-dd’T’HH:mm:ss+00:00 ; UTC timezone; example: 2018-04-18T14:46:09+00:00
+            "signature": { // signs sha3("GNO" + <expirationDate>) - this is signature from browser extension
+                "v": 0, // <integer>,
+                "r": "<string>", // stringified int
+                "s": "<string>" // stringified int
+            },
         },
         "signature": { // signs sha3("GNO" + <chrome-extension-address>) - this is app’s signature
             "v": 0, // <integer>,

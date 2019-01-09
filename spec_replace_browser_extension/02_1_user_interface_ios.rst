@@ -4,8 +4,6 @@ User interface
 
 .. contents:: Table of Contents
 
-.. _intro:
-
 1. Intro
 ------------
 
@@ -14,8 +12,6 @@ Intro screen, loaded with all information and ready to start.
 .. image:: screens/ios/RBE-Intro.png
    :width: 320px
    :alt: Intro screen
-
-.. _intro_funds_error:
 
 1.1. Intro - Insufficient Funds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -47,8 +43,6 @@ Intro screen when "Start" action taking long time.
 
 Intro screen showing error when initial loading action failed.
 
-.. _scan:
-
 2. Scan QR Code
 ---------------
 
@@ -73,8 +67,6 @@ Camera screen for scanning a QR code.
 
 Error shown after scanning invalid QR-code
 
-.. _phrase:
-
 4. Recovery Phrase
 ------------------
 
@@ -88,8 +80,6 @@ Recovery Phrase input screen with inline error related to the recovery phrase
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Recovery Phrase screen when "Next" action takes long time.
-
-.. _review:
 
 5. Review
 -----------------------
@@ -111,8 +101,6 @@ indicator for the long-running operation.
 
 Review screen showing error after selecting "Submit" action.
 
-.. _list:
-
 6. Transaction List
 ---------------------------------
 
@@ -125,8 +113,6 @@ Transaction list showing the "Replace Browser Extension" item in 3 statuses:
 .. image:: screens/ios/RBE-List.png
    :width: 320px
    :alt: Scan QR Code
-
-.. _details:
 
 7. Transaction Details
 ------------------------------------

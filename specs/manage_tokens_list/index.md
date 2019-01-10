@@ -12,6 +12,7 @@ As an user I want to be able to see all tokens that I have enabled and that are 
   * All available tokens should be displayed after the selected tokens.
     * It should be possible to display an unlimited number of tokens in the list (paginated list)
     * The next page of tokens should be loaded automatically when scrolling close to the end of the list
+    * It should be indicated that data is loading
   * For each token we display the details
     * Icon
     * Name
@@ -32,7 +33,8 @@ As an user I want to be able to see all tokens that I have enabled and that are 
 <details>
   <summary>Android Screens</summary>
   
-  TDB
+  * Loaded list: https://zpl.io/aRqlmBe
+  * Loading data: TBD
 </details>
 
 ### Could not load initial token list

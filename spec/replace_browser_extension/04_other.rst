@@ -1,3 +1,13 @@
+---
+story: 60
+spec: 54
+shortcode: RBE
+title: Repalce Existing Browser Extension
+author: Dmitry Bespalov
+status: Final
+created: 2019-01-04
+---
+
 ===================
 Other requirements
 ===================
@@ -207,16 +217,6 @@ Failure to achieve the success points above will qualify as failure.
 
 * New authenticators support might be added, and that might change
   the QR-code based communication. Likely in the following 2 years.
-
-Revision History
-----------------
-
-==========  =======================================================
-Date        Description
-==========  =======================================================
-2019-01-07  New document with other requirements for the "Replace
-            Browser Extension" feature.
-==========  =======================================================
 
 .. _`4.5. Existing Extension Scanned`: 01_main.rst
 .. _stackoverflow: https://stackoverflow.com/questions/5887248/ios-app-maximum-memory-budget

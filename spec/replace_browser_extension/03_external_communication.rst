@@ -1,3 +1,13 @@
+---
+story: 60
+spec: 54
+shortcode: RBE
+title: Repalce Existing Browser Extension
+author: Dmitry Bespalov
+status: Final
+created: 2019-01-04
+---
+
 =========================
 External Communication
 =========================
@@ -20,7 +30,7 @@ service
 * **Method:** eth_getBalance_
 * **Parameters:**
 
-  - address of the safe as a hex-encoded UInt160 (see Solidity ABI)
+  - address of the Safe as a hex-encoded UInt160 (see Solidity ABI)
   - blockchain's block identifier: ``latest``
 
 * **Returns:** ``uint256`` - Solidity ABI-encoded balance in Wei
@@ -32,7 +42,7 @@ service
 * **Method:** eth_call_
 * **Parameters:**
 
-  - to: safe's address
+  - to: Safe's address
   - data: Solidity ABI-encoded method call
 
     + selector: ``getOwners()``
@@ -47,7 +57,7 @@ service
 * **Method:** eth_call_
 * **Parameters:**
 
-  - to: safe's address
+  - to: Safe's address
   - data: Solidity ABI-encoded method call
     + selector: ``getThreshold()``
     + arguments: none
@@ -83,19 +93,19 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/pairing/``
 * **JSON Payload:**
 
-.. code::
+.. code:: js
 
     {
         "temporaryAuthorization": {
-            "expirationDate": "<date>", // format: yyyy-MM-dd’T’HH:mm:ss+00:00 ; UTC timezone; example: 2018-04-18T14:46:09+00:00
-            "signature": { // signs sha3("GNO" + <expirationDate>) - this is signature from browser extension
-                "v": 0, // <integer>,
-                "r": "<string>", // stringified int
-                "s": "<string>" // stringified int
-            },
+        "expirationDate": “<date>", // format: yyyy-MM-dd’T’HH:mm:ss+00:00 ; UTC timezone; example: 2018-04-18T14:46:09+00:00
+        "signature": { // signs sha3("GNO" + <expirationDate>) - this is signature from browser extension
+            "v": <integer>,
+            "r": "<string>", // stringified int
+            "s": "<string>" // stringified int
+        },
         },
         "signature": { // signs sha3("GNO" + <chrome-extension-address>) - this is app’s signature
-            "v": 0, // <integer>,
+            "v": <integer>,
             "r": "<string>", // stringified int
             "s": "<string>" // stringified int
         }
@@ -105,7 +115,7 @@ Notification Service.
 
   - 201 - OK, payload:
 
-.. code::
+.. code:: js
 
     {
         "devicePair": [
@@ -126,7 +136,7 @@ Notification Service.
 * **Endpoint:** ``DELETE /api/v1/pairing/``
 * **JSON Payload:**
 
-.. code::
+.. code:: js
 
     {
         "device": “<address>", // Address must be in a checksummed format (EIP 55)
@@ -158,7 +168,7 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/notifications/``
 * **JSON Payload:**
 
-.. code::
+.. code:: js
 
     {
         "devices": [“<new browser extension address in checksummed EIP55 format>"],
@@ -172,7 +182,7 @@ Notification Service.
 
 * - ``<notification contents>`` is a JSON string:
 
-.. code::
+.. code:: js
 
     {
       "type": "safeCreation",
@@ -212,7 +222,7 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/safes/{address}/transactions/estimate``
 * **JSON Payload:**
 
-.. code::
+.. code:: js
 
     {
       "safe": "<sender safe address>",
@@ -226,7 +236,7 @@ Notification Service.
 * **Responses:**
   - 200 - OK, payload:
 
-.. code::
+.. code:: js
 
     {
       "safeTxGas": 0,
@@ -253,7 +263,7 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/safes/{address}/transactions/``
 * **JSON Payload:**
 
-.. code::
+.. code:: js
 
     {
       "safe": "<sender safe address>",
@@ -282,7 +292,7 @@ Notification Service.
 * **Responses:**
   - 201 - OK, payload:
 
-.. code::
+.. code:: js
 
     {
       "transactionHash": "string" // 32-byte transaction hash as a hex data string
@@ -313,7 +323,7 @@ Notification Service.
 * The signature implicitly encodes the browser extension’s address.
   To extract the address of the signer, use the “ecrecover” algorithm.
 
-.. code::
+.. code:: js
 
     {
         "expirationDate": “<date>", // format: yyyy-MM-dd’T’HH:mm:ss+00:00 ; UTC timezone; example: 2018-04-18T14:46:09+00:00
@@ -323,17 +333,6 @@ Notification Service.
             "s": "<string>" // stringified int (decimal)
         }
     }
-
-Revision History
-----------------
-
-==========  =======================================================
-Date        Description
-==========  =======================================================
-2019-01-07  New document with external communication requirements
-            for the "Replace Browser Extension" feature.
-==========  =======================================================
-
 
 .. _Ethereum JSON RPC Documentation: https://github.com/ethereum/wiki/wiki/JSON-RPC
 .. _Infura Getting Started Documentation: https://infura.io/docs/gettingStarted/chooseaNetwork

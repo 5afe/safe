@@ -1,6 +1,23 @@
+---
+story: 60
+spec: 54
+shortcode: RBE
+title: Repalce Existing Browser Extension
+author: Dmitry Bespalov
+status: Final
+created: 2019-01-04
+---
+
 ==================================
 Replace Existing Browser Extension
 ==================================
+
+1. `Main`_
+2. `User Interface`_
+3. `External Communication`_
+4. Other_
+
+.. _Main:
 
 .. contents:: Table of Contents
 
@@ -62,11 +79,11 @@ details about step "3" of a parent use case.
 Preconditions
 +++++++++++++
 
-* Existing safe with connected browser extension.
-* The safe has enough funds for the transaction.
+* Existing Safe with connected browser extension.
+* The Safe has enough funds for the transaction.
 * Backend services are reachable and working.
-* New browser extension installation, ready to connect with the safe.
-* User has valid recovery phrase for the safe.
+* New browser extension installation, ready to connect with the Safe.
+* User has valid recovery phrase for the Safe.
 
 Steps
 +++++
@@ -77,7 +94,7 @@ Steps
 
 3. Select "Replace Browser Extension" item.
    The "Intro" [`iOS <ios_intro_>`_] screen
-   opens. The screen displays current safe balance, estimated
+   opens. The screen displays current Safe balance, estimated
    transaction fee and resulting future balance after transaction execution.
 
 .. _happy_4:
@@ -116,7 +133,7 @@ Steps
 Postconditions
 ++++++++++++++
 
-* The safe balance is updated with deducted
+* The Safe balance is updated with deducted
   funds according to the cost of replace transaction
   when the transaction is processed.
 * There is a new "Replace Browser Extension" transaction
@@ -125,7 +142,7 @@ Postconditions
   its information.
 * The old browser extension is now disconnected
   (push connection, and blockchain)
-  from the Safe and doesn't have safe's information.
+  from the Safe and doesn't have Safe's information.
 
 
 4.2. Insufficient Funds
@@ -141,7 +158,7 @@ Inherits from
 Preconditions
 +++++++++++++
 
-* The safe has less funds than required for the transaction execution.
+* The Safe has less funds than required for the transaction execution.
 
 Steps
 +++++
@@ -166,8 +183,8 @@ Inherits from the `4.2. Insufficient Funds`_
 
 Steps
 +++++
-3. 2. While staying in the Intro screen, the safe balance is updated
-      (say, new incoming transfer was received to the safe account).
+3. 2. While staying in the Intro screen, the Safe balance is updated
+      (say, new incoming transfer was received to the Safe account).
       The new balance is enough for making the transaction.
    3. Error message disappears. "Start" action becomes active.
       Proceeding according to `Happy Case No. 4 <happy_4_>`_
@@ -230,7 +247,7 @@ Steps
    are not existing in the Safe contract's owner list.
 
 8. Select "Next". The error alert shows up explaining that the recovery
-   phrase is not valid for this safe. User must enter valid phrase again,
+   phrase is not valid for this Safe. User must enter valid phrase again,
    starting from the `step No.7 <owners_not_found_>`_.
 
 4.8. Backend Services Unreachable
@@ -300,9 +317,9 @@ Possible errors may appear in various requests, by service:
 
 * Infura
 
-  - safe balance update
-  - get safe owners
-  - get safe trheshold
+  - Safe balance update
+  - get Safe owners
+  - get Safe trheshold
   - get replace transaction status
 
 * Relay Service
@@ -314,7 +331,7 @@ Possible errors may appear in various requests, by service:
 
   - delete old extension pair
   - create new extension pair
-  - send "safe connected" notification
+  - send "Safe connected" notification
 
 .. _`case "A"`:
 
@@ -378,16 +395,16 @@ Inherits from the `4.1. Happy Case`_
 Steps
 +++++
 
-3. 1. 1. If during screen loading, the fetched safe's contract
+3. 1. 1. If during screen loading, the fetched Safe's contract
          master copy address is not in the list of valid recognized
          master copy addresses, then show an alert explaining the error.
          After closing the alert, close the "Intro" screen.
          Show the "Menu" screen.
 
-      2. If during screen loading, the fetched safe's signature
+      2. If during screen loading, the fetched Safe's signature
          threshold is greater than the expected number of derived owners
          from the recovery phrase (owner count < required signature count),
-         then this safe setup scheme is unsupported. Show an alert explaining
+         then this Safe setup scheme is unsupported. Show an alert explaining
          the error. After closing the alert, close the "Intro" screen.
          Show the "Menu" screen.
 
@@ -511,39 +528,13 @@ Steps
 8. 1. In case multiple QR-codes recognized in the same camera
       viewport, then use the first valid QR code.
 
-User Interface
---------------
-
-Specified in the `User Interface`_
-
-External Communication
-----------------------
-
-Specified in the `External Communication`_
-
-Other Requirements
---------------------
-
-Specified in the Other_
-
-Revision History
-----------------
-
-==========  =======================================================
-Date        Description
-==========  =======================================================
-2019-01-07  Review. Extracted parts of the document into separate files.
-2019-01-04  New document specifying the "Replace Browser Extension"
-            functionality.
-==========  =======================================================
-
 .. _`User Interface`: 02_user_interface.rst
 .. _`External Communication`: 03_external_communication.rst
 .. _Other: 04_other.rst
-.. _ios_intro: 02_1_user_interface_ios.rst#1-intro
-.. _ios_intro_funds_error: 02_1_user_interface_ios.rst#intro-insufficient-funds
-.. _ios_scan: 02_1_user_interface_ios.rst#scan-qr-code
-.. _ios_phrase: 02_1_user_interface_ios.rst#recovery-phrase
-.. _ios_review: 02_1_user_interface_ios.rst#5-review
-.. _ios_list: 02_1_user_interface_ios.rst#transaction-list
-.. _ios_details: 02_1_user_interface_ios.rst#transaction-details
+.. _ios_intro: 02_1_user_interface_ios.rst#intro
+.. _ios_intro_funds_error: 02_1_user_interface_ios.rst#intro_funds_error
+.. _ios_scan: 02_1_user_interface_ios.rst#scan
+.. _ios_phrase: 02_1_user_interface_ios.rst#phrase
+.. _ios_review: 02_1_user_interface_ios.rst#review
+.. _ios_list: 02_1_user_interface_ios.rst#list
+.. _ios_details: 02_1_user_interface_ios.rst#details

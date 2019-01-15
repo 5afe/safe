@@ -531,10 +531,10 @@ Steps
 .. _`User Interface`: 02_user_interface.rst
 .. _`External Communication`: 03_external_communication.rst
 .. _Other: 04_other.rst
-.. _ios_intro: 02_1_user_interface_ios.rst#intro
-.. _ios_intro_funds_error: 02_1_user_interface_ios.rst#intro_funds_error
-.. _ios_scan: 02_1_user_interface_ios.rst#scan
-.. _ios_phrase: 02_1_user_interface_ios.rst#phrase
-.. _ios_review: 02_1_user_interface_ios.rst#review
-.. _ios_list: 02_1_user_interface_ios.rst#list
-.. _ios_details: 02_1_user_interface_ios.rst#details
+.. _ios_intro: 02_1_user_interface_ios.rst#1-intro
+.. _ios_intro_funds_error: 02_1_user_interface_ios.rst#intro-insufficient-funds
+.. _ios_scan: 02_1_user_interface_ios.rst#scan-qr-code
+.. _ios_phrase: 02_1_user_interface_ios.rst#recovery-phrase
+.. _ios_review: 02_1_user_interface_ios.rst#5-review
+.. _ios_list: 02_1_user_interface_ios.rst#transaction-list
+.. _ios_details: 02_1_user_interface_ios.rst#transaction-details

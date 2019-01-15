@@ -93,19 +93,19 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/pairing/``
 * **JSON Payload:**
 
-.. code:: js
+.. code::
 
     {
         "temporaryAuthorization": {
-        "expirationDate": “<date>", // format: yyyy-MM-dd’T’HH:mm:ss+00:00 ; UTC timezone; example: 2018-04-18T14:46:09+00:00
-        "signature": { // signs sha3("GNO" + <expirationDate>) - this is signature from browser extension
-            "v": <integer>,
-            "r": "<string>", // stringified int
-            "s": "<string>" // stringified int
-        },
+            "expirationDate": "<date>", // format: yyyy-MM-dd’T’HH:mm:ss+00:00 ; UTC timezone; example: 2018-04-18T14:46:09+00:00
+            "signature": { // signs sha3("GNO" + <expirationDate>) - this is signature from browser extension
+                "v": 0, // <integer>,
+                "r": "<string>", // stringified int
+                "s": "<string>" // stringified int
+            },
         },
         "signature": { // signs sha3("GNO" + <chrome-extension-address>) - this is app’s signature
-            "v": <integer>,
+            "v": 0, // <integer>,
             "r": "<string>", // stringified int
             "s": "<string>" // stringified int
         }
@@ -115,7 +115,7 @@ Notification Service.
 
   - 201 - OK, payload:
 
-.. code:: js
+.. code::
 
     {
         "devicePair": [
@@ -136,7 +136,7 @@ Notification Service.
 * **Endpoint:** ``DELETE /api/v1/pairing/``
 * **JSON Payload:**
 
-.. code:: js
+.. code::
 
     {
         "device": “<address>", // Address must be in a checksummed format (EIP 55)
@@ -168,7 +168,7 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/notifications/``
 * **JSON Payload:**
 
-.. code:: js
+.. code::
 
     {
         "devices": [“<new browser extension address in checksummed EIP55 format>"],
@@ -182,7 +182,7 @@ Notification Service.
 
 * - ``<notification contents>`` is a JSON string:
 
-.. code:: js
+.. code::
 
     {
       "type": "safeCreation",
@@ -222,7 +222,7 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/safes/{address}/transactions/estimate``
 * **JSON Payload:**
 
-.. code:: js
+.. code::
 
     {
       "safe": "<sender safe address>",
@@ -236,7 +236,7 @@ Notification Service.
 * **Responses:**
   - 200 - OK, payload:
 
-.. code:: js
+.. code::
 
     {
       "safeTxGas": 0,
@@ -263,7 +263,7 @@ Notification Service.
 * **Endpoint:** ``POST /api/v1/safes/{address}/transactions/``
 * **JSON Payload:**
 
-.. code:: js
+.. code::
 
     {
       "safe": "<sender safe address>",
@@ -292,7 +292,7 @@ Notification Service.
 * **Responses:**
   - 201 - OK, payload:
 
-.. code:: js
+.. code::
 
     {
       "transactionHash": "string" // 32-byte transaction hash as a hex data string
@@ -323,7 +323,7 @@ Notification Service.
 * The signature implicitly encodes the browser extension’s address.
   To extract the address of the signer, use the “ecrecover” algorithm.
 
-.. code:: js
+.. code::
 
     {
         "expirationDate": “<date>", // format: yyyy-MM-dd’T’HH:mm:ss+00:00 ; UTC timezone; example: 2018-04-18T14:46:09+00:00

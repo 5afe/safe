@@ -14,8 +14,6 @@ User interface
 
 .. contents:: Table of Contents
 
-.. _intro:
-
 1. Intro
 ------------
 
@@ -23,8 +21,6 @@ Intro screen, loaded with all information and ready to start.
 
 .. image:: screens/ios/RBE-Intro.png
    :width: 320px
-
-.. _intro_funds_error:
 
 1.1. Intro - Insufficient Funds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -68,8 +64,6 @@ Intro screen showing error when initial loading action failed.
 .. image:: screens/ios/RBE-1_5_Intro_Inline_Error.png
    :width: 320px
 
-.. _scan:
-
 2. Scan QR Code
 ---------------
 
@@ -102,8 +96,6 @@ Error shown after scanning invalid QR-code
 .. image:: screens/ios/RBE-4_1_Camera_Screen_Error_Alert.png
    :width: 320px
 
-.. _phrase:
-
 4. Recovery Phrase
 ------------------
 
@@ -120,12 +112,10 @@ Recovery Phrase screen when "Next" action takes long time.
 .. image:: screens/ios/RBE-2_1_Recovery_Phrase_Loading.png
    :width: 320px
 
-.. _review:
-
 5. Review
 -----------------------
 
-Review transaction screen. Similar to RecoverSafe's review
+Review transaction screen.
 
 .. image:: screens/ios/RBE-Review.png
    :width: 320px
@@ -146,8 +136,6 @@ Review screen showing error after selecting "Submit" action.
 
 .. image:: screens/ios/RBE-8_2_Review_Error_Alert.png
    :width: 320px
-
-.. _list:
 
 6. Transaction List
 ---------------------------------

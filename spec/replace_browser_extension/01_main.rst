@@ -528,13 +528,13 @@ Steps
 8. 1. In case multiple QR-codes recognized in the same camera
       viewport, then use the first valid QR code.
 
-.. _`User Interface`: 02_user_interface.rst
+.. _`User Interface`: 02_user_interface_ios.rst
 .. _`External Communication`: 03_external_communication.rst
 .. _Other: 04_other.rst
-.. _ios_intro: 02_1_user_interface_ios.rst#1-intro
-.. _ios_intro_funds_error: 02_1_user_interface_ios.rst#intro-insufficient-funds
-.. _ios_scan: 02_1_user_interface_ios.rst#scan-qr-code
-.. _ios_phrase: 02_1_user_interface_ios.rst#recovery-phrase
-.. _ios_review: 02_1_user_interface_ios.rst#5-review
-.. _ios_list: 02_1_user_interface_ios.rst#transaction-list
-.. _ios_details: 02_1_user_interface_ios.rst#transaction-details
+.. _ios_intro: 02_user_interface_ios.rst#1-intro
+.. _ios_intro_funds_error: 02_user_interface_ios.rst#intro-insufficient-funds
+.. _ios_scan: 02_user_interface_ios.rst#scan-qr-code
+.. _ios_phrase: 02_user_interface_ios.rst#recovery-phrase
+.. _ios_review: 02_user_interface_ios.rst#5-review
+.. _ios_list: 02_user_interface_ios.rst#transaction-list
+.. _ios_details: 02_user_interface_ios.rst#transaction-details

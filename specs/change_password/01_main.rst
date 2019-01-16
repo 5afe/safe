@@ -66,7 +66,7 @@ can override (replace) any step or precondition in the parent
 use case. The overriden steps in child should match the step number
 in parent. The child use case may introduce sub-steps, in that case
 numbering is starts with dot, for example "3.1", "3.2" gives more
-details about step "3" of a parent use case.`
+details about step "3" of a parent use case.
 
 
 4.1. Happy Case
@@ -100,7 +100,7 @@ Postconditions
 4.2. Happy Case with fingerprint
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case_`
+inherits from `4.1. Happy Case`_
 
 Preconditions
 +++++++++++++
@@ -122,7 +122,7 @@ Postconditions
 4.3. Wrong password
 ~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case_`
+inherits from `4.1. Happy Case`_
 
 Steps
 +++++
@@ -140,7 +140,7 @@ Postconditions
 4.4. Password does not meet requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case_`
+inherits from `4.1. Happy Case`_
 
 4. User enters invalid new password
 5. User sees error that password does not meet password requirements.
@@ -156,7 +156,7 @@ Postconditions
 4.5. Password does not match
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case_`
+inherits from `4.1. Happy Case`_
 
 5. User does not repeat the new password correct.
 6. User sees error that password does not match.

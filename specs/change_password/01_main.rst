@@ -1,5 +1,5 @@
 +--------+-----------------+
-| story  | title           |
+| issue  | title           |
 +--------+-----------------+
 | 74_    | Change password |
 +--------+-----------------+
@@ -17,6 +17,7 @@ Change password
 .. _Main:
 
 .. contents:: Table of Contents
+    :depth: 3
 
 1. Problem Definition
 ---------------------

@@ -29,14 +29,13 @@ Change password
 -----------
 
 - Current password.
+- New password
     - Minimum 8 characters (>=8)
     - At least 1 number
     - At least 1 letter
     - No more than 2 identical characters in a row
       (e.g. 111 is not allowed, 11 is fine)
     - Maximum lenght?
-- New password
-    - Same requirements as above.
 - Repeat new password
     - Needs to match
 
@@ -53,23 +52,6 @@ Change password
 4. Use Case Scenarios
 -----------------------
 
-Every use case scenario consists of preconditions – prerequisites
-and assumptions, steps - numbered sequence of steps of the scenario,
-from the user's perspective, and postconditions - results and
-assumptions that must hold after the steps finished.
-
-A use case can *inherit* another use case. That means that
-inheriting use case takes all of the preconditions, steps, and postconditions
-from the inherited use case.
-
-The inheriting (child) use case
-can override (replace) any step or precondition in the parent
-use case. The overriden steps in child should match the step number
-in parent. The child use case may introduce sub-steps, in that case
-numbering is starts with dot, for example "3.1", "3.2" gives more
-details about step "3" of a parent use case.
-
-
 4.1. Happy Case
 ~~~~~~~~~~~~~~~
 
@@ -77,13 +59,13 @@ Preconditions
 +++++++++++++
 
 - App is setup with a password
-- User knows the password.
+- User has correct password.
 
 Steps
 +++++
 
 1. Open app Settings
-2. Tap "Change password"
+2. Open "Change password"
 3. Enter the current password
 4. Enter valid new password
 5. Repeat new password

@@ -1,12 +1,10 @@
----
-story: 60
-spec: 54
-shortcode: RBE
-title: Repalce Existing Browser Extension
-author: Dmitry Bespalov
-status: Final
-created: 2019-01-04
----
+========  ===========================  ================  ==========
+epic      title                        author            created
+========  ===========================  ================  ==========
+`60`_     Replace Browser Extension    DmitryBespalov    2019-01-04
+========  ===========================  ================  ==========
+
+.. _60: gnosis/safe#60
 
 =========================
 External Communication

@@ -1,19 +1,21 @@
----
-story: 60
-spec: 54
-shortcode: RBE
-title: Repalce Existing Browser Extension
-author: Dmitry Bespalov
-status: Final
-created: 2019-01-04
----
+========  ===========================  ================  ==========
+epic      title                        author            created
+========  ===========================  ================  ==========
+`60`_     Replace Browser Extension    DmitryBespalov    2019-01-04
+========  ===========================  ================  ==========
+
+.. _60: gnosis/safe#60
 
 ==================================
 Replace Existing Browser Extension
 ==================================
 
 1. `Main`_
-2. `User Interface`_
+2. User Interface
+
+   1. `iOS`_
+   2. Android [missing]
+
 3. `External Communication`_
 4. Other_
 
@@ -528,7 +530,7 @@ Steps
 8. 1. In case multiple QR-codes recognized in the same camera
       viewport, then use the first valid QR code.
 
-.. _`User Interface`: 02_user_interface_ios.rst
+.. _`iOS`: 02_user_interface_ios.rst
 .. _`External Communication`: 03_external_communication.rst
 .. _Other: 04_other.rst
 .. _ios_intro: 02_user_interface_ios.rst#1-intro

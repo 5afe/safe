@@ -21,7 +21,7 @@ there is no password set, yet.
 .. raw:: html
 
    <img src="screens/android/start.png" height="480px"/>
- 
+
 .. raw:: html
 
-   <img src="screens/ios/start.png" height="480px"/>
+   <img src="screens/ios/start.png" height="480px" hspace="20"/>

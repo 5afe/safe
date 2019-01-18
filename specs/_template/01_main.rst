@@ -79,6 +79,8 @@
     CREATED_AT = YYYY-MM-dd
     SPEC_REPO = gnosis/safe
 
+.. Please replace the strings below with the values that you want to put in in all of the rst files of the specification.
+
 =======  ==================  ======  ==========
  epic          title         author   created
 =======  ==================  ======  ==========

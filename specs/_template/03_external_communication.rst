@@ -4,7 +4,7 @@
 `EPIC`_  SPECIFICATION_NAME  AUTHOR  CREATED_AT
 =======  ==================  ======  ==========
 
-.. _EPIC: SPEC_REPO#EPIC
+.. _EPIC: gnosis/safe#EPIC
 
 =========================
 External Communication

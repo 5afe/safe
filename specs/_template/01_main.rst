@@ -18,6 +18,7 @@
     - http://docutils.sourceforge.net/docs/user/rst/quickref.html
     - http://docutils.sourceforge.net/docs/user/rst/quickstart.html
     - http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+    - http://docutils.sourceforge.net/docs/ref/rst/directives.html
 
 .. <------- comments start with 2 dots
 
@@ -77,17 +78,10 @@
     EPIC = epic issue number
     AUTHOR = your name
     CREATED_AT = YYYY-MM-dd
-    SPEC_REPO = gnosis/safe
 
 .. Please replace the strings below with the values that you want to put in in all of the rst files of the specification.
 
-=======  ==================  ======  ==========
- epic          title         author   created
-=======  ==================  ======  ==========
-`EPIC`_  SPECIFICATION_NAME  AUTHOR  CREATED_AT
-=======  ==================  ======  ==========
-
-.. _EPIC: SPEC_REPO#EPIC
+.. include:: header.rst
 
 .. _Main:
 

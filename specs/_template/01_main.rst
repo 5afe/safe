@@ -21,10 +21,6 @@
 
 .. <------- comments start with 2 dots
 
-.. 
-    Note, we are going to deviate from some rst syntax because there're differences
-    at how rst generates the docs and how GitHub renders rst files.
-
 .. Document Name
     Note that the lines must be at least as long as the text
     ====================== 

@@ -14,6 +14,11 @@
     If you are used to markdown, then rst is going to be a bit strange at first.
     rst is more powerful than markdown, and it is standardised.
 
+.. Where to get more info
+    - http://docutils.sourceforge.net/docs/user/rst/quickref.html
+    - http://docutils.sourceforge.net/docs/user/rst/quickstart.html
+    - http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+
 .. <------- comments start with 2 dots
 
 .. 

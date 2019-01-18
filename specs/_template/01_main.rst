@@ -81,7 +81,13 @@
 
 .. Please replace the strings below with the values that you want to put in in all of the rst files of the specification.
 
-.. include:: header.rst
+=======  ==================  ======  ==========
+ epic          title         author   created
+=======  ==================  ======  ==========
+`EPIC`_  SPECIFICATION_NAME  AUTHOR  CREATED_AT
+=======  ==================  ======  ==========
+
+.. _EPIC: gnosis/safe#EPIC
 
 .. _Main:
 

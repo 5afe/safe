@@ -5,7 +5,7 @@ Technical Requirements
 .. sectnum::
 .. contents:: Table of Contents
     :local:
-    :depth: 3
+    :depth: 2
 
 Timing
 -----------

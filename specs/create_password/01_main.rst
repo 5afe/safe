@@ -1,0 +1,159 @@
++-------+-----------------+-----------+------------+
+| issue | title           | author    | created    |
++-------+-----------------+-----------+------------+
+| 65_   | Create password | tschubotz | 2019-01-22 |
++-------+-----------------+-----------+------------+
+
+.. _65: https://github.com/gnosis/safe/issues/65
+
+Create password
+===============
+
+1. `Main`_
+2. `User Interface`_
+3. `External Communication`_
+4. Other_
+
+.. _Main:
+
+.. contents:: Table of Contents
+    :depth: 3
+
+1. Problem Definition
+---------------------
+
+- We need the user to set a password for the app so:
+    1. Nobody can open the app or confirm transactions without the password.
+    2. We can encrypt the private key of the device.
+- Most devices have a fingerprint sensor. Users should be able to use it
+  additionally to the password.
+- We need the user to agree to the Terms and Privacy Policy.
+
+2. Inputs
+-----------
+
+- New password
+    - Minimum 8 characters (>=8)
+    - At least 1 number
+    - At least 1 letter
+    - No more than 2 identical characters in a row
+      (e.g. 111 is not allowed, 11 is fine)
+    - Maximum lenght?
+- Repeat new password
+    - Needs to match
+- Fingerprint of the user
+- Terms of Use & Privacy Policy.
+
+3. Outputs
+------------
+
+- User agreed to Terms of Use and Privacy Policy.
+- Password is set.
+- Finterprint is potentially enabled.
+- Error messages
+  - Wrong current password entered
+  - New password does not meet requirements
+  - Repeated new password does not match.
+
+
+4. Use Case Scenarios
+-----------------------
+
+4.1. Happy Case
+~~~~~~~~~~~~~~~
+
+Preconditions
++++++++++++++
+
+- App is installed and started on start screen.
+
+Steps
++++++
+
+1. User taps "Create password"
+2. User taps "Privacy Policy" so Privacy Policy opens
+3. User goes back so they are back in the Gnosis Safe app.
+4. User taps "Terms of Use" so Terms of Use opens
+5. User goes back so they are back in the Gnosis Safe app.
+6. User taps "Agree"
+7. User enters valid password.
+8. User proceeds to next screen.
+9. User repeats the new password.
+10. User confirms finterprint.
+11. User proceeds.
+
+Postconditions
+++++++++++++++
+
+- User is on the home screen and can create or restore a Safe.
+- App password is set
+- User can unlock the app with the new password.
+- User cannot unlock the app with another password.
+- User can unlock the app with the fingerprint.
+
+
+4.2. Happy Case no fingerprint
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+inherits from `4.1. Happy Case`_
+
+Steps
++++++
+
+10. User skips fingerprint setup
+
+Postconditions
+++++++++++++++
+
+- User is on the home screen and can create or restore a Safe.
+- App password is set
+- User can unlock the app with the new password.
+- User cannot unlock the app with another password.
+- User cannot unlock the app with the fingerprint.
+
+
+4.3. Password does not meet requirements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+inherits from `4.1. Happy Case`_
+
+Steps
++++++
+
+7. User enters invalid new password
+8. User sees error that password does not meet password requirements.
+
+Postconditions
+++++++++++++++
+
+- User is still on the screen to enter a new password.
+- App password is not set.
+- If user would "kill" the app, then they would have to start over again
+  with the very start screen.
+- User cannot continue with invalid password
+
+
+4.4. Password does not match
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+inherits from `4.1. Happy Case`_
+
+Steps
++++++
+
+9. User does not repeat the new password correctly.
+10. User sees error that password does not match.
+
+Postconditions
+++++++++++++++
+
+- User is still on the screen to repeat the new password.
+- App password is not set.
+- If user would "kill" the app, then they would have to start over again
+  with the very start screen.
+- User cannot continue with not matching password.
+
+
+.. _`User Interface`: 02_user_interface.rst
+.. _`External Communication`: 03_external_communication.rst
+.. _Other: 04_other.rst

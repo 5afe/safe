@@ -38,9 +38,10 @@ Receive funds
 3. Outputs
 ------------
 
-- Address is clearly visible.
+- Complete checksummed address is visible (with our usual
+  address highlighting).
 - Identicon is visible.
-- QR code can be scanned.
+- QR code can be scanned straight away.
 - Address can be shared via other apps
 - Address can by copied to clipboard.
 

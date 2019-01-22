@@ -13,9 +13,6 @@ Where to put what:
 - Describe use case scenarios in the 01_main.rst document.
 - You will find further information in other files in the _template directory.
 
-When you have a core of your draft ready, submit a pull-request with a `[WIP]` in the title, and include other people to specification writing, user interface design and so on.
-
-After you specified 20% of the requirements that cover 80% of work, you can put the specification in review,
-unless you explicitly want to finalize everything before moving forward to development.
+If you have a first complete list of Problem statement, input, output and use case scenarios, then you can open a pull-request with `[WIP]` in the title.
 
 Merged specifications considered ready for planning future releases and starting the development.

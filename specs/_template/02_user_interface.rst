@@ -1,3 +1,7 @@
+=====================
+User interface
+=====================
+
 =======  ==================  ======  ==========
  epic          title         author   created
 =======  ==================  ======  ==========
@@ -6,13 +10,11 @@
 
 .. _EPIC: SPEC_REPO#EPIC
 
-=====================
-User interface (iOS)
-=====================
-
+.. sectnum::
 .. contents:: Table of Contents
+    :local:
 
-1. SCREEN_NAME
+<Screen Name>
 ------------------
 
 Short description of the screen or its state
@@ -23,9 +25,8 @@ Short description of the screen or its state
 
    <img src="screens/ios/ScreenName.png" width="320px"/>
 
-
-1.1. [missing] SCREEN_NAME - SCREEN_VARIATION
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[MISSING] <Screen Name> - <Screen Variation>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Screen description explaining when this screen variation happening.
 What are we trying to achieve with this screen?

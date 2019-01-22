@@ -1,3 +1,7 @@
+=========================
+Technical Details
+=========================
+
 =======  ==================  ======  ==========
  epic          title         author   created
 =======  ==================  ======  ==========
@@ -6,20 +10,25 @@
 
 .. _EPIC: gnosis/safe#EPIC
 
-===================
-Other requirements
-===================
-
+.. sectnum::
 .. contents:: Table of Contents
+    :local:
 
-1. Timing
+Please describe the relevant technical requirements in this document.
+
+Communication
+---------------
+
+Describe APIs and provide links to the documentation here (swagger, readthedocs, and so on).
+
+Timing
 -----------
 
 * Screen transition timings
 * Backend services expected response time requirements
 * Expected processing time of operations
 
-2. Security
+Security
 -------------
 
 * User Inputs
@@ -36,7 +45,7 @@ Other requirements
 
 * Other Considerations here as well
 
-3. Reliability
+Reliability
 ----------------
 
 * Consequences of the software failures
@@ -52,13 +61,13 @@ Other requirements
 
   - How software detects errors and how it tries to recover, if it ever tries?
 
-4. Memory and Storage
+Memory and Storage
 -----------------------
 
 * Maximum memory limit
 * Maximum storage space limit
 
-5. Maintainability
+Maintainability
 ---------------------
 
 * Requirements for maintainability
@@ -68,7 +77,7 @@ Other requirements
   The software should be easy to adopt changes in the sequence of the screens.
 
 
-6. Definition of Success
+Definition of Success
 ---------------------------
 
 * For the team, success is
@@ -100,7 +109,7 @@ Other requirements
 
 Failure to achieve the success points above will qualify as failure.
 
-7. Possible Changes to the Specification
+Possible Changes to the Specification
 ------------------------------------------
 
 * User Interface designs are likely to change in X months

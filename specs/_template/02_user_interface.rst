@@ -14,6 +14,10 @@ User interface
 .. contents:: Table of Contents
     :local:
 
+Please specify screens for all platforms in this document.
+
+Please remove all unrelated sections to keep the document easy to read and maintain.
+
 <Screen Name>
 ------------------
 
@@ -24,6 +28,9 @@ Short description of the screen or its state
 .. raw:: html
 
    <img src="screens/ios/ScreenName.png" width="320px"/>
+
+* `Zeplin link Android <https://example.org/>`_
+* `Zeplin link iOS <https://example.org/>`_
 
 [MISSING] <Screen Name> - <Screen Variation>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

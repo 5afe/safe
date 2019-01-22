@@ -15,6 +15,14 @@ Technical Details
     :local:
 
 Please describe the relevant technical requirements in this document.
+Please remove all unrelated sections to keep the document easy to read and maintain.
+
+Common Technical Requirements
+-------------------------------
+
+The feature implementation must fulfill the technical requirements specified in
+the `Common Technical Requiremets`_ unless
+specifically noted in this document below.
 
 Communication
 ---------------
@@ -24,6 +32,8 @@ Describe APIs and provide links to the documentation here (swagger, readthedocs,
 Timing
 -----------
 
+Define timing requirements here if they're diffferent from common requirements.
+
 * Screen transition timings
 * Backend services expected response time requirements
 * Expected processing time of operations
@@ -31,11 +41,14 @@ Timing
 Security
 -------------
 
+Define security requirements here if they're diffferent from common requirements.
+
 * User Inputs
 
   - Security considerations and limitations that affect handling user input
   - Limit input text size to X characters.
   - Specify what are the expected encoding, character ranges.
+
 
 * Network Communication
 
@@ -66,48 +79,19 @@ Memory and Storage
 
 * Maximum memory limit
 * Maximum storage space limit
+* Define them here if they're diffferent from common requirements.
 
 Maintainability
 ---------------------
 
 * Requirements for maintainability
-
-* The software should be easy to adopt changes in the external communications
-* The software should be easy to adopt changes in the User Interface.
-  The software should be easy to adopt changes in the sequence of the screens.
+* Define them here if they're diffferent from common requirements.
 
 
 Definition of Success
 ---------------------------
 
-* For the team, success is
-
-  - when the feature is deployed in Production
-    and achieved 99,9% of crash-free users with regard to the functionality
-    specified in this specification.
-  - when team members did not quit or burned out.
-  - when the software is maintainable and extensible.
-  - when the appropriate automated test suites are in place and running,
-    including unit tests, integration tests, and user interface tests.
-
-* For the Product Owner, the success is:
-
-  - The feature is deployed in production on all platforms.
-  - The feature is developed on time.
-  - Users are able to go through all use case scenarios without crashes.
-  - Users understand how to change their browser extension ←
-    This aims at the usability of the feature.
-  - The feature works similarly on Android and iOS
-    (i.e. it should be the same except for platform-specific
-    differences and deliberate design decisions.)
-
-* For the end user, the success is:
-
-  - when after update to new app version, the app is still working.
-  - when the 'replace browser extension' works as expected.
-  - when the software is easy to use.
-
-Failure to achieve the success points above will qualify as failure.
+Define it here if it's different from the common definition.
 
 Possible Changes to the Specification
 ------------------------------------------
@@ -121,3 +105,5 @@ Possible Changes to the Specification
   - What can change, with which likelihood and why?
 
 * Other things that are likely to change.
+
+.. _`Common Technical Requiremets`: ../common/technical_requirements.rst

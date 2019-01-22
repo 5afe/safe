@@ -13,17 +13,16 @@
     - http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
     - http://docutils.sourceforge.net/docs/ref/rst/directives.html
 
-.. Template information:
-    SPECIFICATION_NAME = name of the specification (title)
-    EPIC = epic issue number
-    AUTHOR = your name
-    CREATED_AT = YYYY-MM-dd
-
-.. Please replace the strings below with the values that you want to put in in all of the rst files of the specification.
-
 ==========================================================
 SPECIFICATION_NAME
 ==========================================================
+
+.. ==================== NOTE ===============================
+.. You can search and replace the EPIC, SPECIFICATION_NAME, 
+.. AUTHOR and CREATED_AT
+.. So that the header information is updated in this doc. 
+.. Do the same in other specification doc headers.
+.. =========================================================
 
 =======  ==================  ======  ==========
  epic          title         author   created
@@ -43,6 +42,10 @@ SPECIFICATION_NAME
 .. sectnum::
 .. contents:: Table of Contents
     :local:
+
+Please specify problem definition, inputs, outputs and use cases in this document.
+
+Please remove all unrelated sections to keep the document easy to read and maintain.
 
 Problem Definition
 -------------------------------
@@ -73,21 +76,7 @@ Use Case Scenarios
 You can put general information or context for all use case scenarios here.
 Feel free to remove the use case explanation below.
 
-Every use case scenario consists of preconditions – prerequisites
-and assumptions, steps - numbered sequence of steps of the scenario,
-from the user's perspective, and postconditions - results and
-assumptions that must hold after the steps finished.
-
-A use case can *inherit* another use case. That means that
-inheriting use case takes all of the preconditions, steps, and postconditions
-from the inhertied use case.
-
-The inheriting (child) use case
-can override (replace) any step or precondition in the parent
-use case. The overriden steps in child should match the step number
-in parent. The child use case may introduce sub-steps, in that case
-numbering is starts with dot, for example "3.1", "3.2" gives more
-details about step "3" of a parent use case.
+See more in `About Use Case Scenarios`_.
 
 Happy Case
 ~~~~~~~~~~~~~~~~~
@@ -183,5 +172,5 @@ Steps
 
 
 .. _`User Interface`: 02_user_interface.rst
-.. _`External Communication`: 03_external_communication.rst
-.. _`Technical Details`: 04_technical_details.rst
+.. _`Technical Details`: 03_technical_details.rst
+.. _`About Use Case Scenarios`: ../common/about_use_case_scenarios.rst

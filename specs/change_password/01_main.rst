@@ -77,7 +77,9 @@ Postconditions
 - User is on the settings screen.
 - App password is changed.
 - User can unlock the app with the new password.
-- User cannot unlock the app with the another password.
+- User cannot unlock the app with another password.
+- User can confirm transactions with the new password.
+- User cannot confirm transactions with another password.
 
 
 4.2. Happy Case with fingerprint
@@ -99,7 +101,10 @@ Postconditions
 - App password is changed.
 - User can unlock the app with the new password.
 - User can unlock the app with the fingerprint.
-- User cannot unlock the app with the another password.
+- User cannot unlock the app with another password.
+- User can confirm transactions with the new password.
+- User can confirm transactions with the fingerprint.
+- User cannot confirm transactions with another password.
 
 
 4.3. Wrong password
@@ -118,6 +123,7 @@ Postconditions
 - User is on still on the screen to enter the current password.
 - App password is not changed.
 - User can still unlock the app with the old password.
+- User can still confirm transactions the old password.
 
 
 4.4. Password does not meet requirements
@@ -134,6 +140,7 @@ Postconditions
 - User is on still on the screen to enter a new password.
 - App password is not changed.
 - User can still unlock the app with the old password.
+- User can still confirm transactions the old password.
 
 
 4.5. Password does not match
@@ -150,6 +157,7 @@ Postconditions
 - User is on still on the screen to repeat the new password.
 - App password is not changed.
 - User can still unlock the app with the old password.
+- User can still confirm transactions the old password.
 
 
 .. _`User Interface`: 02_user_interface.rst

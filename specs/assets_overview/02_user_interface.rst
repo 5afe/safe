@@ -11,16 +11,16 @@ User interface
 
 .. contents:: Table of Contents
 
-1. Asset overview screen
-------------------------
+1. Assets overview screen
+-------------------------
 
  .. raw:: html
 
     <img src="screens/ios/assets_overview.png" height="480px" hspace="20"/>
 
 
-1.1. Asset overview screen - No tokens
---------------------------------------
+1.1. Assets overview screen - No tokens
+---------------------------------------
 
 As long as there is no further token enabled, please display the "Add tokens"
 button that opens the token selection screen.

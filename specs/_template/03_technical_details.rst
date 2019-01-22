@@ -13,6 +13,7 @@ Technical Details
 .. sectnum::
 .. contents:: Table of Contents
     :local:
+    :depth: 2
 
 Please describe the relevant technical requirements in this document.
 Please remove all unrelated sections to keep the document easy to read and maintain.

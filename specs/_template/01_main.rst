@@ -42,6 +42,7 @@ SPECIFICATION_NAME
 .. sectnum::
 .. contents:: Table of Contents
     :local:
+    :depth: 2
 
 Please specify problem definition, inputs, outputs and use cases in this document.
 
@@ -88,6 +89,7 @@ Preconditions
 
 * Things that are expected to be true and required for the steps below
 * This are the things that needed for the functionality to work properly
+* You may include the place where scenario starts here or mention it in the Steps section.
 
 .. _happy_case_steps:
 
@@ -160,7 +162,7 @@ Steps
 
 2. Something is loading
 
-<Remember to specirfy error situations>
+<Remember to specify error situations>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Inherits from the `Happy Case`_

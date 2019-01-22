@@ -13,6 +13,7 @@ User interface
 .. sectnum::
 .. contents:: Table of Contents
     :local:
+    :depth: 2
 
 Please specify screens for all platforms in this document.
 

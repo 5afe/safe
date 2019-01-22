@@ -27,4 +27,7 @@ Start screen
 Inputs, outputs and use case scenarios are omitted since they are trivial.
 Please check `User Interface`_ for the screens.
 
+Opening "Create password" starts the create password flow (65_)
+
 .. _`User Interface`: 02_user_interface.rst
+.. _65: https://github.com/gnosis/safe/issues/65

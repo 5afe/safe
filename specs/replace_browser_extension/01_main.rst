@@ -1,29 +1,29 @@
+==================================
+Replace Existing Browser Extension
+==================================
+
 ========  ===========================  ================  ==========
 epic      title                        author            created
 ========  ===========================  ================  ==========
 `60`_     Replace Browser Extension    DmitryBespalov    2019-01-04
 ========  ===========================  ================  ==========
 
-.. _60: gnosis/safe#60
+.. _60: https://github.com/gnosis/safe/issues/60
 
-==================================
-Replace Existing Browser Extension
-==================================
-
-1. `Main`_
-2. User Interface
-
-   1. `iOS`_
-   2. Android [missing]
-
-3. `External Communication`_
-4. Other_
 
 .. _Main:
 
-.. contents:: Table of Contents
 
-1. Problem Definition
+#. `Main`_
+#. `User Interface`_
+#. `Technical Details`_
+
+.. sectnum::
+.. contents:: Table of Contents
+    :local:
+    :depth: 2
+
+Problem Definition
 ---------------------
 
 * Access to the current browser extension is lost.
@@ -32,7 +32,7 @@ Replace Existing Browser Extension
 * User has access to the current browser extension but wants
   to set up browser extension on another computer.
 
-2. Inputs
+Inputs
 -----------
 
 * Recovery phrase
@@ -44,7 +44,7 @@ Replace Existing Browser Extension
   - A QR code image containing browser extension’s registration code.
   - QR code encodes a JSON structure.
 
-3. Outputs
+Outputs
 ------------
 
 * New “Replace Browser Extension” transaction
@@ -55,27 +55,10 @@ Replace Existing Browser Extension
   - Pop-ups (alerts), shown when some step in the process fails
 
 
-4. Use Case Scenarios
+Use Case Scenarios
 -----------------------
 
-Every use case scenario consists of preconditions – prerequisites
-and assumptions, steps - numbered sequence of steps of the scenario,
-from the user's perspective, and postconditions - results and
-assumptions that must hold after the steps finished.
-
-A use case can *inherit* another use case. That means that
-inheriting use case takes all of the preconditions, steps, and postconditions
-from the inhertied use case.
-
-The inheriting (child) use case
-can override (replace) any step or precondition in the parent
-use case. The overriden steps in child should match the step number
-in parent. The child use case may introduce sub-steps, in that case
-numbering is starts with dot, for example "3.1", "3.2" gives more
-details about step "3" of a parent use case.
-
-
-4.1. Happy Case
+Happy Case
 ~~~~~~~~~~~~~~~~~
 
 Preconditions
@@ -147,10 +130,10 @@ Postconditions
   from the Safe and doesn't have Safe's information.
 
 
-4.2. Insufficient Funds
+Insufficient Funds
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Inherits from
     means that this scenario takes all the preconditions,
@@ -178,10 +161,10 @@ Postconditions
 * New extension is not connected.
 * Safe balance is not changed.
 
-4.3. Updated Balance after Insufficient Funds
+Updated Balance after Insufficient Funds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.2. Insufficient Funds`_
+Inherits from the `Insufficient Funds`_
 
 Steps
 +++++
@@ -195,10 +178,10 @@ Postconditions
 ++++++++++++++
 * Same as in `Happy Case <happy_post_>`_
 
-4.4. Invalid QR Code
+Invalid QR Code
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Steps
 +++++
@@ -207,10 +190,10 @@ Steps
    The error alert shows up explaining that the scanned QR-code
    is invalid. After alert dismissal the camera screen stays open.
 
-4.5. Existing Extension Scanned
+Existing Extension Scanned
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Steps
 +++++
@@ -219,10 +202,10 @@ Steps
    The error alert shows up explaining that the QR-code must
    be from new extension.After alert dismissal the camera screen stays open.
 
-4.6. Invalid Recovery Phrase
+Invalid Recovery Phrase
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Steps
 +++++
@@ -235,10 +218,10 @@ Steps
    the recovery phrase is invalid. User must enter valid phrase again,
    starting from the `step No.7 <existing_extension_>`_.
 
-4.7. Recovery Owners Not Found
+Recovery Owners Not Found
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Steps
 +++++
@@ -252,10 +235,10 @@ Steps
    phrase is not valid for this Safe. User must enter valid phrase again,
    starting from the `step No.7 <owners_not_found_>`_.
 
-4.8. Backend Services Unreachable
+Backend Services Unreachable
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Preconditions
 +++++++++++++
@@ -296,10 +279,10 @@ Steps
       (see `step No. 6.1. <unavailable_alert_>`_).
       The "Review" screen stays open.
 
-4.9. Cancellation
+Cancellation
 ~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Steps
 +++++
@@ -310,10 +293,10 @@ Steps
 9. Select "Cancel" action. The "Review" screen hides.
    The "Menu" screen is shown.
 
-4.10. Backend Service Errors
+Backend Service Errors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Possible errors may appear in various requests, by service:
 
@@ -368,10 +351,10 @@ Steps
 9. After selecting "Submit", in case of errors,
    follow `case "B"`_ from the above.
 
-4.11. Failed Transaction
+Failed Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Steps
 +++++
@@ -389,10 +372,10 @@ Postconditions
 * New browser extension is not connected.
 * Safe balance is updated with regard to executed transaction costs.
 
-4.12. Contract Validation Errors
+Contract Validation Errors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Steps
 +++++
@@ -415,10 +398,10 @@ Postconditions
 
 * `Nothing changed <post_no_change_>`_
 
-4.13. Slow Operating Conditions
+Slow Operating Conditions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Preconditions
 +++++++++++++
@@ -429,7 +412,7 @@ Preconditions
 * Network request timeout time = 30 seconds.
 
   - Network request timeouts are handled as
-    network errors (see `4.10. Backend Service Errors`_).
+    network errors (see `Backend Service Errors`_).
 
 Steps
 +++++
@@ -454,10 +437,10 @@ Steps
   executed in the background after user cancellation action
   (disconnecting newly connected extension).
 
-4.14. Repeated Actions
+Repeated Actions
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 The idea is that once an action is selected,
 it cannot be selected again until it is executed.
@@ -479,10 +462,10 @@ Steps
 
 9. 1. Selecting "Submit", behavior is similar to `No. 4.1.`_
 
-4.15. Session Expiration
+Session Expiration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Preconditions
 +++++++++++++
@@ -495,10 +478,10 @@ Steps
 1. 1. Open the app. Before the main screen is displayed,
       the "Unlock" screen shows up requiring unlocking the app.
 
-4.16. In-between App Termination
+In-between App Termination
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Preconditions
 +++++++++++++
@@ -519,10 +502,10 @@ Postconditions
   see `Insufficient Funds Postconditions <post_no_change_>`_
 * Otherwise, see `Happy Case Postconditions <happy_post_>`_
 
-4.17. Multiple QR-codes
+Multiple QR-codes
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from the `4.1. Happy Case`_
+Inherits from the `Happy Case`_
 
 Steps
 +++++
@@ -530,13 +513,13 @@ Steps
 8. 1. In case multiple QR-codes recognized in the same camera
       viewport, then use the first valid QR code.
 
-.. _`iOS`: 02_user_interface_ios.rst
-.. _`External Communication`: 03_external_communication.rst
-.. _Other: 04_other.rst
-.. _ios_intro: 02_user_interface_ios.rst#1-intro
-.. _ios_intro_funds_error: 02_user_interface_ios.rst#intro-insufficient-funds
-.. _ios_scan: 02_user_interface_ios.rst#scan-qr-code
-.. _ios_phrase: 02_user_interface_ios.rst#recovery-phrase
-.. _ios_review: 02_user_interface_ios.rst#5-review
-.. _ios_list: 02_user_interface_ios.rst#transaction-list
-.. _ios_details: 02_user_interface_ios.rst#transaction-details
+.. _`User Interface`: 02_user_interface.rst
+.. _`Technical Details`: 03_technical_details.rst
+.. _`About Use Case Scenarios`: ../common/about_use_case_scenarios.rst
+.. _ios_intro: 02_user_interface.rst#1-intro
+.. _ios_intro_funds_error: 02_user_interface.rst#intro-insufficient-funds
+.. _ios_scan: 02_user_interface.rst#scan-qr-code
+.. _ios_phrase: 02_user_interface.rst#recovery-phrase
+.. _ios_review: 02_user_interface.rst#5-review
+.. _ios_list: 02_user_interface.rst#transaction-list
+.. _ios_details: 02_user_interface.rst#transaction-details

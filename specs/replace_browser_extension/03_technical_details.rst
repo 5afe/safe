@@ -1,28 +1,107 @@
+=========================
+Technical Details
+=========================
+
 ========  ===========================  ================  ==========
 epic      title                        author            created
 ========  ===========================  ================  ==========
 `60`_     Replace Browser Extension    DmitryBespalov    2019-01-04
 ========  ===========================  ================  ==========
 
-.. _60: gnosis/safe#60
+.. _60: https://github.com/gnosis/safe/issues/60
 
-===================
-Other requirements
-===================
-
+.. sectnum::
 .. contents:: Table of Contents
+    :local:
+    :depth: 2
 
-1. Timing
+Please describe the relevant technical requirements in this document.
+Please remove all unrelated sections to keep the document easy to read and maintain.
+
+Common Technical Requirements
+-------------------------------
+
+The feature implementation must fulfill the technical requirements specified in
+the `Common Technical Requiremets`_ unless
+specifically noted in this document below.
+
+Communication
+---------------
+
+Describe APIs and provide links to the documentation here (swagger, readthedocs, and so on).
+
+Ethereum Node
+~~~~~~~~~~~~~~~~~
+
+- `Ethereum JSON RPC Documentation`_
+- `Infura Getting Started Documentation`_
+- `Solidity Contract ABI Specification`_
+
+Requests:
+
+- eth_getBalance_
+- eth_call_
+
+  + selector: ``getOwners()``
+  + selector: ``getThreshold()``
+
+- eth_getTransactionReceipt_
+
+Notification Service
+~~~~~~~~~~~~~~~~~~~~~~~
+
+- `Source code <notification_service_source>`_
+- `Development API Documentation <notification_service_dev_>`_
+- `Staging API Documentation <notification_service_staging_>`_
+- `Production API Documentation <notification_service_prod_>`_
+
+
+Requests:
+
+- ``POST /api/v1/pairing/``
+- ``DELETE /api/v1/pairing/``
+- ``POST /api/v1/notifications/`` with ``safeCreation`` message type
+
+Relay Service
+~~~~~~~~~~~~~~~~
+
+- `Source code <relay_service_source>`__
+- `Development API Documentation <relay_service_dev_>`__
+- `Staging API Documentation <relay_service_staging_>`__
+- `Production API Documentation <relay_service_prod_>`__
+
+Requests:
+
+- ``POST /api/v1/safes/{address}/transactions/estimate``
+- ``POST /api/v1/safes/{address}/transactions/``
+
+
+Browser Extension
+~~~~~~~~~~~~~~~~~~~
+
+- `Source code <extension_source_>`__
+
+QR-code encoding a JSON payload.
+
+* Contains expiry date that limits signature’s validity.
+  App should check for it before using the signature.
+* The signature implicitly encodes the browser extension’s address.
+  To extract the address of the signer, use the “ecrecover” algorithm.
+
+.. code::
+
+    {
+        "expirationDate": “<date>", // format: yyyy-MM-dd’T’HH:mm:ss+00:00 ; UTC timezone; example: 2018-04-18T14:46:09+00:00
+        "signature": { // signs sha3("GNO" + <expirationDate>)
+            "v": <integer>,
+            "r": "<string>", // stringified int (decimal)
+            "s": "<string>" // stringified int (decimal)
+        }
+    }
+
+
+Timing
 -----------
-
-* All of the screen transitions must be executed within 200ms,
-  starting from the user action (button tap, for example).
-
-  - If some action is long running, then for the duration
-    of the action there should be an activity indicator
-    shown or a progress bar.
-  - If the progress bar or other animation needs to
-    indicate its finished state, it should animate so with 400-500ms duration.
 
 * Backend services expected response time: up to 30 seconds.
 
@@ -49,13 +128,8 @@ Other requirements
   - Mainnet network: 2 minutes
   - Note, that this time, potentially, can go up to hours.
 
-* What to do in case the transaction processing
-  time is taking more than 2 minutes?
 
-* At any time, there might be only 1 pending
-  replace browser transaction in the app.
-
-2. Security
+Security
 -------------
 
 * User Inputs
@@ -69,24 +143,6 @@ Other requirements
     and letter characters
     (characters in Unicode General Category L* & M*.) should be ignored)
 
-* Network Communication
-
-  - Application must expect wrong format or errors
-    when receiving network responses.
-  - The size of the response should be limited to
-    appropriate length (in KB, MB or character length).
-  - These situations must be handled gracefully, i.e. app should
-    not crash if the JSON payload is malformed or unexpected.
-  - These situations must be reported to the user and
-    logged for further investigation.
-
-* QR-code reading
-
-  - Application must expect malformed input encoded
-    in QR code and treat it appropriately.
-  - Size of the QR-code encoded information must be limited to a fixed length.
-  - Unexpected inputs should be reported to the user and logged.
-
 * Recovery Phrase
 
   - Application must not persist the Recovery Phrase or derived keys, but
@@ -98,7 +154,8 @@ Other requirements
   - Recovery phrase is shown as plain text, so that user can
     visually check it.
 
-3. Reliability
+
+Reliability
 ----------------
 
 * Consequences of the software failures
@@ -106,8 +163,6 @@ Other requirements
   - Crashing before submitting transaction to the network
 
     + This should not affect the app in any way as nothing should be changed.
-
-.. review: is it possible now?
 
   - Crashing after submitting transaction to the network but before
     persisting this information. The transaction executes successfully.
@@ -119,7 +174,7 @@ Other requirements
       browser extension" option should repair the state by
       reconnecting with new extension but not submitting
       the transaction to the blockchain.
-      This conflicts with the use case `4.5. Existing Extension Scanned`_
+      This conflicts with the use case `Existing Extension Scanned`_
 
   - Crashing during the transaction pending status.
 
@@ -138,59 +193,7 @@ Other requirements
     Particularly, the threshold and owners should be checked to verify
     that the replacement transaction should be successful.
 
-4. Memory and Storage
------------------------
-
-* For iOS, the maximum memory size depends on the device and iOS version.
-  In general, it is best to use as low memory as possible.
-  Some empirical testing data about memory limits is on stackoverflow_
-* For iOS, the maximum storage space is limited by the device capacity.
-  That being said, the app should try to use as low storage as possible
-  to reduce the chance of being deleted from the phone by users for using
-  too much space.
-
-5. Maintainability
----------------------
-
-* The software should be easy to adopt changes in the external communications
-* The software should be easy to adopt changes in the User Interface.
-  The software should be easy to adopt changes in the sequence of the screens.
-* For iOS, the software should be easy to move major parts to
-  other operating systems such as watchOS, macOS, iPad and tvOS.
-
-6. Definition of Success
----------------------------
-
-* For the team, success is
-
-  - when the feature is deployed in Production
-    and achieved 99,9% of crash-free users with regard to the functionality
-    specified in this specification.
-  - when team members did not quit or burned out.
-  - when the software is maintainable and extensible.
-  - when the appropriate automated test suites are in place and running,
-    including unit tests, integration tests, and user interface tests.
-
-* For the Product Owner, the success is:
-
-  - The feature is deployed in production on all platforms.
-  - The feature is developed on time.
-  - Users are able to go through all use case scenarios without crashes.
-  - Users understand how to change their browser extension ←
-    This aims at the usability of the feature.
-  - The feature works similarly on Android and iOS
-    (i.e. it should be the same except for platform-specific
-    differences and deliberate design decisions.)
-
-* For the end user, the success is:
-
-  - when after update to new app version, the app is still working.
-  - when the 'replace browser extension' works as expected.
-  - when the software is easy to use.
-
-Failure to achieve the success points above will qualify as failure.
-
-7. Possible Changes to the Specification
+Possible Changes to the Specification
 ------------------------------------------
 
 * User Interface designs are very likely to change in the next 6 months.
@@ -216,5 +219,20 @@ Failure to achieve the success points above will qualify as failure.
 * New authenticators support might be added, and that might change
   the QR-code based communication. Likely in the following 2 years.
 
-.. _`4.5. Existing Extension Scanned`: 01_main.rst
-.. _stackoverflow: https://stackoverflow.com/questions/5887248/ios-app-maximum-memory-budget
+.. _`Existing Extension Scanned`: 01_main.rst
+.. _`Common Technical Requiremets`: ../common/technical_requirements.rst
+.. _Ethereum JSON RPC Documentation: https://github.com/ethereum/wiki/wiki/JSON-RPC
+.. _Infura Getting Started Documentation: https://infura.io/docs/gettingStarted/chooseaNetwork
+.. _Solidity Contract ABI Specification: https://solidity.readthedocs.io/en/v0.5.2/abi-spec.html
+.. _eth_getBalance: https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_getbalance
+.. _eth_call: https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_call
+.. _eth_getTransactionReceipt: https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_gettransactionreceipt
+.. _notification_service_source: https://github.com/gnosis/safe-notification-service/tree/develop
+.. _notification_service_dev: https://safe-notification.dev.gnosisdev.com
+.. _notification_service_staging: https://safe-notification.staging.gnosisdev.com
+.. _notification_service_prod: https://safe-notification.gnosis.pm
+.. _relay_service_source: https://github.com/gnosis/safe-relay-service/tree/develop
+.. _relay_service_dev: https://safe-relay.dev.gnosisdev.com
+.. _relay_service_staging: https://safe-relay.staging.gnosisdev.com
+.. _relay_service_prod: https://safe-relay.gnosis.pm
+.. _extension_source: https://github.com/gnosis/safe-browser-extension/tree/develop

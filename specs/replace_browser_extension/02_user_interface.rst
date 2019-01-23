@@ -1,18 +1,21 @@
+=====================
+User interface
+=====================
+
 ========  ===========================  ================  ==========
 epic      title                        author            created
 ========  ===========================  ================  ==========
 `60`_     Replace Browser Extension    DmitryBespalov    2019-01-04
 ========  ===========================  ================  ==========
 
-.. _60: gnosis/safe#60
+.. _60: https://github.com/gnosis/safe/issues/60
 
-===============
-User interface
-===============
-
+.. sectnum::
 .. contents:: Table of Contents
+    :local:
+    :depth: 2
 
-1. Intro
+Intro
 ------------
 
 Intro screen, loaded with all information and ready to start.
@@ -22,7 +25,7 @@ Intro screen, loaded with all information and ready to start.
    <img src="screens/ios/RBE-Intro.png" width="320px"/>
 
 
-1.1. Intro - Insufficient Funds
+Intro - Insufficient Funds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Intro screen, when there are insufficient funds
@@ -33,7 +36,7 @@ and screen waits for balance updates.
    <img src="screens/ios/RBE-Intro-FundsError.png" width="320px"/>
 
 
-1.2. Intro - Loading
+Intro - Loading
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Intro screen when information is still loading
@@ -43,7 +46,7 @@ Intro screen when information is still loading
    <img src="screens/ios/RBE-1_2_RBE_Intro_Loading.png" width="320px"/>
 
 
-1.3. Intro - Error Alert
+Intro - Error Alert
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Intro screen when "Start" action resulted in alert
@@ -53,7 +56,7 @@ Intro screen when "Start" action resulted in alert
    <img src="screens/ios/RBE-1_3_RBE_Error_Alert.png" width="320px"/>
 
 
-1.4. Intro - Start Action Loading
+Intro - Start Action Loading
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Intro screen when "Start" action taking long time.
@@ -64,7 +67,7 @@ Intro screen when "Start" action taking long time.
 
 
 
-1.5. Intro - Inline Error
+Intro - Inline Error
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Intro screen showing error when initial loading action failed.
@@ -74,7 +77,7 @@ Intro screen showing error when initial loading action failed.
    <img src="screens/ios/RBE-1_5_Intro_Inline_Error.png" width="320px"/>
 
 
-2. Scan QR Code
+Scan QR Code
 ---------------
 
 Scan QR Code screen ready to start scanning
@@ -84,7 +87,7 @@ Scan QR Code screen ready to start scanning
    <img src="screens/ios/RBE-Scan.png" width="320px"/>
 
 
-2.1. Scan QR Code - Loading
+Scan QR Code - Loading
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Loading under slow operating conditions - after scanning a valid QR code
@@ -94,7 +97,7 @@ Loading under slow operating conditions - after scanning a valid QR code
    <img src="screens/ios/RBE-3_1_Scan_QR_Code_Loading.png" width="320px"/>
 
 
-3. Camera screen
+Camera screen
 ---------------------------
 
 Camera screen for scanning a QR code.
@@ -104,7 +107,7 @@ Camera screen for scanning a QR code.
    <img src="screens/ios/RBE-4_Camera_Screen.png" width="320px"/>
 
 
-3.1. Camera Screen - Error Alert
+Camera Screen - Error Alert
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Error shown after scanning invalid QR-code
@@ -114,7 +117,7 @@ Error shown after scanning invalid QR-code
    <img src="screens/ios/RBE-4_1_Camera_Screen_Error_Alert.png" width="320px"/>
 
 
-4. Recovery Phrase
+Recovery Phrase
 ------------------
 
 Recovery Phrase input screen with inline error related to the recovery phrase
@@ -124,7 +127,7 @@ Recovery Phrase input screen with inline error related to the recovery phrase
    <img src="screens/ios/RBE-Phrase.png" width="320px"/>
 
 
-4.1. Recovery Phrase - Loading
+Recovery Phrase - Loading
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Recovery Phrase screen when "Next" action takes long time.
@@ -134,7 +137,7 @@ Recovery Phrase screen when "Next" action takes long time.
    <img src="screens/ios/RBE-2_1_Recovery_Phrase_Loading.png" width="320px"/>
 
 
-5. Review
+Review
 -----------------------
 
 Review transaction screen.
@@ -144,7 +147,7 @@ Review transaction screen.
    <img src="screens/ios/RBE-Review.png" width="320px"/>
 
 
-5.1 Review - Loading
+Review - Loading
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Review screen after selecting "Submit" action, showing the loading
@@ -155,7 +158,7 @@ indicator for the long-running operation.
    <img src="screens/ios/RBE-8_1_Review_Loading.png" width="320px"/>
 
 
-5.2. Review - Error Alert
+Review - Error Alert
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Review screen showing error after selecting "Submit" action.
@@ -165,7 +168,7 @@ Review screen showing error after selecting "Submit" action.
    <img src="screens/ios/RBE-8_2_Review_Error_Alert.png" width="320px"/>
 
 
-6. Transaction List
+Transaction List
 ---------------------------------
 
 Transaction list showing the "Replace Browser Extension" item in 3 statuses:
@@ -179,7 +182,7 @@ Transaction list showing the "Replace Browser Extension" item in 3 statuses:
    <img src="screens/ios/RBE-List.png" width="320px"/>
 
 
-6.1. Pending Transaction
+Pending Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -187,7 +190,7 @@ Transaction list showing the "Replace Browser Extension" item in 3 statuses:
    <img src="screens/ios/RBE-6_Transaction_List_Pending.jpg" width="320px"/>
 
 
-6.2. Successful Transaction
+Successful Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -195,7 +198,7 @@ Transaction list showing the "Replace Browser Extension" item in 3 statuses:
    <img src="screens/ios/RBE-6_Transaction_List_Success.jpg" width="320px"/>
 
 
-6.3. Failed Transaction
+Failed Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -205,7 +208,7 @@ Transaction list showing the "Replace Browser Extension" item in 3 statuses:
 
 .. _details:
 
-7. Transaction Details
+Transaction Details
 ------------------------------------
 
 Transaction Details screen showing "Replace Browser Extension",
@@ -216,7 +219,7 @@ possibly in 3 statuses.
    <img src="screens/ios/RBE-Details.png" width="320px"/>
 
 
-7.1. Pending Transaction
+Pending Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -224,7 +227,7 @@ possibly in 3 statuses.
    <img src="screens/ios/RBE-7_Transaction_Details_Pending.png" width="320px"/>
 
 
-7.2. Successful Transaction
+Successful Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -232,7 +235,7 @@ possibly in 3 statuses.
    <img src="screens/ios/RBE-7_Transaction_Details_Success.png" width="320px"/>
 
 
-7.3. Failed Transaction
+Failed Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html

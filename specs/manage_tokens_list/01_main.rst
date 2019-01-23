@@ -68,7 +68,7 @@ As a user I want to be able to see all tokens that I have enabled even if the av
 * It should be possible to retrigger the loading of the available tokens
 * All enabled tokens should still be displayed
   * It should still be possible to deselect a token
-* Based on [Display complete token list](#display-complete-token-list)
+* Based on `Complete token list`_
 
 Could not load next page of token list
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,7 +79,7 @@ As a user I want to be able to continue loading pages after a loading error occu
 * It should be possible to retrigger the loading of the next token page
   * We should continue loading where we left off
   * Loaded tokens should not be reloaded
-* Based on [Display complete token list](#display-complete-token-list)
+* Based on `Complete token list`_
 
 
 .. _`User Interface`: 02_user_interface.rst

@@ -36,59 +36,101 @@ Outputs
 Use Case Scenarios
 -----------------------
 
-Complete token list
+Load token list
 ~~~~~~~~~~~~~~~~~~~~
 
-As an user I want to be able to see all tokens that I have enabled and that are available.
+Steps
++++++
+1. The content (token list) should start loading automatically
+2. Once loading is done the tokens should be displayed
 
-
-* The content (token list) should start loading automatically
-* All selected tokens should be displayed alphabetically in a separate section before all available tokens
-* All available tokens should be displayed after the selected tokens.
+Postconditions
+++++++++++++++
+- All available tokens should be displayed after the selected tokens.
 
   * It should be possible to display an unlimited number of tokens in the list (paginated list)
   * The next page of tokens should be loaded automatically when scrolling close to the end of the list
   * It should be indicated that data is loading
   
-* For each token we display the details
+- For each token we display the details
 
   * Icon
   * Name
   * Symbol
   * Enabled or not
-  
-* It should be possible to select or deselect a token
 
-  * Selecting a token should add it to the section of selected tokens
-  * Deselecting a token should remove  it from the section of selected tokens
+- Loaded list: https://zpl.io/aRqlmBe
 
-* Loaded list: https://zpl.io/aRqlmBe
+
+Enable token from list
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+inherits from `Load token list`_
+
+Steps
++++++++
+3. Select token after list has been loaded
+
+Postconditions
+++++++++++++++
+* Token should be displayed in asset overview
+
+
+Disable token from list
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+inherits from `Load token list`_
+
+Preconditions
++++++++++++++
+
+- A token is already enabled (and displayed in the asset overview)
+
+Steps
++++++++
+3. Select token after list that is enable and disable it
+
+Postconditions
+++++++++++++++
+- Token should NOT be displayed in asset overview
+
+
 
 Could not load initial token list
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As a user I want to be able to see all tokens that I have enabled even if the available tokens could not be loaded.
-  
-* An non-blocking error should be displayed to the user that the data could not be loaded
-* It should be possible to retrigger the loading of the available tokens
-* All enabled tokens should still be displayed
+inherits from `Load token list`_
 
-  * It should still be possible to deselect a token
-  
-* Based on `Complete token list`_
+Steps
++++++++
+2. An non-blocking  error should be displayed if the list could not be loaded
+
+Postconditions
+++++++++++++++
+
+- It should be possible to retrigger the loading of the available tokens
+- All enabled tokens should still be displayed
+
+  - It should still be possible to disable any enabled token
 
 Could not load next page of token list
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As a user I want to be able to continue loading pages after a loading error occured.
-  
-* An non-blocking error should be displayed to the user that the data could not be loaded
-* It should be possible to retrigger the loading of the next token page
+inherits from `Load token list`_
 
-  * We should continue loading where we left off
-  * Loaded tokens should not be reloaded
-  
-* Based on `Complete token list`_
+Steps
++++++++
+3. Keep scrolling to load more results
+4. An non-blocking error should be displayed if an error occurs while loading more tokens
+
+Postconditions
+++++++++++++++
+
+- An non-blocking error should be displayed to the user that the data could not be loaded
+- It should be possible to retrigger the loading of the next token page
+
+  - We should continue loading where we left off
+  - Loaded tokens should not be reloaded
 
 
 .. _`User Interface`: 02_user_interface.rst

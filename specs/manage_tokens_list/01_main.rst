@@ -25,7 +25,7 @@ Problem Definition
 -------------------------------
 
 - User MUST be able to see all token supported by the Safe app
-- User MUST be able to select and deselect tokens that should be displayed in the asset overview 
+- User MUST be able to enable and disable tokens that should be displayed in the asset overview 
 
 
 Outputs

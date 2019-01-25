@@ -1,17 +1,21 @@
-+-------+--------------+-----------+------------+
-| issue | title        | author    | created    |
-+-------+--------------+-----------+------------+
-| 86_   | Start screen | tschubotz | 2019-01-17 |
-+-------+--------------+-----------+------------+
+==========================================================
+User interface
+==========================================================
+
+=====  ============  =========  ==========
+epic      title       author     created
+=====  ============  =========  ==========
+`86`_  Start screen  tschubotz  2019-01-17
+=====  ============  =========  ==========
 
 .. _86: https://github.com/gnosis/safe/issues/86
 
-User interface
-==============
-
+.. sectnum::
 .. contents:: Table of Contents
+    :local:
+    :depth: 2
 
-1. Start screen
+Start screen
 ---------------
 
 Start screen when opening the app for the first time.
@@ -25,3 +29,6 @@ there is no password set, yet.
 .. raw:: html
 
    <img src="screens/ios/start.png" height="480px" hspace="20"/>
+
+* `Zeplin link Android <https://zpl.io/awWeWmj>`_
+* `Zeplin link iOS <https://zpl.io/an9AEll>`_

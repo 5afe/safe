@@ -77,7 +77,3 @@ Inherits from the `Happy Case`_
 Postconditions
 ++++++++++++++
 - Error loading entries from database. An error message is therefore displayed.
-
-
-.. _`Address Book List`: 01_address_book_list.rst
-.. _`Add Address`: 02_add_address.rst

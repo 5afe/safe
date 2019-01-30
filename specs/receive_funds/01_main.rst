@@ -81,7 +81,7 @@ inherits from `Happy Case`_
 Steps
 +++++
 4. Open system share dialog
-5. Select 3rd part app to share
+5. Select 3rd party app to share
 
 Postconditions
 ++++++++++++++

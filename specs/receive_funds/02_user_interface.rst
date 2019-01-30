@@ -48,7 +48,7 @@ Receive funds - Copied address
 
 .. raw:: html
 
-   <img src="screens/ios/receive funds.png" width="320px"/>
+   <img src="screens/ios/receive funds - copied.png" width="320px"/>
 
 
 * Zeplin link Android https://zpl.io/am6Z9wm

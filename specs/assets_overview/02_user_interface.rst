@@ -1,30 +1,40 @@
-+-------+-----------------+-----------+------------+
-| issue | title           | author    | created    |
-+-------+-----------------+-----------+------------+
-| 64_   | Assets overview | tschubotz | 2019-01-22 |
-+-------+-----------------+-----------+------------+
+=====================
+User interface
+=====================
+
+=====  ===============  =========  ==========
+epic        title        author     created
+=====  ===============  =========  ==========
+`64`_  Assets overview  tschubotz  2019-01-22
+=====  ===============  =========  ==========
 
 .. _64: https://github.com/gnosis/safe/issues/64
 
-User interface
-==============
+.. _`User interface`:
 
+
+#. `Main`_
+#. `User interface`_
+#. `Technical Details`_
+
+.. sectnum::
 .. contents:: Table of Contents
+    :local:
+    :depth: 2
 
-1. Assets overview screen
+Assets overview screen
 -------------------------
 
- .. raw:: html
-
-    <img src="screens/ios/assets_overview.png" height="480px" hspace="20"/>
-
-
-1.1. Assets overview screen - No tokens
----------------------------------------
-
-As long as there is no further token enabled, please display the "Add tokens"
-button that opens the token selection screen.
+- Tapping the identicon or the address brings up the receive screen.
+- Tapping "Add token" brings up the manage tokens screen.
 
 .. raw:: html
 
-    <img src="screens/ios/assets_overview_no_tokens.png" height="480px" hspace="20"/>
+   <img src="screens/android/assets_overview.png" width="320px"/>
+
+.. raw:: html
+
+   <img src="screens/ios/assets_overview.png" width="320px"/>
+
+* Zeplin link Android https://zpl.io/V0EKY5l
+* Zeplin link iOS https://zpl.io/a75pdpK

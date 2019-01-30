@@ -1,39 +1,38 @@
-+-------+-----------------+-----------+------------+
-| issue | title           | author    | created    |
-+-------+-----------------+-----------+------------+
-| 64_   | Assets overview | tschubotz | 2019-01-22 |
-+-------+-----------------+-----------+------------+
+=====  ===============  =========  ==========
+epic        title        author     created
+=====  ===============  =========  ==========
+`64`_  Assets overview  tschubotz  2019-01-22
+=====  ===============  =========  ==========
 
 .. _64: https://github.com/gnosis/safe/issues/64
 
-Assets overview
-===============
-
-1. `Main`_
-2. `User Interface`_
-3. `External Communication`_
-4. Other_
-
 .. _Main:
 
-.. contents:: Table of Contents
-    :depth: 3
 
-1. Problem Definition
+#. `Main`_
+#. `User Interface`_
+#. `Technical Details`_
+
+.. sectnum::
+.. contents:: Table of Contents
+    :local:
+    :depth: 2
+
+Problem Definition
 ---------------------
 
 - User needs to see an overview of all their assets (ETH + ERC20 tokens)
 - User needs a way to start the transfer funds flow
 - User needs a way to receive funds.
 
-2. Inputs
+Inputs
 -----------
 
 - Existing Safe.
 - Enabled tokens.
 
 
-3. Outputs
+Outputs
 ------------
 
 - Amount of ETH stored.
@@ -44,10 +43,10 @@ Assets overview
   Safes. yet.)
 
 
-4. Use Case Scenarios
+Use Case Scenarios
 -----------------------
 
-4.1. Happy Case
+Happy Case
 ~~~~~~~~~~~~~~~
 
 Preconditions
@@ -71,10 +70,10 @@ Postconditions
 - "Send ETH/token" flow is started.
 
 
-4.2. Happy Case - Receive funds
+Happy Case - Receive funds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case`_
+inherits from `Happy Case`_
 
 Steps
 +++++
@@ -85,7 +84,3 @@ Postconditions
 ++++++++++++++
 
 - "Receive funds" screen is opened.
-
-.. _`User Interface`: 02_user_interface.rst
-.. _`External Communication`: 03_external_communication.rst
-.. _Other: 04_other.rst

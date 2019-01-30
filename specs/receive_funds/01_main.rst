@@ -26,7 +26,7 @@ Problem Definition
 ---------------------
 
 - User wants to receive funds
-- User should be able to share their wallet address via different ways
+- User wants to share their wallet address via different ways
     - Via QR code for scanning.
     - Copy to clipboard.
     - Via other services on their phone.

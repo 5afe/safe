@@ -1,23 +1,26 @@
-+-------+---------------+-----------+------------+
-| issue | title         | author    | created    |
-+-------+---------------+-----------+------------+
-| 68_   | Receive funds | tschubotz | 2019-01-17 |
-+-------+---------------+-----------+------------+
+==========================================================
+Receive funds
+==========================================================
+
+=====  =============  =========  ==========
+ 68        title      tschubotz   created
+=====  =============  =========  ==========
+`68`_  Receive funds  tschubotz  2019-01-17
+=====  =============  =========  ==========
 
 .. _68: https://github.com/gnosis/safe/issues/68
 
-Receive funds
-===============
-
-1. `Main`_
-2. `User Interface`_
-3. `External Communication`_
-4. Other_
-
 .. _Main:
 
+
+#. `Main`_
+#. `User Interface`_
+#. `Technical Details`_
+
+.. sectnum::
 .. contents:: Table of Contents
-    :depth: 3
+    :local:
+    :depth: 2
 
 1. Problem Definition
 ---------------------

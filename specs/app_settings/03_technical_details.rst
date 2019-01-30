@@ -1,5 +1,5 @@
 =====================
-User interface
+Technical details
 =====================
 
 =====  ============  =========  ==========
@@ -14,13 +14,3 @@ epic      title       author     created
 .. contents:: Table of Contents
     :local:
     :depth: 2
-
-App settings
----------------
-
-.. raw:: html
-
-   <img src="screens/android/app_settings.png" width="320px"/>
-
-* `Zeplin link Android <zpl.io/VYAlyZe>`_
-* `Zeplin link iOS MISSING <https://example.org/>`_

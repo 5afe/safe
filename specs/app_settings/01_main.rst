@@ -1,25 +1,28 @@
-+-------+--------------+-----------+------------+
-| issue | title        | author    | created    |
-+-------+--------------+-----------+------------+
-| 82_   | App settings | tschubotz | 2019-01-18 |
-+-------+--------------+-----------+------------+
+==========================================================
+App settings
+==========================================================
+
+=====  ============  =========  ==========
+epic      title       author     created
+=====  ============  =========  ==========
+`82`_  App settings  tschubotz  2019-01-18
+=====  ============  =========  ==========
 
 .. _82: https://github.com/gnosis/safe/issues/82
 
-
-App settings
-============
-
-1. `Main`_
-2. `User Interface`_
-
 .. _Main:
 
+
+#. `Main`_
+#. `User Interface`_
+#. `Technical Details`_
+
+.. sectnum::
 .. contents:: Table of Contents
-    :depth: 3
+    :local:
+    :depth: 2
 
-
-1. Problem Definition
+Problem Definition
 ---------------------
 
 - There are some app features that we need to provide the user access to.
@@ -27,33 +30,35 @@ App settings
     - Access Proviacy Policy
     - Change password
     - Enable/disable fingerprint
-    - Option to contact us (Send us an email)
+    - Option to Give feedback (Send us an email)
     - Option to rate the app in the store.
     - View app version (For bug reporting)
+    - View used open source licenses
 
 
-2. Inputs
+Inputs
 -----------
 
- - User manages app settings.
+ - Depending on the use case: Password and fingerprint, Terms, Privacy Policy
 
 
-3. Outputs
+Outputs
 ----------
 
 Outputs depend on the selected option.
-- Open webpage (Terms & privacy policy)
+- Open webpage (Terms & Privacy Policy)
 - Start change password flow
 - Fingerprint has been enabled / disabled
-- Open up email program (Contact us)
+- Open up email program (Give feedback)
 - Open store for rating / writing review (Rate app)
 - App version is displayed
+- View used open source licenses
 
 
-4. Use Case Scenarios
+Use Case Scenarios
 -----------------------
 
-4.1. App version
+App version
 ~~~~~~~~~~~~~~~~
 
 Preconditions
@@ -72,16 +77,17 @@ Postconditions
 - User can see app version in way so we know which version they are using.
 
 
-4.2. View Terms of Use
+View Terms of Use
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from `4.1. App version`_
+Inherits from `App version`_
 
 Steps
 +++++
 
 2. Open Terms of Use
-3. User goes back
+3. Browser opens with https://safe.gnosis.io/terms
+4. User goes back
 
 Postconditions
 ++++++++++++++
@@ -89,22 +95,23 @@ Postconditions
 - User is back on the settings page.
 
 
-4.3. View Privacy policy
+View Privacy Policy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from `4.2. View Terms of Use`_
+Inherits from `View Terms of Use`_
 
 Steps
 +++++
 
 2. Open Privacy Policy
-3. User goes back
+3. Browser opens with https://safe.gnosis.io/privacy
+4. User goes back
 
 
-4.4. Start change password flow
+Start change password flow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inherits from `4.1. App version`_
+Inherits from `App version`_
 
 Steps
 +++++
@@ -117,7 +124,7 @@ Postconditions
 - "Change password" flow is started
 
 
-4.5. Enable finterprint
+Enable finterprint
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Preconditions
@@ -139,7 +146,7 @@ Postconditions
 - User is still on settings page.
 
 
-4.6. Disable finterprint
+Disable finterprint
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Preconditions
@@ -162,10 +169,10 @@ Postconditions
 - User is still on settings page.
 
 
-4.7. Rate app
+Rate app
 ~~~~~~~~~~~~~
 
-Inherits from `4.1. App version`_
+Inherits from `App version`_
 
 Steps
 +++++
@@ -178,25 +185,41 @@ Postconditions
 - Store is opened on a screen where user can rate and review the Gnosis Safe.
 
 
-4.8. Contact us
+Give feedback
 ~~~~~~~~~~~~~~~
 
-Inherits from `4.2. View Terms of Use`_
+Inherits from `View Terms of Use`_
 
 Steps
 +++++
 
-2. Open "Contact us"
+2. Open "Give feedback"
 3. Email program opens with a prefilled email with the following text:
 
  App version: <iOS/Android> - <app_version>
 
  Safe addresses:
      0xFirstSafeAddress
+
      0xSecondSafeAddress
 
-4. Send email
+ Feedback:
+
+4. Enter text
+5. Send email
+
+
+View open source licenses
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Inherits from `View Terms of Use`_
+
+Steps
++++++
+
+2. Open "Licenses"
+3. Browser opens with https://safe.gnosis.io/licenses
+4. User goes back
 
 .. _`User Interface`: 02_user_interface.rst
-.. _`External Communication`: 03_external_communication.rst
-.. _Other: 04_other.rst
+.. _`Technical details`: 03_technical_details.rst

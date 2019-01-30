@@ -17,14 +17,16 @@ User interface
 
 Please specify screens for all platforms in this document.
 
-Please remove all unrelated sections to keep the document easy to read and maintain.
+Please remove all unrelated sections to keep the document easy to read
+and maintain.
 
 <Screen Name>
 ------------------
 
 Short description of the screen or its state
 
-.. we use raw html because otherwise GitHub doesn't change the width or height of an image.
+.. we use raw html because otherwise GitHub doesn't change the width
+   or height of an image.
 
 .. raw:: html
 

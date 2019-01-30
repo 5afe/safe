@@ -1,6 +1,7 @@
 .. Getting Started
 .. Installation and IDE
-    To make your editing easier, we recommend to use VSCode editor with the extensions:
+    To make your editing easier, we recommend to use VSCode editor
+    with the extensions:
     - reStructuredText (https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext)
     - Table Formatter (https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter)
 .. The prerequisites for those extensions are python3 and doc8 packcages. Install instructions are here:
@@ -18,9 +19,9 @@ SPECIFICATION_NAME
 ==========================================================
 
 .. ==================== NOTE ===============================
-.. You can search and replace the EPIC, SPECIFICATION_NAME, 
+.. You can search and replace the EPIC, SPECIFICATION_NAME,
 .. AUTHOR and CREATED_AT
-.. So that the header information is updated in this doc. 
+.. So that the header information is updated in this doc.
 .. Do the same in other specification doc headers.
 .. =========================================================
 
@@ -44,9 +45,11 @@ SPECIFICATION_NAME
     :local:
     :depth: 2
 
-Please specify problem definition, inputs, outputs and use cases in this document.
+Please specify problem definition, inputs, outputs and use cases in
+this document.
 
-Please remove all unrelated sections to keep the document easy to read and maintain.
+Please remove all unrelated sections to keep the document easy to
+read and maintain.
 
 Problem Definition
 -------------------------------
@@ -56,7 +59,8 @@ Problem Definition
 Inputs
 -----------
 
-What inputs are needed to solve the problem? Specify the requirements for them here
+What inputs are needed to solve the problem? Specify the requirements
+for them here
 
 * User input
 * Network-fetched information
@@ -65,7 +69,8 @@ What inputs are needed to solve the problem? Specify the requirements for them h
 Outputs
 ------------
 
-What is output from the functionality that is specified? Specify the requirements here.
+What is output from the functionality that is specified? Specify the
+requirements here.
 
 * New database data
 * Error messages
@@ -89,7 +94,8 @@ Preconditions
 
 * Things that are expected to be true and required for the steps below
 * This are the things that needed for the functionality to work properly
-* You may include the place where scenario starts here or mention it in the Steps section.
+* You may include the place where scenario starts here or mention it
+  in the Steps section.
 
 .. _happy_case_steps:
 
@@ -131,7 +137,8 @@ Preconditions
 +++++++++++++
 
 .. if preconditions are all the same - remove this section completely.
-.. if preconditions are the same AND there's something additional, or something is missing
+.. if preconditions are the same AND there's something additional, or
+   something is missing
 .. then explicitly mention all preconditions as well.
 
 * Precondition text
@@ -139,7 +146,8 @@ Preconditions
 Steps
 +++++
 
-.. step number overrides the step with the same number in the parent (inherited from) scenario.
+.. step number overrides the step with the same number in the parent
+   (inherited from) scenario.
 
 3. 1. Do something else instead. Something else happening.
 

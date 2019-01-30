@@ -16,7 +16,8 @@ Technical Details
     :depth: 2
 
 Please describe the relevant technical requirements in this document.
-Please remove all unrelated sections to keep the document easy to read and maintain.
+Please remove all unrelated sections to keep the document easy to read
+and maintain.
 
 Common Technical Requirements
 -------------------------------
@@ -28,7 +29,8 @@ specifically noted in this document below.
 Communication
 ---------------
 
-Describe APIs and provide links to the documentation here (swagger, readthedocs, and so on).
+Describe APIs and provide links to the documentation here (swagger,
+readthedocs, and so on).
 
 Timing
 -----------
@@ -42,7 +44,8 @@ Define timing requirements here if they're diffferent from common requirements.
 Security
 -------------
 
-Define security requirements here if they're diffferent from common requirements.
+Define security requirements here if they're diffferent from common
+requirements.
 
 * User Inputs
 
@@ -54,7 +57,8 @@ Define security requirements here if they're diffferent from common requirements
 * Network Communication
 
   - Specify how wrong formats handled.
-  - Specify how upload / download size of the requests and responses should be limited
+  - Specify how upload / download size of the requests and responses
+    should be limited
   - Specify handling of exceptional and error situations
 
 * Other Considerations here as well
@@ -64,13 +68,14 @@ Reliability
 
 * Consequences of the software failures
 
-  - What happens when software will crash at any point? 
+  - What happens when software will crash at any point?
 
     + How that affects user data?
     + How should the critical data be protected from failure?
 
-  - Other cases or important ways in which software may err or fail and their handling.
-  
+  - Other cases or important ways in which software may err or fail
+    and their handling.
+
 * Error detection
 
   - How software detects errors and how it tries to recover, if it ever tries?
@@ -102,7 +107,7 @@ Possible Changes to the Specification
   - What can change. Why?
 
 * Network Service APIs may change
- 
+
   - What can change, with which likelihood and why?
 
 * Other things that are likely to change.

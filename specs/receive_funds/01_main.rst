@@ -87,7 +87,3 @@ Postconditions
 ++++++++++++++
 
 - Address was shared to 3rd party app
-
-.. _`User Interface`: 02_user_interface.rst
-.. _`External Communication`: 03_external_communication.rst
-.. _Other: 04_other.rst

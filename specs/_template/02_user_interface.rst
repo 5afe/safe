@@ -8,7 +8,7 @@ User interface
 `EPIC`_  SPECIFICATION_NAME  AUTHOR  CREATED_AT
 =======  ==================  ======  ==========
 
-.. _EPIC: SPEC_REPO#EPIC
+.. _EPIC: https://github.com/gnosis/safe/issues/EPIC
 
 .. sectnum::
 .. contents:: Table of Contents

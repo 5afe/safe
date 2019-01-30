@@ -30,7 +30,7 @@ SPECIFICATION_NAME
 `EPIC`_  SPECIFICATION_NAME  AUTHOR  CREATED_AT
 =======  ==================  ======  ==========
 
-.. _EPIC: gnosis/safe#EPIC
+.. _EPIC: https://github.com/gnosis/safe/issues/EPIC
 
 .. _Main:
 

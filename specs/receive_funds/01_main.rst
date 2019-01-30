@@ -30,7 +30,7 @@ Problem Definition
     - Via QR code for scanning.
     - Copy to clipboard.
     - Via other services on their phone.
-- There should be a way to double check if the other person has the
+- User needs a way to double check if the other person has the
   correct shared address.
 
 Inputs

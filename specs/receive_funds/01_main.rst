@@ -22,7 +22,7 @@ Receive funds
     :local:
     :depth: 2
 
-1. Problem Definition
+Problem Definition
 ---------------------
 
 - User wants to receive funds
@@ -33,12 +33,12 @@ Receive funds
 - There should be a way to double check if the other person has the
   correct shared address.
 
-2. Inputs
+Inputs
 -----------
 
 - Address of the currently selected Safe.
 
-3. Outputs
+Outputs
 ------------
 
 - Complete checksummed address is visible (with our usual
@@ -49,10 +49,10 @@ Receive funds
 - Address can by copied to clipboard.
 
 
-4. Use Case Scenarios
+Use Case Scenarios
 -----------------------
 
-4.1. Happy Case
+Happy Case
 ~~~~~~~~~~~~~~~
 
 Preconditions
@@ -73,10 +73,10 @@ Postconditions
 
 - Address is in the clipboard.
 
-4.2. Happy Case sharing via 3rd party app
+Happy Case sharing via 3rd party app
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case`_
+inherits from `Happy Case`_
 
 Steps
 +++++

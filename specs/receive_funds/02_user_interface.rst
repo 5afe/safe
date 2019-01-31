@@ -40,7 +40,7 @@ identicon on the funds overview screen.
 Receive funds - Copied address
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Toast / indicationj that an address was copied.
+- Toast / indication that an address was copied.
 
 .. raw:: html
 
@@ -51,6 +51,6 @@ Receive funds - Copied address
    <img src="screens/ios/receive funds - copied.png" width="320px"/>
 
 
-* Zeplin link Android https://zpl.io/am6Z9wm
+* Zeplin link Android https://zpl.io/aByP18A
 * Zeplin link https://zpl.io/2jvdmNQ
 

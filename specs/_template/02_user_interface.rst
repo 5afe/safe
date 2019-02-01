@@ -28,7 +28,7 @@ Short description of the screen or its state
 
 .. raw:: html
 
-   <img src="screens/ios/ScreenName.png" width="320px"/>
+   <img src="screens/ios/ScreenName.png" width="320px" style="border:2px solid black;"/>
 
 * `Zeplin link Android <https://example.org/>`_
 * `Zeplin link iOS <https://example.org/>`_

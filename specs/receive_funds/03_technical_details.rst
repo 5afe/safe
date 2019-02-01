@@ -14,3 +14,9 @@ Technical Details
 .. contents:: Table of Contents
     :local:
     :depth: 2
+
+QR code format
+---------------------------
+
+- QR code should encode just the plain address (0x0...0).
+- Using EIP-831 or similar will be part of a future spec.

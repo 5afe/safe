@@ -3,7 +3,7 @@ Receive funds
 ==========================================================
 
 =====  =============  =========  ==========
-epic       title      tschubotz   created
+epic       title       author     created
 =====  =============  =========  ==========
 `68`_  Receive funds  tschubotz  2019-01-17
 =====  =============  =========  ==========
@@ -36,7 +36,7 @@ Problem Definition
 Inputs
 -----------
 
-- Address of the currently selected Safe.
+- Address of existing Safe.
 
 Outputs
 ------------

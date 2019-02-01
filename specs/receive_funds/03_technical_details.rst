@@ -3,7 +3,7 @@ Technical Details
 =========================
 
 =====  =============  =========  ==========
- 68        title      tschubotz   created
+epic       title       author     created
 =====  =============  =========  ==========
 `68`_  Receive funds  tschubotz  2019-01-17
 =====  =============  =========  ==========

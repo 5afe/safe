@@ -1,25 +1,25 @@
-+-------+----------------------+-----------+------------+
-| issue | title                | author    | created    |
-+-------+----------------------+-----------+------------+
-| 71_   | Transaction overview | tschubotz | 2019-01-22 |
-+-------+----------------------+-----------+------------+
+=====  ====================  =========  ==========
+epic          title           author     created
+=====  ====================  =========  ==========
+`71`_  Transaction overview  tschubotz  2019-01-22
+=====  ====================  =========  ==========
 
 .. _71: https://github.com/gnosis/safe/issues/71
 
-Transaction overview
-====================
-
-1. `Main`_
-2. `User Interface`_
-3. `External Communication`_
-4. Other_
-
 .. _Main:
 
-.. contents:: Table of Contents
-    :depth: 3
 
-1. Problem Definition
+#. `Main`_
+#. `User Interface`_
+#. `Technical Details`_
+
+.. sectnum::
+.. contents:: Table of Contents
+    :local:
+    :depth: 2
+
+
+Problem Definition
 ---------------------
 
 - User needs to see an overview of past and current Safe transactions.
@@ -30,23 +30,23 @@ Transaction overview
 - User should be able to access the tx on Etherscan to get really all the info.
 
 
-2. Inputs
+Inputs
 -----------
 
 - Existing Safe.
 - Transactions of different types and in different states.
 
 
-3. Outputs
+Outputs
 ------------
 
 - Transactions and their details are displayed.
 
 
-4. Use Case Scenarios
+Use Case Scenarios
 -----------------------
 
-4.1. Happy Case
+Happy Case
 ~~~~~~~~~~~~~~~
 
 Preconditions
@@ -76,10 +76,10 @@ Postconditions
 - User ends up on the transaction details screen again.
 
 
-4.2. Transcation state update on transaction list
+Transaction state update on transaction list
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case`_
+inherits from `Happy Case`_
 
 Steps
 +++++
@@ -92,10 +92,10 @@ Postconditions
 - Transaction UI updates respective to the new state.
 
 
-4.3. Transcation state update on transaction details
+Transaction state update on transaction details
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case`_
+inherits from `Happy Case`_
 
 Steps
 +++++
@@ -107,6 +107,7 @@ Postconditions
 
 - Transaction details UI updates respective to the new state.
 
+
 .. _`User Interface`: 02_user_interface.rst
-.. _`External Communication`: 03_external_communication.rst
-.. _Other: 04_other.rst
+.. _`Technical Details`: 03_technical_details.rst
+.. _`About Use Case Scenarios`: ../common/about_use_case_scenarios.rst

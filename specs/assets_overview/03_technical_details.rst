@@ -10,11 +10,6 @@ epic        title        author     created
 
 .. _64: https://github.com/gnosis/safe/issues/64
 
-
-#. `Main`_
-#. `User interface`_
-#. `Technical Details`_
-
 .. sectnum::
 .. contents:: Table of Contents
     :local:

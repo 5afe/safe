@@ -29,18 +29,19 @@ Inputs
 -----------
 
 - Existing Safe.
-- Enabled tokens.
+- List of enabled tokens (Can be empty).
 
 
 Outputs
 ------------
 
 - Amount of ETH stored.
-- Amount of enabeld tokens stored.
+- Amount of enabled tokens stored.
 - Identicon of the Safe address.
-- Shortened Safe address (0x12...3456)
-- Safe name (only for Android right now, since iOS doesn't support multiple
-  Safes. yet.)
+- `Short Safe address`_
+- Safe name if multiple safes are supported
+
+.. _`Short Safe address`: ../common/format_addresses.rst#full-checksummed-address
 
 
 Use Case Scenarios
@@ -57,10 +58,10 @@ Preconditions
 Steps
 +++++
 
-1. User sees up to date ETH balance
-2. User sees up to date balances of all enabled tokens.
+1. User sees current ETH balance
+2. User sees current balances of all enabled tokens.
 3. User can scroll to see all available tokens balances.
-4. User see identicon and shortened Safe address.
+4. User sees identicon and shortened Safe address.
 5. User sees Safe name (If multiple Safes are supported)
 6. User taps an asset row.
 
@@ -70,7 +71,24 @@ Postconditions
 - "Send ETH/token" flow is started.
 
 
-Happy Case - Receive funds
+Reload balances
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+inherits from `Happy Case`_
+
+Steps
++++++
+
+6. User pulls to reload.
+
+Postconditions
+++++++++++++++
+
+- User sees loading indicator.
+- Balances are reloaded.
+
+
+Receive funds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 inherits from `Happy Case`_
@@ -84,6 +102,56 @@ Postconditions
 ++++++++++++++
 
 - "Receive funds" screen is opened.
+
+
+Manage tokens
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+inherits from `Happy Case`_
+
+Steps
++++++
+
+6. User taps "Add token".
+
+Postconditions
+++++++++++++++
+
+- "Manage token" screen is opened.
+
+
+No internet - first time
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+inherits from `Happy Case`_
+
+Steps
++++++
+
+1. User opens the assets overview screen.
+
+Postconditions
+++++++++++++++
+
+- User sees indication that there is no internet connection.
+
+
+No internet - balances loaded before
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+inherits from `No internet - first time`_
+
+Steps
++++++
+
+1. User opens the assets overview screen.
+
+Postconditions
+++++++++++++++
+
+- User sees indication that there is no internet connection.
+- User sees cached balanes from before.
+
 
 .. _`User Interface`: 02_user_interface.rst
 .. _`Technical Details`: 03_technical_details.rst

@@ -29,7 +29,7 @@ Problem Definition
     - Access Terms of Use
     - Access Proviacy Policy
     - Change password
-    - Enable/disable fingerprint
+    - Enable/disable biometric authentication
     - Option to Give feedback (Send us an email)
     - Option to rate the app in the store.
     - View app version (For bug reporting)
@@ -39,7 +39,7 @@ Problem Definition
 Inputs
 -----------
 
- - Depending on the use case: Password and fingerprint, Terms, Privacy Policy
+ - Depending on the use case: Password and biometrics information, Terms, Privacy Policy
 
 
 Outputs
@@ -48,7 +48,7 @@ Outputs
 Outputs depend on the selected option.
 - Open webpage (Terms & Privacy Policy)
 - Start change password flow
-- Fingerprint has been enabled / disabled
+- Biometric auth has been enabled / disabled
 - Open up email program (Give feedback)
 - Open store for rating / writing review (Rate app)
 - App version is displayed
@@ -124,48 +124,54 @@ Postconditions
 - "Change password" flow is started
 
 
-Enable finterprint
+Enable biometric auth
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+- *iOS: "Touch ID" or "Face ID"*
+- *Android: "Fingerprint" or "Face ID"*
 
 Preconditions
 +++++++++++++
 
 - App is set up with a password
-- Finterprint is disabled
+- Biometric auth is disabled
 
 Steps
 +++++
 
 1. Open app settings
-2. Disable finterprint
+2. Enable biometric auth
+3. User has to confirm with biometric auth
 
 Postconditions
 ++++++++++++++
 
-- Fingerprint is disabled.
+- Biometric auth is enabled.
 - User is still on settings page.
 
 
-Disable finterprint
+Disable biometric auth
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+- *iOS: "Touch ID" or "Face ID"*
+- *Android: "Fingerprint" or "Face ID"*
 
 Preconditions
 +++++++++++++
 
 - App is set up with a password
-- Finterprint is enabled
+- Biometric auth is enabled
 
 Steps
 +++++
 
 1. Open app settings
-2. Enable finterprint
-3. User has to confirm with fingerprint
+2. Disable biometric auth
 
 Postconditions
 ++++++++++++++
 
-- Fingerprint is enabled.
+- Biometric auth is disabled.
 - User is still on settings page.
 
 
@@ -218,8 +224,13 @@ Steps
 +++++
 
 2. Open "Licenses"
-3. Browser opens with https://safe.gnosis.io/licenses
+3. Browser opens with licenses webpage.
 4. User goes back
+
+Licenses webpage:
+
+- Android: https://safe.gnosis.io/licenses#android
+- iOS: https://safe.gnosis.io/licenses#ios
 
 .. _`User Interface`: 02_user_interface.rst
 .. _`Technical details`: 03_technical_details.rst

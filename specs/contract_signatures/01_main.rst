@@ -33,7 +33,9 @@ Technical Details
 
 {
   "payload" : <string> // Payload that the app needs to sign
+  
   "signed-hash" : <hex-string> // Signature of the hash of the payload according to ERC67
+  
   "address" : <checksummed-address-string>
 }
 

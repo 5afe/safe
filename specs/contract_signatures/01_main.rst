@@ -45,13 +45,13 @@ Technical Details
 
 ::
 
-Where `message` is the following:
+Where ``message`` is the following:
 
 .. code:: javascript
     
     {
         "type": "signTypedData"
-        "payload": <string> // Payload that the app needs to sign
+        "payload": <string> // Payload to sign
         "signed-hash": <hex-string> // Signature of the hash of the payload according to EIP712
         "address": <checksummed_address> // Address of the signer (Browser Extension)
     }
@@ -59,7 +59,17 @@ Where `message` is the following:
 
 3. App: recover the address from the payload and verifies that it matches the address from the browser extension.
 4. App: signs the payload and waits for the other signatures from other possible signers (until threshold is reached).
-5. App sends push to the chrome extension with all the signatures
-6. Show signed payload on the dApp side
+5. App sends push to the chrome extension with all the signatures. The ``message`` of the push notification is the following:
+
+.. code:: javascript
+    
+    {
+        "type": "signTypedDataResult"
+        "payload": <string> // Payload to sign
+        "signed-hashes": [<hex-string>, ...] // Signature of the hash of the payload according to EIP712
+    }
+
+6. The browser extension recovers each address and verifies that it has enough signatures (threshold reached) for that safe.
+7. Show signed payload on the dApp side
 
 .. _EIP-712: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-712.md

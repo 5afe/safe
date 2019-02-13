@@ -31,6 +31,8 @@ Technical Details
 
 2. The chome extension signs the hash of the payload according to EIP712 and sends the following payload to the app (via push notification)
 
+.. code-block:: javascript
+
 {
   "payload" : <string> // Payload that the app needs to sign
   
@@ -38,6 +40,8 @@ Technical Details
   
   "address" : <checksummed-address-string>
 }
+
+::
 
 3. App: recover the address from the payload and verify that it matches the address from the browser extension.
 4. App: signs the payload and waits for the other signatures from other possible signers (until threshold is reached).

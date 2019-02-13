@@ -37,12 +37,16 @@ Diagram_
     
     {
         "type": "signTypedData"
-        "payload": <string> // Payload to sign
-        "hash": <hex-string> // Signature of the hash of the payload according to EIP712
+        "payload": <string>, // Payload to sign
+        "safe": <string>,
+        // Signature of the hash of payload using EIP-712
+        "r": "<stringified-int>",
+        "s": "<stringified-int>",
+        "v": "<stringified-int>"
     }
 
 
-3. App: confirms the payload (by signing it and waiting for additional signatures if required) or rejects it.
+3. App receives the push notification and shows screen where you confirm or reject the transaction (Showing the payload that needs to be signed). The application also broadcasts the request from step 2 to all the other signers (except the browser extension and the app).
 
 4. App sends push to the chrome extension with all the signatures. The ``message`` of the push notification is the following:
 

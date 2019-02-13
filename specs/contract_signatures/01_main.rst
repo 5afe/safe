@@ -31,23 +31,7 @@ Diagram_
 
 1. Dapp sends a JSON payload request to the browser extension.
 
-2. The chome extension signs the hash of the payload according to EIP-712_ and sends the following payload to the app (via push notification)
-
-.. code:: javascript
-    
-    {
-        "devices": ["<checksumed_address>", ...],
-        "message": "<string>",
-        "signature": { // signs sha3("GNO" + <message>)
-            "v": "<integer>",
-            "r": "<string>", // stringified int
-            "s": "<string>" // stringified int
-        }
-    }
-
-::
-
-Where ``message`` is the following:
+2. The chome extension signs the hash of the payload according to EIP-712_ and sends the following ``message`` to the app (via push notification) (See RootMessage_ for the root object used with the Notification Service).
 
 .. code:: javascript
     
@@ -76,3 +60,4 @@ Where ``message`` is the following:
 
 .. _Diagram: https://sketchboard.me/FBr2iwh2wYbm#/
 .. _EIP-712: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-712.md
+.. _RootMessage: https://gnosis-safe.readthedocs.io/en/latest/services/notifications.html#request

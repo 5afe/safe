@@ -42,9 +42,8 @@ Diagram_
     }
 
 
-3. App: recover the address from the payload and verifies that it matches the address from the browser extension.
-4. App: signs the payload and waits for the other signatures from other possible signers (until threshold is reached).
-5. App sends push to the chrome extension with all the signatures. The ``message`` of the push notification is the following:
+3. App: signs the payload and waits for the other signatures from other possible signers (until threshold is reached).
+4. App sends push to the chrome extension with all the signatures. The ``message`` of the push notification is the following:
 
 .. code:: javascript
     
@@ -53,8 +52,8 @@ Diagram_
         "signature": <hex-string> // Signature of the hash of the payload according to EIP712
     }
 
-6. Optional: The browser extension validates the signature with an rpc-call against the safe contract.
-7. Show signed payload on the dApp side.
+5. Optional: The browser extension validates the signature with an rpc-call against the safe contract.
+6. Show signed payload on the dApp side.
 
 .. _Diagram: https://sketchboard.me/FBr2iwh2wYbm#/
 .. _EIP-712: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-712.md

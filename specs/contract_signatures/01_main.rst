@@ -27,6 +27,8 @@ Problem Definition
 Technical Details
 -----------------
 
+Diagram_
+
 1. Dapp sends a JSON payload request to the browser extension.
 
 2. The chome extension signs the hash of the payload according to EIP-712_ and sends the following payload to the app (via push notification)
@@ -72,4 +74,5 @@ Where ``message`` is the following:
 6. The browser extension recovers each address and verifies that it has enough signatures (threshold reached) for that safe.
 7. Show signed payload on the dApp side
 
+.. _Diagram: https://sketchboard.me/FBr2iwh2wYbm#/
 .. _EIP-712: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-712.md

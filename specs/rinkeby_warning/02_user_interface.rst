@@ -17,7 +17,7 @@ User interface
 
 **This spec is just about adding the warning label, not about other UI
 elements on the screens. The state of the screens could have changed in
-the meantime.**
+the meantime. Please just add the warning label, nothing else.**
 
 Start screen
 ------------------
@@ -43,9 +43,13 @@ Screen that shows when the app has been set up but no Safe is yet created.
 
 .. raw:: html
 
+  <img src="screens/android/no_safe.png" width="320px"/>
+
+.. raw:: html
+
   <img src="screens/ios/no_safe.png" width="320px"/>
 
-* Zeplin link Android: sdf
+* Zeplin link Android: zpl.io/boK79Qo
 * Zeplin link iOS: https://zpl.io/boK79Qo
 
 
@@ -56,9 +60,13 @@ Unlocking the app.
 
 .. raw:: html
 
+  <img src="screens/android/unlock.png" width="320px"/>
+
+.. raw:: html
+
   <img src="screens/ios/unlock.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/2yzwnQy
 * Zeplin link iOS: https://zpl.io/aMK3vJR
 
 
@@ -69,9 +77,13 @@ Waiting for deposit to create a Safe
 
 .. raw:: html
 
+  <img src="screens/android/make_deposit.png" width="320px"/>
+
+.. raw:: html
+
   <img src="screens/ios/make_deposit.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/agPy0v0
 * Zeplin link iOS: https://zpl.io/awWl187
 
 

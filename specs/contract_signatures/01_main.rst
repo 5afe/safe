@@ -38,8 +38,7 @@ Diagram_
     {
         "type": "signTypedData"
         "payload": <string> // Payload to sign
-        "signed-hash": <hex-string> // Signature of the hash of the payload according to EIP712
-        "address": <checksummed_address> // Address of the signer (Browser Extension)
+        "hash": <hex-string> // Signature of the hash of the payload according to EIP712
     }
 
 
@@ -51,12 +50,11 @@ Diagram_
     
     {
         "type": "signTypedDataResult"
-        "payload": <string> // Payload to sign
-        "signed-hashes": [<hex-string>, ...] // Signature of the hash of the payload according to EIP712
+        "signature": <hex-string> // Signature of the hash of the payload according to EIP712
     }
 
-6. The browser extension recovers each address and verifies that it has enough signatures (threshold reached) for that safe.
-7. Show signed payload on the dApp side
+6. Optional: The browser extension validates the signature with an rpc-call against the safe contract.
+7. Show signed payload on the dApp side.
 
 .. _Diagram: https://sketchboard.me/FBr2iwh2wYbm#/
 .. _EIP-712: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-712.md

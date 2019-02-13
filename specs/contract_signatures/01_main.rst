@@ -42,7 +42,8 @@ Diagram_
     }
 
 
-3. App: signs the payload and waits for the other signatures from other possible signers (until threshold is reached).
+3. App: confirms the payload (by signing it and waiting for additional signatures if required) or rejects it.
+
 4. App sends push to the chrome extension with all the signatures. The ``message`` of the push notification is the following:
 
 .. code:: javascript

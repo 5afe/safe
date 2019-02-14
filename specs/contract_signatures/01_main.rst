@@ -54,6 +54,7 @@ Diagram_
     
     {
         "type": "signTypedDataResult"
+        "hash": <hex-string> // hash of the payload according to EIP712 (unsigned)
         "signature": <hex-string> // Signature of the hash of the payload according to EIP712
     }
 

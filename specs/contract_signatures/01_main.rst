@@ -31,7 +31,7 @@ Diagram_
 
 1. Dapp sends a JSON payload request to the browser extension.
 
-2. The chome extension signs the hash of the payload according to EIP-712_ and sends the following ``message`` to the app (via push notification) (See RootMessage_ for the root object used with the Notification Service).
+2. The chome extension signs the hash of the payload according to EIP-712_ and sends the following ``message`` to the other owners of the Safe (See RootMessage_ for the root object used with the Notification Service).
 
 .. code:: javascript
     
@@ -46,20 +46,22 @@ Diagram_
     }
 
 
-3. App receives the push notification and shows screen where you confirm or reject the transaction (Showing the payload that needs to be signed). The application also broadcasts the request from step 2 to all the other signers (except the browser extension and the app).
+3. App receives the push notification and shows screen where you confirm or reject the transaction. The app recovers the address from the signature and sends the response back to that address only.
 
-4. App sends push to the chrome extension with all the signatures. The ``message`` of the push notification is the following:
+If the app confirms the transaction it sends the following payload back to the chrome extension
 
 .. code:: javascript
     
     {
-        "type": "signTypedDataResult",
+        "type": "signTypedDataConfirmation",
         "hash": <hex-string>, // hash of the payload according to EIP712 (unsigned)
         "signature": <hex-string> // Signature of the hash of the payload according to EIP712
     }
+    
+If the app rejects the transaction it should send a signed payload back to the extension.
 
-5. Optional: The browser extension validates the signature with an rpc-call against the safe contract.
-6. Show signed payload on the dApp side.
+4. The browser extension validates the signature with an rpc-call against the safe contract.
+5. Show signed payload on the dApp side.
 
 .. _Diagram: https://sketchboard.me/FBr2iwh2wYbm#/
 .. _EIP-712: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-712.md

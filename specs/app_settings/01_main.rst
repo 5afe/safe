@@ -15,7 +15,6 @@ epic      title       author     created
 
 #. `Main`_
 #. `User Interface`_
-#. `Technical Details`_
 
 .. sectnum::
 .. contents:: Table of Contents
@@ -27,7 +26,7 @@ Problem Definition
 
 - There are some app features that we need to provide the user access to.
     - Access Terms of Use
-    - Access Proviacy Policy
+    - Access Privacy Policy
     - Change password
     - Enable/disable biometric authentication
     - Option to Give feedback (Send us an email)
@@ -46,6 +45,7 @@ Outputs
 ----------
 
 Outputs depend on the selected option.
+
 - Open webpage (Terms & Privacy Policy)
 - Start change password flow
 - Biometric auth has been enabled / disabled
@@ -74,8 +74,7 @@ Steps
 Postconditions
 ++++++++++++++
 
-- User can see app version in way so we know which version they are using.
-
+- User can see the currently installed app version.
 
 View Terms of Use
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -85,14 +84,12 @@ Inherits from `App version`_
 Steps
 +++++
 
-2. Open Terms of Use
-3. Browser opens with https://safe.gnosis.io/terms
-4. User goes back
+2. Select Terms of Use
 
 Postconditions
 ++++++++++++++
 
-- User is back on the settings page.
+- Browser opens with https://safe.gnosis.io/terms
 
 
 View Privacy Policy
@@ -103,9 +100,12 @@ Inherits from `View Terms of Use`_
 Steps
 +++++
 
-2. Open Privacy Policy
-3. Browser opens with https://safe.gnosis.io/privacy
-4. User goes back
+2. Select Privacy Policy
+
+Postconditions
+++++++++++++++
+
+- Browser opens with https://safe.gnosis.io/privacy
 
 
 Start change password flow
@@ -121,7 +121,9 @@ Steps
 Postconditions
 ++++++++++++++
 
-- "Change password" flow is started
+- "`Change password`_" flow is started
+
+.. _`Change password`: https://github.com/gnosis/safe/issues/74
 
 
 Enable biometric auth
@@ -183,7 +185,7 @@ Inherits from `App version`_
 Steps
 +++++
 
-2. Open "Rate app"
+2. Select "Rate app"
 
 Postconditions
 ++++++++++++++
@@ -199,7 +201,7 @@ Inherits from `View Terms of Use`_
 Steps
 +++++
 
-2. Open "Give feedback"
+2. Select "Give feedback"
 3. Email program opens with a prefilled email with the following text:
 
  App version: <iOS/Android> - <app_version>
@@ -223,7 +225,7 @@ Inherits from `View Terms of Use`_
 Steps
 +++++
 
-2. Open "Licenses"
+2. Select "Licenses"
 3. Browser opens with licenses webpage.
 4. User goes back
 
@@ -233,4 +235,3 @@ Licenses webpage:
 - iOS: https://safe.gnosis.io/licenses#ios
 
 .. _`User Interface`: 02_user_interface.rst
-.. _`Technical details`: 03_technical_details.rst

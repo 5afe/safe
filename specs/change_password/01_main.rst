@@ -1,29 +1,28 @@
-+-------+-----------------+-----------+------------+
-| issue | title           | author    | created    |
-+-------+-----------------+-----------+------------+
-| 74_   | Change password | tschubotz | 2019-01-17 |
-+-------+-----------------+-----------+------------+
+=====  ===============  =========  ==========
+epic        title        author     created
+=====  ===============  =========  ==========
+`74`_  Change password  tschubotz  2019-01-17
+=====  ===============  =========  ==========
 
 .. _74: https://github.com/gnosis/safe/issues/74
 
-Change password
-===============
-
-1. `Main`_
-2. `User Interface`_
-3. `External Communication`_
-4. Other_
-
 .. _Main:
 
+
+#. `Main`_
+#. `User Interface`_
+#. `Technical Details`_
+
+.. sectnum::
 .. contents:: Table of Contents
-    :depth: 3
+    :local:
+    :depth: 2
 
 1. Problem Definition
 ---------------------
 
 * User wants to change the current app password.
-* Current password was compromised and needs to be changed.
+* Current password could be compromised and hence needs to be changed.
 
 2. Inputs
 -----------
@@ -161,5 +160,4 @@ Postconditions
 
 
 .. _`User Interface`: 02_user_interface.rst
-.. _`External Communication`: 03_external_communication.rst
-.. _Other: 04_other.rst
+.. _`Technical Details`: 03_technical_details.rst

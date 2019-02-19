@@ -26,5 +26,5 @@ App settings
 
    <img src="screens/ios/app_settings.png" width="320px"/>
 
-* `Zeplin link Android <zpl.io/VYAlyZe>`_
-* `Zeplin link iOS MISSING <https://zpl.io/2G939L3>`_
+* Zeplin link Android: https://zpl.io/VYAlyZe
+* Zeplin link iOS: https://zpl.io/2G939L3

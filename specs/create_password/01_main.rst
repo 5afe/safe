@@ -1,25 +1,28 @@
-+-------+-----------------+-----------+------------+
-| issue | title           | author    | created    |
-+-------+-----------------+-----------+------------+
-| 65_   | Create password | tschubotz | 2019-01-22 |
-+-------+-----------------+-----------+------------+
+==========================================================
+Create password
+==========================================================
+
+=====  ===============  =========  ==========
+epic        title        author     created
+=====  ===============  =========  ==========
+`65`_  Create password  tschubotz  2019-01-22
+=====  ===============  =========  ==========
 
 .. _65: https://github.com/gnosis/safe/issues/65
 
-Create password
-===============
-
-1. `Main`_
-2. `User Interface`_
-3. `External Communication`_
-4. Other_
-
 .. _Main:
 
-.. contents:: Table of Contents
-    :depth: 3
 
-1. Problem Definition
+#. `Main`_
+#. `User Interface`_
+#. `Technical Details`_
+
+.. sectnum::
+.. contents:: Table of Contents
+    :local:
+    :depth: 2
+
+Problem Definition
 ---------------------
 
 - We need the user to set a password for the app so:
@@ -29,7 +32,7 @@ Create password
   additionally to the password.
 - We need the user to agree to the Terms and Privacy Policy.
 
-2. Inputs
+Inputs
 -----------
 
 - New password
@@ -38,28 +41,28 @@ Create password
     - At least 1 letter
     - No more than 2 identical characters in a row
       (e.g. 111 is not allowed, 11 is fine)
-    - Maximum lenght?
+    - Maximum length?
 - Repeat new password
     - Needs to match
-- Fingerprint of the user
+- Biometric authentication info of the user
 - Terms of Use & Privacy Policy.
 
-3. Outputs
+Outputs
 ------------
 
 - User agreed to Terms of Use and Privacy Policy.
 - Password is set.
-- Finterprint is potentially enabled.
+- Biometric authentication is potentially enabled.
 - Error messages
   - Wrong current password entered
   - New password does not meet requirements
   - Repeated new password does not match.
 
 
-4. Use Case Scenarios
+Use Case Scenarios
 -----------------------
 
-4.1. Happy Case
+Happy Case
 ~~~~~~~~~~~~~~~
 
 Preconditions
@@ -79,7 +82,7 @@ Steps
 7. User enters valid password.
 8. User proceeds to next screen.
 9. User repeats the new password.
-10. User confirms finterprint.
+10. User confirms with biometric information.
 11. User proceeds.
 
 Postconditions
@@ -92,10 +95,10 @@ Postconditions
 - User can unlock the app with the fingerprint.
 
 
-4.2. Happy Case no fingerprint
+Happy Case no fingerprint
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case`_
+inherits from `Happy Case`_
 
 Steps
 +++++
@@ -112,10 +115,10 @@ Postconditions
 - User cannot unlock the app with the fingerprint.
 
 
-4.3. Password does not meet requirements
+Password does not meet requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case`_
+inherits from `Happy Case`_
 
 Steps
 +++++
@@ -133,10 +136,10 @@ Postconditions
 - User cannot continue with invalid password
 
 
-4.4. Password does not match
+Password does not match
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case`_
+inherits from `Happy Case`_
 
 Steps
 +++++
@@ -155,5 +158,4 @@ Postconditions
 
 
 .. _`User Interface`: 02_user_interface.rst
-.. _`External Communication`: 03_external_communication.rst
-.. _Other: 04_other.rst
+

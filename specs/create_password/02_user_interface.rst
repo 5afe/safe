@@ -94,7 +94,7 @@ Confirmed password matches
 
 .. raw:: html
 
-   <img src="screens/ios/cconfirm_password_success.png" width="320px"/>
+   <img src="screens/ios/confirm_password_success.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/VQq5R4W
 * Zeplin link iOS: https://zpl.io/2jvB5dm
@@ -113,7 +113,7 @@ Confirmed password didn't match
 
    <img src="screens/ios/confirm_password_error.png" width="320px"/>
 
-* Zeplin link Android: 
+* Zeplin link Android: https://zpl.io/VkGpoxM
 * Zeplin link iOS: https://zpl.io/bAZY7w6
 
 

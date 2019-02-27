@@ -81,8 +81,8 @@ Postconditions
 - User cannot confirm transactions with another password.
 
 
-Happy Case with fingerprint
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Happy Case with biometric authentication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 inherits from `Happy Case`_
 
@@ -90,7 +90,7 @@ Preconditions
 +++++++++++++
 
 - App is setup with a password
-- App is setup with fingerprint
+- App is setup with biometric authentication
 - User knows the password.
 
 Postconditions
@@ -99,10 +99,10 @@ Postconditions
 - User is on the settings screen.
 - App password is changed.
 - User can unlock the app with the new password.
-- User can unlock the app with the fingerprint.
+- User can unlock the app with the biometric authentication.
 - User cannot unlock the app with another password.
 - User can confirm transactions with the new password.
-- User can confirm transactions with the fingerprint.
+- User can confirm transactions with biometric authentication.
 - User cannot confirm transactions with another password.
 
 

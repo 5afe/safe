@@ -84,7 +84,7 @@ Postconditions
 Happy Case with fingerprint
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case`_
+inherits from `Happy Case`_
 
 Preconditions
 +++++++++++++
@@ -109,7 +109,7 @@ Postconditions
 Wrong password
 ~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case`_
+inherits from `Happy Case`_
 
 Steps
 +++++
@@ -128,7 +128,7 @@ Postconditions
 Password does not meet requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case`_
+inherits from `Happy Case`_
 
 4. User enters invalid new password
 5. User sees error that password does not meet password requirements.
@@ -145,7 +145,7 @@ Postconditions
 Password does not match
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inherits from `4.1. Happy Case`_
+inherits from `Happy Case`_
 
 5. User does not repeat the new password correct.
 6. User sees error that password does not match.

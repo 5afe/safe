@@ -160,4 +160,3 @@ Postconditions
 
 
 .. _`User Interface`: 02_user_interface.rst
-.. _`Technical Details`: 03_technical_details.rst

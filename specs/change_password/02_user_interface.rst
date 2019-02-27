@@ -68,8 +68,8 @@ User has to enter new password and confirm.
 
    <img src="screens/ios/new_password.png" width="320px"/>
 
-* Zeplin link Android: MISSING
-* Zeplin link iOS: MISSING
+* Zeplin link Android: https://zpl.io/aR1NNXK
+* Zeplin link iOS: https://zpl.io/bJ7NOeW
 
 New password - Invalid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -100,7 +100,7 @@ User has entered a new password that does meet the requirements.
 
    <img src="screens/ios/new_password_success.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/b614l1m
 * Zeplin link iOS: https://zpl.io/25OggEW
 
 New password - Confirm invalid
@@ -116,7 +116,7 @@ User has confirmed a password that does match with the new one.
 
    <img src="screens/ios/new_password_confirm_invalid.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/aXP3GEP
 * Zeplin link iOS: https://zpl.io/2EBwy7x
 
 New password - Confirm success

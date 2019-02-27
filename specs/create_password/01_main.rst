@@ -15,7 +15,6 @@ epic        title        author     created
 
 #. `Main`_
 #. `User Interface`_
-#. `Technical Details`_
 
 .. sectnum::
 .. contents:: Table of Contents
@@ -26,8 +25,8 @@ Problem Definition
 ---------------------
 
 - We need the user to set a password for the app so:
-    1. Nobody can open the app or confirm transactions without the password.
-    2. We can encrypt the private key of the device.
+    - Nobody can open the app or confirm transactions without the password.
+    - We can encrypt the private key of the device.
 - Most devices have a fingerprint sensor. Users should be able to use it
   additionally to the password.
 - We need the user to agree to the Terms and Privacy Policy.

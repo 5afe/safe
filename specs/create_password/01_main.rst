@@ -24,7 +24,11 @@ epic        title        author     created
 Problem Definition
 ---------------------
 
-- We need the user to set a password for the app so (1) Nobody can open the app or confirm transactions without the password (2) We can encrypt the private key of the device.
+- We need the user to set a password for the app so:
+
+  - Nobody can open the app or confirm transactions without the password
+  - We can encrypt the private key of the device.
+
 - Most devices have a fingerprint sensor. Users should be able to use it
   additionally to the password.
 - We need the user to agree to the Terms and Privacy Policy.
@@ -34,15 +38,17 @@ Inputs
 
 - New password
 
-    - Minimum 8 characters (>=8)
-    - At least 1 number
-    - At least 1 letter
-    - No more than 2 identical characters in a row
-      (e.g. 111 is not allowed, 11 is fine)
-    - Maximum length?
+  - Minimum 8 characters (>=8)
+  - At least 1 number
+  - At least 1 letter
+  - No more than 2 identical characters in a row
+    (e.g. 111 is not allowed, 11 is fine)
+  - Maximum length?
 
 - Repeat new password
-    - Needs to match
+
+  - Needs to match
+
 - Biometric authentication info of the user
 - Terms of Use & Privacy Policy.
 

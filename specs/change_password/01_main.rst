@@ -18,13 +18,13 @@ epic        title        author     created
     :local:
     :depth: 2
 
-1. Problem Definition
+Problem Definition
 ---------------------
 
 * User wants to change the current app password.
 * Current password could be compromised and hence needs to be changed.
 
-2. Inputs
+Inputs
 -----------
 
 - Current password.
@@ -38,7 +38,7 @@ epic        title        author     created
 - Repeat new password
     - Needs to match
 
-3. Outputs
+Outputs
 ------------
 
 - Changed password
@@ -48,10 +48,10 @@ epic        title        author     created
   - Repeated new password does not match.
 
 
-4. Use Case Scenarios
+Use Case Scenarios
 -----------------------
 
-4.1. Happy Case
+Happy Case
 ~~~~~~~~~~~~~~~
 
 Preconditions
@@ -81,7 +81,7 @@ Postconditions
 - User cannot confirm transactions with another password.
 
 
-4.2. Happy Case with fingerprint
+Happy Case with fingerprint
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 inherits from `4.1. Happy Case`_
@@ -106,7 +106,7 @@ Postconditions
 - User cannot confirm transactions with another password.
 
 
-4.3. Wrong password
+Wrong password
 ~~~~~~~~~~~~~~~~~~~
 
 inherits from `4.1. Happy Case`_
@@ -125,7 +125,7 @@ Postconditions
 - User can still confirm transactions the old password.
 
 
-4.4. Password does not meet requirements
+Password does not meet requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 inherits from `4.1. Happy Case`_
@@ -142,7 +142,7 @@ Postconditions
 - User can still confirm transactions the old password.
 
 
-4.5. Password does not match
+Password does not match
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 inherits from `4.1. Happy Case`_

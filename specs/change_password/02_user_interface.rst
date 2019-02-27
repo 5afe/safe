@@ -10,13 +10,6 @@ epic        title        author     created
 
 .. _74: https://github.com/gnosis/safe/issues/74
 
-.. _Main:
-
-
-#. `Main`_
-#. `User Interface`_
-#. `Technical Details`_
-
 .. sectnum::
 .. contents:: Table of Contents
     :local:
@@ -84,8 +77,8 @@ User has entered a new password that does not meet the requirements.
 
    <img src="screens/ios/new_password_invalid.png" width="320px"/>
 
-* Zeplin link Android: https://zpl.io/aR1NNXK
-* Zeplin link iOS: https://zpl.io/bJ7NOeW
+* Zeplin link Android: https://zpl.io/2jQlk3A
+* Zeplin link iOS: https://zpl.io/V0qLDYR
 
 New password - Success
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -106,7 +99,7 @@ User has entered a new password that does meet the requirements.
 New password - Confirm invalid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-User has confirmed a password that does match with the new one.
+User has confirmed a password that does not match with the new one.
 
 .. raw:: html
 

@@ -11,7 +11,6 @@ epic        title        author     created
 
 #. `Main`_
 #. `User Interface`_
-#. `Technical Details`_
 
 .. sectnum::
 .. contents:: Table of Contents
@@ -29,20 +28,23 @@ Inputs
 
 - Current password.
 - New password
-    - Minimum 8 characters (>=8)
-    - At least 1 number
-    - At least 1 letter
-    - No more than 2 identical characters in a row
-      (e.g. 111 is not allowed, 11 is fine)
-    - Maximum lenght?
+
+  - Minimum 8 characters (>=8)
+  - At least 1 number
+  - At least 1 letter
+  - No more than 2 identical characters in a row
+    (e.g. 111 is not allowed, 11 is fine)
+  - Maximum length?
 - Repeat new password
-    - Needs to match
+
+  - Needs to match
 
 Outputs
 ------------
 
 - Changed password
 - Error messages
+
   - Wrong current password entered
   - New password does not meet requirements
   - Repeated new password does not match.
@@ -115,14 +117,15 @@ Steps
 +++++
 
 4. User sees error that password is not correct.
+5. [No further steps]
 
 Postconditions
 ++++++++++++++
 
-- User is on still on the screen to enter the current password.
+- User is still on the screen to enter the current password.
 - App password is not changed.
 - User can still unlock the app with the old password.
-- User can still confirm transactions the old password.
+- User can still confirm transactions with the old password.
 
 
 Password does not meet requirements
@@ -136,10 +139,10 @@ inherits from `Happy Case`_
 Postconditions
 ++++++++++++++
 
-- User is on still on the screen to enter a new password.
+- User is still on the screen to enter a new password.
 - App password is not changed.
 - User can still unlock the app with the old password.
-- User can still confirm transactions the old password.
+- User can still confirm transactions with the old password.
 
 
 Password does not match
@@ -148,15 +151,15 @@ Password does not match
 inherits from `Happy Case`_
 
 5. User does not repeat the new password correct.
-6. User sees error that password does not match.
+6. User sees error that the new password does not match.
 
 Postconditions
 ++++++++++++++
 
-- User is on still on the screen to repeat the new password.
+- User is still on the screen to repeat the new password.
 - App password is not changed.
 - User can still unlock the app with the old password.
-- User can still confirm transactions the old password.
+- User can still confirm transactions with the old password.
 
 
 .. _`User Interface`: 02_user_interface.rst

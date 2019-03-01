@@ -46,8 +46,8 @@ No entry yet stored
 
    <img src="screens/ios/address_book_empty.png" width="320px"/>
 
-* Zeplin link Android: MISSING
-* Zeplin link iOS: MISSING
+* Zeplin link Android: https://zpl.io/aMPRgoJ
+* Zeplin link iOS: https://zpl.io/VxLwZNg
 
 
 Address book search
@@ -95,7 +95,7 @@ View entry
 
    <img src="screens/ios/view_entry.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/2vlDlmn
 * Zeplin link iOS: https://zpl.io/bzNqL9G
 
 View entry - Copied
@@ -111,7 +111,7 @@ After tapping or long hold on address
 
    <img src="screens/ios/view_entry_copied.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/aBBRpmK
 * Zeplin link iOS: https://zpl.io/am5dWzv
 
 
@@ -160,6 +160,23 @@ All information present, user can continue
    <img src="screens/ios/new_entry_action_complete.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/VxL0vBx
+* Zeplin link iOS: https://zpl.io/a8w7Gmw
+
+
+New entry - Error
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Input validation error 
+
+.. raw:: html
+
+   <img src="screens/android/new_entry_error.png" width="320px"/>
+
+.. raw:: html
+
+   <img src="screens/ios/new_entry_error.png" width="320px"/>
+
+* Zeplin link Android: MISSING
 * Zeplin link iOS: MISSING
 
 
@@ -174,7 +191,7 @@ Edit entry
 
    <img src="screens/ios/edit_entry.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/a8ZDyyx
 * Zeplin link iOS: https://zpl.io/2GyG1jY
 
 Edit entry - Action sheet
@@ -184,13 +201,13 @@ Tapping the address input field
 
 .. raw:: html
 
-   <img src="screens/android/edit_entry_action_sheet.png" width="320px"/>
+   <img src="screens/android/new_entry_action_sheet.png" width="320px"/>
 
 .. raw:: html
 
    <img src="screens/ios/edit_entry_action_sheet.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/adpzwA5
 * Zeplin link iOS: https://zpl.io/VQBv1Nx
 
 

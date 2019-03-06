@@ -176,8 +176,8 @@ Input validation error
 
    <img src="screens/ios/new_entry_error.png" width="320px"/>
 
-* Zeplin link Android: MISSING
-* Zeplin link iOS: MISSING
+* Zeplin link Android: https://zpl.io/VkGX6JW
+* Zeplin link iOS: https://zpl.io/25OpBkW
 
 
 Edit entry
@@ -224,7 +224,7 @@ Action sheet that appears after clicking Delete
 
    <img src="screens/ios/edit_entry_delete.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/VqWnDMm
 * Zeplin link iOS: https://zpl.io/agzQW3D
 
 
@@ -257,7 +257,7 @@ Action sheet after tapping 3 dots when address is in address book already
 
    <img src="screens/ios/transaction_details_action_sheet_with_entry.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/br8vpW5
 * Zeplin link iOS: https://zpl.io/bzNNGk7
 
 
@@ -309,7 +309,7 @@ Send funds screen when an entry from the address book is filled in.
 
    <img src="screens/ios/send_funds_filled.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/bAZR888
 * Zeplin link iOS: https://zpl.io/aR1xX4g
 
 Send funds Action sheet
@@ -325,5 +325,5 @@ Action sheet that open when tapping the address input.
 
    <img src="screens/ios/send_funds_action_sheet.png" width="320px"/>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/VQKNee4
 * Zeplin link iOS: https://zpl.io/bzNqL3l

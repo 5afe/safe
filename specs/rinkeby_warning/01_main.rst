@@ -14,7 +14,6 @@ Rinkeby warning
 
 #. `Main`_
 #. `User Interface`_
-#. `Technical Details`_
 
 .. sectnum::
 .. contents:: Table of Contents
@@ -94,9 +93,8 @@ Postconditions
 - User is back on the screen to start creating a Safe.
 
 
-**Further use case scenarios are omttited since this is just about adding
+**Further use case scenarios are omitted since this is just about adding
 a label. Please refer to `User interface`_ for details about where to add
 the label.**
 
 .. _`User Interface`: 02_user_interface.rst
-.. _`Technical Details`: 03_technical_details.rst

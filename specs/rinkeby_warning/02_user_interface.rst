@@ -32,7 +32,7 @@ Screen that shows when opening the app for the first time.
 
   <img src="screens/ios/start_screen.png" width="320px"/>
 
-* Zeplin link Android: https://zpl.io/2G9qEkm
+* Zeplin link Android: https://zpl.io/V4Oz5x4
 * Zeplin link iOS: https://zpl.io/bJ96vZ6
 
 
@@ -49,7 +49,7 @@ Screen that shows when the app has been set up but no Safe is yet created.
 
   <img src="screens/ios/no_safe.png" width="320px"/>
 
-* Zeplin link Android: zpl.io/boK79Qo
+* Zeplin link Android: https://zpl.io/2yzwnQy
 * Zeplin link iOS: https://zpl.io/boK79Qo
 
 
@@ -84,7 +84,7 @@ Waiting for deposit to create a Safe
   <img src="screens/ios/make_deposit.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/agPy0v0
-* Zeplin link iOS: https://zpl.io/awWl187
+* Zeplin link iOS: https://zpl.io/2ZL7x91
 
 
 Assets overview

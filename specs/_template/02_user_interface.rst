@@ -30,8 +30,8 @@ Short description of the screen or its state
 
    <img src="screens/ios/ScreenName.png" width="320px"/>
 
-* `Zeplin link Android <https://example.org/>`_
-* `Zeplin link iOS <https://example.org/>`_
+* Zeplin link Android: https://example.org/
+* Zeplin link iOS: https://example.org/
 
 [MISSING] <Screen Name> - <Screen Variation>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

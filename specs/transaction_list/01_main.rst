@@ -15,7 +15,6 @@ epic          title       author     created
 
 #. `Main`_
 #. `User Interface`_
-#. `Technical Details`_
 
 .. sectnum::
 .. contents:: Table of Contents
@@ -113,5 +112,4 @@ Postconditions
 
 
 .. _`User Interface`: 02_user_interface.rst
-.. _`Technical Details`: 03_technical_details.rst
 .. _`About Use Case Scenarios`: ../common/about_use_case_scenarios.rst

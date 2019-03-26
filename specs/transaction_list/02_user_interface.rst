@@ -140,7 +140,7 @@ Transaction details - Pending
 * Zeplin link iOS: https://zpl.io/aNPDJYN
 
 
-MISSING: Transaction details - Data
+Transaction details - Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html

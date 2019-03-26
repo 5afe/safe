@@ -30,32 +30,6 @@ SPECIFICATION_NAME
 `EPIC`_  SPECIFICATION_NAME  AUTHOR  CREATED_AT
 =======  ==================  ======  ==========
 
-SPECIFICATION_NAME
-==================
-
-1. `Main`_
-2. User Interface
-
-   1. `Android`_
-   2. `Chrome`_
-   3. `iOS`_
-
-3. `External Communication`_
-4. Other_
-
-
-.. contents:: Table of Contents
-
-1. Problem Definition
----------------------
-
-* List your problem definition here
-
-2. Inputs
------------
-
-What inputs are needed to solve the problem? 
-=======
 .. _EPIC: https://github.com/gnosis/safe/issues/EPIC
 
 .. _Main:

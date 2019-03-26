@@ -15,7 +15,6 @@ epic      title              author            created
 
 #. `Main`_
 #. `User Interface`_
-#. `Technical Details`_
 
 .. sectnum::
 .. contents:: Table of Contents

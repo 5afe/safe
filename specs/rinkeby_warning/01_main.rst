@@ -94,7 +94,7 @@ Postconditions
 
 
 **Further use case scenarios are omitted since this is just about adding
-a label. Please refer to `User interface`_ for details about where to add
+a label. Please refer to `User Interface`_ for details about where to add
 the label.**
 
 .. _`User Interface`: 02_user_interface.rst

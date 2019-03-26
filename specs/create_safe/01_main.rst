@@ -8,7 +8,7 @@ epic      title              author            created
 `67`_  Create Safe  DmitryBespalov,tschubotz  2019-01-18
 =====  ===========  ========================  ==========
 
-.. 67: https://github.com/gnosis/safe/issues/67
+.. _67: https://github.com/gnosis/safe/issues/67
 
 .. _Main:
 

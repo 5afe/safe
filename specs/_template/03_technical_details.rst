@@ -33,7 +33,7 @@ Describe APIs and provide links to the documentation here (swagger, readthedocs,
 Timing
 -----------
 
-Define timing requirements here if they're diffferent from common requirements.
+Define timing requirements here if they're different from common requirements.
 
 * Screen transition timings
 * Backend services expected response time requirements
@@ -42,7 +42,7 @@ Define timing requirements here if they're diffferent from common requirements.
 Security
 -------------
 
-Define security requirements here if they're diffferent from common requirements.
+Define security requirements here if they're different from common requirements.
 
 * User Inputs
 
@@ -80,13 +80,13 @@ Memory and Storage
 
 * Maximum memory limit
 * Maximum storage space limit
-* Define them here if they're diffferent from common requirements.
+* Define them here if they're different from common requirements.
 
 Maintainability
 ---------------------
 
 * Requirements for maintainability
-* Define them here if they're diffferent from common requirements.
+* Define them here if they're different from common requirements.
 
 
 Definition of Success

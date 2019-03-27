@@ -23,11 +23,16 @@ User has to enter the current password.
 
 .. raw:: html
 
-   <img src="screens/android/current_password.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/current_password.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/current_password.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/current_password.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android: https://zpl.io/bJK86GW
 * Zeplin link iOS: https://zpl.io/aNP44ZQ
@@ -39,11 +44,16 @@ User has not entered the current password correctly.
 
 .. raw:: html
 
-   <img src="screens/android/current_password_invalid.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/current_password_invalid.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/current_password_invalid.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/current_password_invalid.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android: https://zpl.io/aBEv3KK
 * Zeplin link iOS: https://zpl.io/b61lQOd
@@ -56,11 +66,16 @@ User has to enter new password and confirm.
 
 .. raw:: html
 
-   <img src="screens/android/new_password.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/new_password.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/new_password.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/new_password.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android: https://zpl.io/aR1NNXK
 * Zeplin link iOS: https://zpl.io/bJ7NOeW
@@ -72,11 +87,16 @@ User has entered a new password that does not meet the `password requirements`_.
 
 .. raw:: html
 
-   <img src="screens/android/new_password_invalid.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/new_password_invalid.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/new_password_invalid.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/new_password_invalid.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android: https://zpl.io/2jQlk3A
 * Zeplin link iOS: https://zpl.io/V0qLDYR
@@ -88,11 +108,16 @@ User has entered a new password that does meet the `password requirements`_.
 
 .. raw:: html
 
-   <img src="screens/android/new_password_success.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/new_password_success.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/new_password_success.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/new_password_success.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android: https://zpl.io/b614l1m
 * Zeplin link iOS: https://zpl.io/25OggEW
@@ -104,11 +129,16 @@ User has confirmed a password that does not match with the new one.
 
 .. raw:: html
 
-   <img src="screens/android/new_password_confirm_invalid.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/new_password_confirm_invalid.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/new_password_confirm_invalid.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/new_password_confirm_invalid.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android: https://zpl.io/aXP3GEP
 * Zeplin link iOS: https://zpl.io/2EBwy7x
@@ -120,11 +150,16 @@ User has successfully entered and confirmed a new password.
 
 .. raw:: html
 
-   <img src="screens/android/new_password_confirm_success.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/new_password_confirm_success.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/new_password_confirm_success.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/new_password_confirm_success.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android: https://zpl.io/2jQlk3A
 * Zeplin link iOS: https://zpl.io/aMP44dz

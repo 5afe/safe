@@ -301,7 +301,7 @@ App info filled with valid data.
 
 
 Send token review - with 2FA
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 Review screen when a 2FA device is connected.
 

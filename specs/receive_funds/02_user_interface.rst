@@ -27,11 +27,16 @@ identicon on the funds overview screen.
 
 .. raw:: html
 
-   <img src="screens/android/receive_funds.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/receive_funds.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/receive_funds.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/receive_funds.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 
 * Zeplin link Android https://zpl.io/am6Z9wm
@@ -44,11 +49,16 @@ Receive funds - Copied address
 
 .. raw:: html
 
-   <img src="screens/android/receive_funds_copied.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/receive_funds_copied.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/receive_funds_copied.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/receive_funds_copied.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 
 * Zeplin link Android https://zpl.io/aByP18A

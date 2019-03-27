@@ -28,10 +28,19 @@ Short description of the screen or its state
 
 .. raw:: html
 
-   <img src="screens/ios/ScreenName.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/ScreenName.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/ScreenName.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
-* `Zeplin link Android <https://example.org/>`_
-* `Zeplin link iOS <https://example.org/>`_
+* Zeplin link Android: https://example.org/
+* Zeplin link iOS: https://example.org/
 
 [MISSING] <Screen Name> - <Screen Variation>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

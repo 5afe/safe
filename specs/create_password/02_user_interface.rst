@@ -23,11 +23,17 @@ User chooses password
 
 .. raw:: html
 
-   <img src="screens/android/create_password.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_password.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_password.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_password.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
+   
 
 * Zeplin link Android: https://zpl.io/a3vBgol
 * Zeplin link iOS: https://zpl.io/bzAp7BG

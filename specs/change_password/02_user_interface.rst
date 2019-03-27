@@ -9,6 +9,7 @@ epic        title        author     created
 =====  ===============  =========  ==========
 
 .. _74: https://github.com/gnosis/safe/issues/74
+.. _`password requirements`: ../common/password_requirements.rst
 
 .. sectnum::
 .. contents:: Table of Contents
@@ -67,7 +68,7 @@ User has to enter new password and confirm.
 New password - Invalid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-User has entered a new password that does not meet the requirements.
+User has entered a new password that does not meet the `password requirements`_.
 
 .. raw:: html
 
@@ -83,7 +84,7 @@ User has entered a new password that does not meet the requirements.
 New password - Success
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-User has entered a new password that does meet the requirements.
+User has entered a new password that does meet the `password requirements`_.
 
 .. raw:: html
 

@@ -41,7 +41,7 @@ Outputs
 - Error messages
 
   - Wrong current password entered
-  - New password does not meet requirements
+  - New password does not meet `password requirements`_
   - Repeated new password does not match.
 
 

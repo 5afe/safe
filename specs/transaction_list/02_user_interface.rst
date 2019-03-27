@@ -54,11 +54,17 @@ Transaction list
 
 .. raw:: html
 
-   <img src="screens/android/transaction_list.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/transaction_list.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/transaction_list.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
-.. raw:: html
-
-   <img src="screens/ios/transaction_list.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/bAB7q36
 * Zeplin link iOS: https://zpl.io/aR1x7Je
@@ -69,11 +75,17 @@ Transaction list - Empty
 
 .. raw:: html
 
-   <img src="screens/android/transaction_list_empty.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/transaction_list_empty.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/transaction_list_empty.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
-.. raw:: html
-
-   <img src="screens/ios/transaction_list_empty.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/bAB7q6p
 * Zeplin link iOS: https://zpl.io/VqKRpd4
@@ -83,11 +95,16 @@ Transaction details - Outgoing funds
 
 .. raw:: html
 
-   <img src="screens/android/transaction_details_funds_outgoing.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/transaction_details_funds_outgoing.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/transaction_details_funds_outgoing.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/transaction_details_funds_outgoing.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 
 * Zeplin link Android: https://zpl.io/agnwKgQ
@@ -98,11 +115,16 @@ Transaction details - Incoming funds
 
 .. raw:: html
 
-   <img src="screens/android/transaction_details_funds_incoming.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/transaction_details_funds_incoming.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/transaction_details_funds_incoming.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/transaction_details_funds_incoming.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 
 * Zeplin link Android: https://zpl.io/awrvZy1
@@ -113,11 +135,16 @@ Transaction details - Failed
 
 .. raw:: html
 
-   <img src="screens/android/transaction_details_failed.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/transaction_details_failed.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/transaction_details_failed.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/transaction_details_failed.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 
 * Zeplin link Android: https://zpl.io/boKNxEg
@@ -129,11 +156,16 @@ Transaction details - Pending
 
 .. raw:: html
 
-   <img src="screens/android/transaction_details_pending.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/transaction_details_pending.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/transaction_details_pending.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/transaction_details_pending.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 
 * Zeplin link Android: https://zpl.io/2v7Oo7P
@@ -145,11 +177,16 @@ Transaction details - Data
 
 .. raw:: html
 
-   <img src="screens/android/transaction_details_data.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/transaction_details_data.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/transaction_details_data.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/transaction_details_data.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 
 * Zeplin link Android: https://zpl.io/bABQqWn
@@ -161,11 +198,17 @@ Transaction details - Settings change
 
 .. raw:: html
 
-   <img src="screens/android/transaction_details_settings_change.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/transaction_details_settings_change.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/transaction_details_settings_change.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
-.. raw:: html
-
-   <img src="screens/ios/transaction_details_settings_change.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/boBjO1X
 * Zeplin link iOS: https://zpl.io/aXwd06E

@@ -20,11 +20,16 @@ App settings
 
 .. raw:: html
 
-   <img src="screens/android/app_settings.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/app_settings.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/app_settings.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/app_settings.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android: https://zpl.io/VYAlyZe
 * Zeplin link iOS: https://zpl.io/2G939L3

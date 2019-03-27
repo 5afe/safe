@@ -33,7 +33,7 @@ User chooses password
       </td>
     </tr>
   </table>
-   
+
 
 * Zeplin link Android: https://zpl.io/a3vBgol
 * Zeplin link iOS: https://zpl.io/bzAp7BG
@@ -45,11 +45,17 @@ User entered a valid password
 
 .. raw:: html
 
-   <img src="screens/android/create_password_success.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_password_success.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_password_success.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
-.. raw:: html
-
-   <img src="screens/ios/create_password_success.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/bAv1lwO
 * Zeplin link iOS: https://zpl.io/aRWQxKg
@@ -62,11 +68,17 @@ User entered an invalid password
 
 .. raw:: html
 
-   <img src="screens/android/create_password_error.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_password_error.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_password_error.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
-.. raw:: html
-
-   <img src="screens/ios/create_password_error.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/bzMZ6O8
 * Zeplin link iOS: https://zpl.io/a3gY1PQ
@@ -80,11 +92,17 @@ User confirms password
 
 .. raw:: html
 
-   <img src="screens/android/confirm_password.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/confirm_password.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/confirm_password.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
-.. raw:: html
-
-   <img src="screens/ios/confirm_password.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/VQq5R4W
 * Zeplin link iOS: https://zpl.io/V0RA58O
@@ -96,11 +114,17 @@ Confirmed password matches
 
 .. raw:: html
 
-   <img src="screens/android/confirm_password_success.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/confirm_password_success.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/confirm_password_success.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
-.. raw:: html
-
-   <img src="screens/ios/confirm_password_success.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/VQq5R4W
 * Zeplin link iOS: https://zpl.io/2jvB5dm
@@ -113,11 +137,17 @@ Confirmed password didn't match
 
 .. raw:: html
 
-   <img src="screens/android/confirm_password_error.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/confirm_password_error.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/confirm_password_error.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
-.. raw:: html
-
-   <img src="screens/ios/confirm_password_error.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/VkGpoxM
 * Zeplin link iOS: https://zpl.io/bAZY7w6
@@ -126,16 +156,22 @@ Confirmed password didn't match
 Setup biometric auth
 --------------------
 
-Ask if user wants to use biometric authentication to unlock the app. Different on Android and iOS. 
+Ask if user wants to use biometric authentication to unlock the app. Different on Android and iOS.
 
 
 .. raw:: html
 
-   <img src="screens/android/setup_biometric_auth.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/setup_biometric_auth.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/setup_biometric_auth.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
-.. raw:: html
-
-   <img src="screens/ios/setup_biometric_auth.png" width="320px"/>
 
 * Zeplin link Android: https://zpl.io/2j8JMd4
 * Zeplin link iOS: https://zpl.io/boD8NNM

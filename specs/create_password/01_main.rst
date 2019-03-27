@@ -29,21 +29,15 @@ Problem Definition
   - Nobody can open the app or confirm transactions without the password
   - We can encrypt the private key of the device.
 
-- Most devices have a fingerprint sensor. Users should be able to use it
-  additionally to the password.
+- Most devices have a biometric authentication sensor. Users should be able to    use it additionally to the password.
 - We need the user to agree to the Terms and Privacy Policy.
 
 Inputs
 -----------
 
-- New password
+.. _`password requirements`: ../common/password_requirements.rst
 
-  - Minimum 8 characters (>=8)
-  - At least 1 number
-  - At least 1 letter
-  - No more than 2 identical characters in a row
-    (e.g. 111 is not allowed, 11 is fine)
-  - Maximum length?
+- New password that meets the `password_requirements`_
 
 - Repeat new password
 
@@ -61,7 +55,7 @@ Outputs
 - Error messages
 
   - Wrong current password entered
-  - New password does not meet requirements
+  - New password does not meet `passwordrequirements`_
   - Repeated new password does not match.
 
 
@@ -88,7 +82,7 @@ Steps
 7. User enters valid password.
 8. User proceeds to next screen.
 9. User repeats the new password.
-10. User confirms with biometric information.
+10. User confirms with biometric authentication.
 11. User proceeds.
 
 Postconditions
@@ -98,18 +92,18 @@ Postconditions
 - App password is set
 - User can unlock the app with the new password.
 - User cannot unlock the app with another password.
-- User can unlock the app with the fingerprint.
+- User can unlock the app with biometric authentication.
 
 
-Happy Case no fingerprint
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Happy Case no biometric authentication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 inherits from `Happy Case`_
 
 Steps
 +++++
 
-10. User skips fingerprint setup
+10. User skips biometric authentication setup
 
 Postconditions
 ++++++++++++++
@@ -118,11 +112,11 @@ Postconditions
 - App password is set
 - User can unlock the app with the new password.
 - User cannot unlock the app with another password.
-- User cannot unlock the app with the fingerprint.
+- User cannot unlock the app with biometric authentication.
 
 
-Password does not meet requirements
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Password does not meet `password requirements`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 inherits from `Happy Case`_
 
@@ -130,7 +124,7 @@ Steps
 +++++
 
 7. User enters invalid new password
-8. User sees error that password does not meet password requirements.
+8. User sees error that password does not meet `password requirements`_.
 
 Postconditions
 ++++++++++++++

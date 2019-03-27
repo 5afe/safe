@@ -120,7 +120,7 @@ Confirmed password didn't match
 Setup biometric auth
 --------------------
 
-Ask if user wants to use biometric auth to unlock the app. Different on Android and iOS. 
+Ask if user wants to use biometric authentication to unlock the app. Different on Android and iOS. 
 
 
 .. raw:: html

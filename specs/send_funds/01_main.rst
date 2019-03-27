@@ -2,13 +2,6 @@
 Send funds
 ==========================================================
 
-.. ==================== NOTE ===============================
-.. You can search and replace the EPIC, SPECIFICATION_NAME, 
-.. AUTHOR and CREATED_AT
-.. So that the header information is updated in this doc. 
-.. Do the same in other specification doc headers.
-.. =========================================================
-
 =====  ==========  =========  ==========
 epic     title      author     created
 =====  ==========  =========  ==========

@@ -55,7 +55,7 @@ Tooltip that appears when tapping an address. Dismissed by tapping anywhere on t
     </tr>
   </table>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/VDBWlpJ
 * Zeplin link iOS: https://zpl.io/beDKE7p
 
 
@@ -135,10 +135,10 @@ App info filled with invalid data.
   <table>
     <tr>
       <td>
-        <img src="screens/android/send_eth_enter_filled_error.png" width="320px"/>
+        <img src="screens/android/send_eth_enter_filled_errors.png" width="320px"/>
       </td>
       <td>
-        <img src="screens/ios/send_eth_enter_filled_error.png" width="320px"/>
+        <img src="screens/ios/send_eth_enter_filled_errors.png" width="320px"/>
       </td>
     </tr>
   </table>

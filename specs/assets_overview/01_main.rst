@@ -116,7 +116,7 @@ Steps
 Postconditions
 ++++++++++++++
 
-- "Manage token" screen is opened.
+- "Manage tokens" screen is opened.
 
 
 No internet - first time

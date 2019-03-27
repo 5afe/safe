@@ -27,11 +27,16 @@ Assets overview screen
 
 .. raw:: html
 
-   <img src="screens/android/assets_overview.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/assets_overview.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/assets_overview.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/assets_overview.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android https://zpl.io/V0EKY5l
 * Zeplin link iOS https://zpl.io/a75pdpK

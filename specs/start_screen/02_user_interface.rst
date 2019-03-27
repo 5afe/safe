@@ -24,11 +24,16 @@ there is no password set, yet.
 
 .. raw:: html
 
-   <img src="screens/android/start.png" height="480px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/start.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/start.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
-.. raw:: html
-
-   <img src="screens/ios/start.png" height="480px" hspace="20"/>
-
-* `Zeplin link Android <https://zpl.io/awWeWmj>`_
-* `Zeplin link iOS <https://zpl.io/an9AEll>`_
+* Zeplin link Android: https://zpl.io/awWeWmj
+* Zeplin link iOS: https://zpl.io/an9AEll

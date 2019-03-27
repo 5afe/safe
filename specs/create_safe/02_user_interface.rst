@@ -24,11 +24,16 @@ Guidelines shown when starting the create Safe flow.
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_guidelines.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_guidelines.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_guidelines.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_guidelines.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android https://zpl.io/V0EBR5l
 * Zeplin link iOS: https://zpl.io/bJ76pP9
@@ -41,11 +46,16 @@ Asking the user whether they would like to connect to a Chrome extension.
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_pair.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_pair.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_pair.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_pair.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android https://zpl.io/V18Bzpm
 * Zeplin link iOS: https://zpl.io/VqWMkWY
@@ -58,11 +68,16 @@ Share sheet when sharing the link to the Chrome extension on the Chrome webstore
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_pair_share.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_pair_share.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_pair_share.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_pair_share.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android MISSING
 * Zeplin link iOS: https://zpl.io/agzEOWO
@@ -75,11 +90,16 @@ Info about recovery phrases
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_recovery_phrase_guidelines.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_recovery_phrase_guidelines.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_recovery_phrase_guidelines.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_recovery_phrase_guidelines.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android https://zpl.io/b6y0jxP
 * Zeplin link iOS: https://zpl.io/VOP3pP1
@@ -93,11 +113,16 @@ Showing the recovery phrase so the user can write it down.
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_recovery_phrase_view.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_recovery_phrase_view.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_recovery_phrase_view.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_recovery_phrase_view.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android https://zpl.io/awrk6jJ
 * Zeplin link iOS: https://zpl.io/2yOW80p
@@ -111,11 +136,16 @@ Prompting the user to confirm the recovery phrase
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_recovery_phrase_confirm_empty.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_recovery_phrase_confirm_empty.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_recovery_phrase_confirm_empty.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_recovery_phrase_confirm_empty.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android https://zpl.io/bzAvEM8
 * Zeplin link iOS: https://zpl.io/aR1Gr8r
@@ -128,11 +158,16 @@ First word filled
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_recovery_phrase_confirm_1.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_recovery_phrase_confirm_1.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_recovery_phrase_confirm_1.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_recovery_phrase_confirm_1.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android https://zpl.io/bldv5W1
 * Zeplin link iOS: https://zpl.io/beDknjB
@@ -145,11 +180,16 @@ All words filled
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_recovery_phrase_confirm_all.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_recovery_phrase_confirm_all.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_recovery_phrase_confirm_all.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_recovery_phrase_confirm_all.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android https://zpl.io/bJ9wy3E
 * Zeplin link iOS: https://zpl.io/V1N9J1m
@@ -162,11 +202,16 @@ User has entered the wrong order
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_recovery_phrase_confirm_fail.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_recovery_phrase_confirm_fail.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_recovery_phrase_confirm_fail.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_recovery_phrase_confirm_fail.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android MISSING
 * Zeplin link iOS: MISSING
@@ -175,15 +220,20 @@ User has entered the wrong order
 Deposit
 --------
 
-Waiting for the user to deposit funds. 
+Waiting for the user to deposit funds.
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_deposit.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_deposit.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_deposit.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_deposit.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android https://zpl.io/adMJrwp
 * Zeplin link iOS: https://zpl.io/bLP3GGm
@@ -196,11 +246,16 @@ Small alert that the address has been copied. Disappears after 3 seconds or when
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_deposit_copied.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_deposit_copied.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_deposit_copied.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_deposit_copied.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android MISSING
 * Zeplin link iOS: https://zpl.io/2Gy3Rwd
@@ -213,11 +268,16 @@ Share the address via the OS share sheet.
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_deposit_share.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_deposit_share.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_deposit_share.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_deposit_share.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android MISSING
 * Zeplin link iOS: https://zpl.io/aNP35Q9
@@ -230,11 +290,16 @@ Info about the fee.
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_deposit_info.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_deposit_info.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_deposit_info.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_deposit_info.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android MISSING
 * Zeplin link iOS: https://zpl.io/2ZLAmE4
@@ -247,11 +312,16 @@ Abort confirmation.
 
 .. raw:: html
 
-   <img src="screen/android/create_safe_deposit_abort.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_deposit_abort.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screen/android/create_safe_deposit_abort.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_deposit_abort.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android MISSING
 * Zeplin link iOS: https://zpl.io/2yORGry
@@ -264,11 +334,16 @@ Info about the fee.
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_deposit_insufficient_funds.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_deposit_insufficient_funds.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_deposit_insufficient_funds.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_deposit_insufficient_funds.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android https://zpl.io/V4Qq3N0
 * Zeplin link iOS: https://zpl.io/aR1k9ON
@@ -281,11 +356,16 @@ Waiting for Safe deployment.
 
 .. raw:: html
 
-   <img src="screens/android/create_safe_progress.png" width="320px"/>
-
-.. raw:: html
-
-   <img src="screens/ios/create_safe_progress.png" width="320px"/>
+  <table>
+    <tr>
+      <td>
+        <img src="screens/android/create_safe_progress.png" width="320px"/>
+      </td>
+      <td>
+        <img src="screens/ios/create_safe_progress.png" width="320px"/>
+      </td>
+    </tr>
+  </table>
 
 * Zeplin link Android https://zpl.io/aMmE6NN
 * Zeplin link iOS: https://zpl.io/2Gy3RZ9

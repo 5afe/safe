@@ -79,7 +79,7 @@ Share sheet when sharing the link to the Chrome extension on the Chrome webstore
     </tr>
   </table>
 
-* Zeplin link Android MISSING
+* Zeplin link Android https://zpl.io/a3eGRB8
 * Zeplin link iOS: https://zpl.io/agzEOWO
 
 
@@ -213,8 +213,8 @@ User has entered the wrong order
     </tr>
   </table>
 
-* Zeplin link Android MISSING
-* Zeplin link iOS: MISSING
+* Zeplin link Android https://zpl.io/2v7QPJv
+* Zeplin link iOS: https://zpl.io/aw4j4r1
 
 
 Deposit
@@ -257,7 +257,7 @@ Small alert that the address has been copied. Disappears after 3 seconds or when
     </tr>
   </table>
 
-* Zeplin link Android MISSING
+* Zeplin link Android https://zpl.io/bLPXG9m
 * Zeplin link iOS: https://zpl.io/2Gy3Rwd
 
 
@@ -279,7 +279,7 @@ Share the address via the OS share sheet.
     </tr>
   </table>
 
-* Zeplin link Android MISSING
+* Zeplin link Android https://zpl.io/VqWr54N
 * Zeplin link iOS: https://zpl.io/aNP35Q9
 
 
@@ -301,7 +301,7 @@ Info about the fee.
     </tr>
   </table>
 
-* Zeplin link Android MISSING
+* Zeplin link Android https://zpl.io/aR1A0jN
 * Zeplin link iOS: https://zpl.io/2ZLAmE4
 
 
@@ -315,7 +315,7 @@ Abort confirmation.
   <table>
     <tr>
       <td>
-        <img src="screen/android/create_safe_deposit_abort.png" width="320px"/>
+        <div width="320px>Screen not need on Android since we support multiple Safes and aborting the Safe creation is equivalent to deleting a Safe (cf. live app)</div?>
       </td>
       <td>
         <img src="screens/ios/create_safe_deposit_abort.png" width="320px"/>
@@ -323,7 +323,6 @@ Abort confirmation.
     </tr>
   </table>
 
-* Zeplin link Android MISSING
 * Zeplin link iOS: https://zpl.io/2yORGry
 
 

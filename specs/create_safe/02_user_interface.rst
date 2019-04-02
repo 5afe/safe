@@ -148,7 +148,7 @@ Prompting the user to confirm the recovery phrase
   </table>
 
 * Zeplin link Android https://zpl.io/bzAvEM8
-* Zeplin link iOS: https://zpl.io/aR1Gr8r
+* Zeplin link iOS: https://zpl.io/bJ7z83n
 
 
 Recovery phrase confirm - 1 word filled
@@ -308,15 +308,12 @@ Info about the fee.
 Deposit - Abort
 ~~~~~~~~~~~~~~~~~
 
-Abort confirmation.
+Abort confirmation. Screen not needed on Android since we support multiple Safes and aborting the Safe creation is equivalent to deleting a Safe (cf. live app)
 
 .. raw:: html
 
   <table>
     <tr>
-      <td>
-        <div width="320px>Screen not need on Android since we support multiple Safes and aborting the Safe creation is equivalent to deleting a Safe (cf. live app)</div?>
-      </td>
       <td>
         <img src="screens/ios/create_safe_deposit_abort.png" width="320px"/>
       </td>

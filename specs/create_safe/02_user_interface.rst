@@ -221,6 +221,7 @@ Deposit
 --------
 
 Waiting for the user to deposit funds.
+iOS: Refresh button checks the funding status of the Safe on the backend.
 
 .. raw:: html
 

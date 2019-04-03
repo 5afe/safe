@@ -78,7 +78,7 @@ Steps
    
 8. App detects new transfer on the Safe account.
 
-9. Wait for the safe to be created.
+9. Wait for the Safe to be created.
 
 10. Main screen opens.
 
@@ -116,10 +116,12 @@ Postconditions
 - Browser extension is connected.
 
 
-Cancellation
-~~~~~~~~~~~~~~
+Cancellation - iOS
+~~~~~~~~~~~~~~~~~~
 
 Inherits from the `Happy case - no browser extension`_
+
+This flow only exists on iOS as long as there is no multiple Safes implemented.
 
 Steps
 +++++
@@ -133,6 +135,22 @@ Postconditions
 
 - Safe is not created in the blockchain.
 - App goes back to where it started before entering the "Create safe" flow.
+
+
+Cancellation - Android
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Inherits from the `Cancellation - iOS`_
+
+This flow only exists on Android as long as there is no multiple Safes implemented on iOS.
+
+Steps
++++++
+
+7. Select "Delete" from the menu. Confirmation dialog appears.
+
+8. Confirm the deletion.
+
 
 Wrong Recovery Phrase Confirmation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

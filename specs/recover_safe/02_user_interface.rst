@@ -232,7 +232,7 @@ Sharing the download link to the extension.
     </tr>
   </table>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/a8wkvRE
 * Zeplin link iOS: https://zpl.io/VYKowGM
 
 
@@ -255,7 +255,7 @@ Scanning the QR code
     </tr>
   </table>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/V1Nk53Z
 * Zeplin link iOS: https://zpl.io/bzNDOLz
 
 
@@ -277,8 +277,8 @@ Error scanning the QR code.
     </tr>
   </table>
 
-* Zeplin link Android: MISSING
-* Zeplin link iOS: MISSING
+* Zeplin link Android: https://zpl.io/2GykwYj
+* Zeplin link iOS: https://zpl.io/V1NkXnJ
 
 
 Review - no 2FA

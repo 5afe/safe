@@ -299,7 +299,7 @@ Reviewing the recovery transaction when there is no 2FA device connected.
     </tr>
   </table>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/2EBzKJn
 * Zeplin link iOS: https://zpl.io/aR1GrzE
 
 

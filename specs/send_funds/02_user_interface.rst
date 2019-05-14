@@ -33,7 +33,7 @@ Enter info to send ETH
     </tr>
   </table>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/am93qq6
 * Zeplin link iOS: https://zpl.io/2yO6vpG
 
 
@@ -121,7 +121,7 @@ App info filled with valid data.
     </tr>
   </table>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/aNPRYpe
 * Zeplin link iOS: https://zpl.io/adpXvLR
 
 
@@ -188,7 +188,7 @@ Review screen when a 2FA device is connected.
   </table>
 
 * Zeplin link Android: https://zpl.io/29OjqNW
-* Zeplin link iOS: MISSING
+* Zeplin link iOS: https://zpl.io/aBBnDyK
 
 
 Send ETH review - 2FA confirmed
@@ -275,7 +275,7 @@ Enter info to send token
     </tr>
   </table>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/adp8nYl
 * Zeplin link iOS: https://zpl.io/aBBnDRL
 
 Send token enter - filled
@@ -296,7 +296,7 @@ App info filled with valid data.
     </tr>
   </table>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/VKPYJQJ
 * Zeplin link iOS: https://zpl.io/beDmpAm
 
 
@@ -318,5 +318,5 @@ Review screen when a 2FA device is connected.
     </tr>
   </table>
 
-* Zeplin link Android: MISSING
+* Zeplin link Android: https://zpl.io/VKDO7EX
 * Zeplin link iOS: https://zpl.io/VkGLvpZ

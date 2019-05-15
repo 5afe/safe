@@ -57,10 +57,10 @@ Onboarding_CreationFeeIntro
   <table>
     <tr>
       <td>
-        <img src="screens/android/ScreenName.png" width="240"/>
+        <img src="screens/android/ScreenName.png" width="160px"/>
       </td>
       <td>
-        <img src="screens/ios/(Token Payment) Onboarding_CreationFeeIntro.png" width="240"/>
+        <img src="screens/ios/(Token Payment) Onboarding_CreationFeeIntro.png" width="160px"/>
       </td>
     </tr>
     <tr>
@@ -84,10 +84,10 @@ Onboarding_CreationFeeIntro (modal)
   <table>
     <tr>
       <td>
-        <img src="screens/android/ScreenName.png" width="240"/>
+        <img src="screens/android/ScreenName.png" width="160px"/>
       </td>
       <td>
-        <img src="screens/ios/(Token Payment) Onboarding_CreationFeeIntro (modal).png" width="240"/>
+        <img src="screens/ios/(Token Payment) Onboarding_CreationFeeIntro (modal).png" width="160px"/>
       </td>
     </tr>
     <tr>
@@ -109,10 +109,10 @@ Onboarding_CreationFeeIntro (OWL selected)
   <table>
     <tr>
       <td>
-        <img src="screens/android/ScreenName.png" width="240"/>
+        <img src="screens/android/ScreenName.png" width="160px"/>
       </td>
       <td>
-        <img src="screens/ios/(Token Payment) Onboarding_CreationFeeIntro (OWL selected).png" width="240"/>
+        <img src="screens/ios/(Token Payment) Onboarding_CreationFeeIntro (OWL selected).png" width="160px"/>
       </td>
     </tr>
     <tr>
@@ -134,10 +134,10 @@ Onboarding_PaymentMethod
   <table>
     <tr>
       <td>
-        <img src="screens/android/ScreenName.png" width="240"/>
+        <img src="screens/android/ScreenName.png" width="160px"/>
       </td>
       <td>
-        <img src="screens/ios/(Token Payment) Onboarding_PaymentMethod.png" width="240"/>
+        <img src="screens/ios/(Token Payment) Onboarding_PaymentMethod.png" width="160px"/>
       </td>
     </tr>
     <tr>
@@ -161,10 +161,10 @@ Onboarding_PaymentMethod (OWL selected)
   <table>
     <tr>
       <td>
-        <img src="screens/android/ScreenName.png" width="240"/>
+        <img src="screens/android/ScreenName.png" width="160px"/>
       </td>
       <td>
-        <img src="screens/ios/(Token Payment) Onboarding_PaymentMethod (OWL selected).png" width="240"/>
+        <img src="screens/ios/(Token Payment) Onboarding_PaymentMethod (OWL selected).png" width="160px"/>
       </td>
     </tr>
     <tr>
@@ -186,10 +186,10 @@ Onboarding_CreationFee (token payment)
   <table>
     <tr>
       <td>
-        <img src="screens/android/ScreenName.png" width="240"/>
+        <img src="screens/android/ScreenName.png" width="160px"/>
       </td>
       <td>
-        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (token payment).png" width="240"/>
+        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (token payment).png" width="160px"/>
       </td>
     </tr>
     <tr>
@@ -215,10 +215,10 @@ Onboarding_CreationFee (address copied)
   <table>
     <tr>
       <td>
-        <img src="screens/android/ScreenName.png" width="240"/>
+        <img src="screens/android/ScreenName.png" width="160px"/>
       </td>
       <td>
-        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (address copied).png" width="240"/>
+        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (address copied).png" width="160px"/>
       </td>
     </tr>
     <tr>
@@ -240,10 +240,10 @@ Onboarding_CreationFee (action sheet)
   <table>
     <tr>
       <td>
-        <img src="screens/android/ScreenName.png" width="240"/>
+        <img src="screens/android/ScreenName.png" width="160px"/>
       </td>
       <td>
-        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (action sheet).png" width="240"/>
+        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (action sheet).png" width="160px"/>
       </td>
     </tr>
     <tr>
@@ -265,10 +265,10 @@ Onboarding_CreationFee (modal)
   <table>
     <tr>
       <td>
-        <img src="screens/android/ScreenName.png" width="240"/>
+        <img src="screens/android/ScreenName.png" width="160px"/>
       </td>
       <td>
-        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (modal).png" width="240"/>
+        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (modal).png" width="160px"/>
       </td>
     </tr>
     <tr>
@@ -290,10 +290,10 @@ Onboarding_CreationFee (cancel warning)
   <table>
     <tr>
       <td>
-        <img src="screens/android/ScreenName.png" width="240"/>
+        <img src="screens/android/ScreenName.png" width="160px"/>
       </td>
       <td>
-        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (cancel warning).png" width="240"/>
+        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (cancel warning).png" width="160px"/>
       </td>
     </tr>
     <tr>
@@ -315,10 +315,10 @@ Onboarding_CreationFee (insufficient funds)
   <table>
     <tr>
       <td>
-        <img src="screens/android/ScreenName.png" width="240"/>
+        <img src="screens/android/ScreenName.png" width="160px"/>
       </td>
       <td>
-        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (insufficient funds).png" width="240"/>
+        <img src="screens/ios/(Token Payment) Onboarding_CreationFee (insufficient funds).png" width="160px"/>
       </td>
     </tr>
     <tr>

@@ -45,7 +45,7 @@ This feature affects the following flows & screens:
 - Recover Safe
 - Menu
 
-The payment method is globally set but can be changed before making a transaction and also via the menu. 
+The payment method is set per Safe but can be changed before making a transaction and also via the menu. 
 
 The smart contracts and the backend are already ready for this change. We "just" have to incorporate this into the frontends now.
 

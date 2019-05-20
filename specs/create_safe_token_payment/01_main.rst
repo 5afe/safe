@@ -36,6 +36,7 @@ We use meta-transactions anyway already, i.e. our relay service pays for transac
 There will a list of tokens that the relay service accepts as payment. We will also have to incorporate a price oracle to determine the fee amount. DutchX will be one price oracle.
 
 This feature affects the following flows & screens:
+
 - Safe creation 👈 this spec
 - Send funds 
 - Connect browser extension
@@ -55,6 +56,8 @@ Screens
 Onboarding_RecoveryIntro
 ~~~~~~~~~~~~~~~~~~~~~~~~
             
+- Guidelines shown when triggering the creation flow.
+
 .. raw:: html
 
   <table>
@@ -79,6 +82,9 @@ Onboarding_RecoveryIntro
   
 Onboarding_2FA
 ~~~~~~~~~~~~~~
+
+- Scan bring up the camera to scan the QR code of the Chrome extension.
+- Tapping the link brings the operating system's share sheet with a link to the Chrome extension on the Chrome webstore for the respective build.
             
 .. raw:: html
 
@@ -279,7 +285,9 @@ Onboarding_EnterSeed (error)
   
 [Token Payment] Onboarding_CreationFeeIntro
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            
+
+- Tapping the question mark brings up the info dialog about the creation fee.           
+
 .. raw:: html
 
   <table>
@@ -380,6 +388,13 @@ Onboarding_CreationFee (creation fee dialog)
 [TOKEN PAYMENT] Onboarding_CreationFee
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             
+- Tapping the question mark brings up the info dialog about the creation fee.
+- Tapping the address copies it to the clipboard
+- Tapping the share button brings up the operating systems' share sheet.
+- The fee should be displayed using the `short amount`_ format.
+
+.. _`short amount`: ../common/format_amounts.rst#short-amount
+
 .. raw:: html
 
   <table>

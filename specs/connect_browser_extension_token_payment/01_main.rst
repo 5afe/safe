@@ -5,7 +5,7 @@ Connect browser extension - Token payment
 =====  =============================================  =========  ==========
 epic                       title                       author     created
 =====  =============================================  =========  ==========
-`89`_  Connect browser extension funds Token payment  tschubotz  2019-05-21
+`89`_  Connect browser extension -  Token payment  tschubotz  2019-05-21
 =====  =============================================  =========  ==========
 
 .. _89: https://github.com/gnosis/safe/issues/89

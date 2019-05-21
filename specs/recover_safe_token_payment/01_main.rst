@@ -355,7 +355,9 @@ Recover_2FA (error)
   
 [Token Payment] Recover_RecoveryFeeIntro
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            
+
+- The amount should use the `short amount`_ format.
+
 .. raw:: html
 
   <table>
@@ -405,7 +407,9 @@ Recover_2FA (error)
   
 [Token Payment] Recover_PaymentMethod
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            
+
+- Amounts should use the `short amount`_ format.
+
 .. raw:: html
 
   <table>
@@ -430,7 +434,9 @@ Recover_2FA (error)
   
 Recover_Fee
 ~~~~~~~~~~~
-            
+
+- Amounts should use the `short amount`_ format.
+
 .. raw:: html
 
   <table>
@@ -455,7 +461,9 @@ Recover_Fee
   
 Recover_Fee (no browser extension)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            
+
+- Amounts should use the `short amount`_ format.
+
 .. raw:: html
 
   <table>
@@ -480,7 +488,9 @@ Recover_Fee (no browser extension)
   
 Recover_Review
 ~~~~~~~~~~~~~~
-            
+
+- Amounts should use the `short amount`_ format.
+
 .. raw:: html
 
   <table>
@@ -527,4 +537,4 @@ Recover_FeePaid
     </tr>
   </table>
   
-  
+.. _`short amount`: ../common/format_amounts.rst#short-amount

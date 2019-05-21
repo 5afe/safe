@@ -56,6 +56,8 @@ Screens
 [TOKEN PAYMENT] Send_Input
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
             
+- Tapping ETH or the cog brings up the token selection list.
+
 .. raw:: html
 
   <table>
@@ -80,7 +82,9 @@ Screens
   
 [TOKEN PAYMENT] Send_Input (payment token tooltip)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            
+
+- This tooltip is shown only the first time the user accesses this screen. It can be dismissed by tapping the x or anywhere on the screen.
+
 .. raw:: html
 
   <table>
@@ -330,7 +334,9 @@ Send_Input (enter address)
   
 [TOKEN PAYMENT] Send_Input (filled tooltip)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            
+
+- The tooltip opens when tapping the address. It can be dismissed by tapping anywhere on the screen.
+
 .. raw:: html
 
   <table>
@@ -356,6 +362,8 @@ Send_Input (enter address)
 [TOKEN PAYMENT] Send_Input (balance tooltip)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             
+- The tooltip opens when tapping the Safe balance. It can be dismissed by tapping anywhere on the screen.
+
 .. raw:: html
 
   <table>
@@ -439,7 +447,7 @@ Send_Input (enter address)
         <img src="screens/android/[TOKEN PAYMENT] Send_Review (token).png" width="240px"/>
       </td>
       <td>
-        <img src="screens/ios/MISSING.png" width="240px"/>
+        <img src="screens/ios/Send_Review (token).png" width="240px"/>
       </td>
     </tr>
     <tr>
@@ -447,21 +455,23 @@ Send_Input (enter address)
         https://zpl.io/VDA3Yeq
       </td>
       <td>
-        
+        https://zpl.io/VOPAN4Y
       </td>
     </tr>
   </table>
   
   
-(Token Payment) TransactionDetail (outgoing)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TransactionDetail (outgoing)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- The payment method and fee amount should be displayed on the transaction details page.
             
 .. raw:: html
 
   <table>
     <tr>
       <td>
-        <img src="screens/android/MISSING.png" width="240px"/>
+        <img src="screens/android/TransactionDetail (outgoing).png" width="240px"/>
       </td>
       <td>
         <img src="screens/ios/(Token Payment) TransactionDetail (outgoing).png" width="240px"/>
@@ -469,7 +479,7 @@ Send_Input (enter address)
     </tr>
     <tr>
       <td>
-        
+        https://zpl.io/agnwKgQ
       </td>
       <td>
         https://zpl.io/beA0joq
@@ -526,9 +536,6 @@ Send_Success
       </td>
     </tr>
   </table>
-  
-  
-
 
   
 .. _`short amount`: ../common/format_amounts.rst#short-amount

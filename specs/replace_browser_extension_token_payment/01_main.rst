@@ -5,7 +5,7 @@ Replace browser extension - Token payment
 =====  =============================================  =========  ==========
 epic                       title                       author     created
 =====  =============================================  =========  ==========
-`89`_  Replace browser extension funds Token payment  tschubotz  2019-05-21
+`89`_  Replace browser extension - Token payment  tschubotz  2019-05-21
 =====  =============================================  =========  ==========
 
 .. _89: https://github.com/gnosis/safe/issues/89

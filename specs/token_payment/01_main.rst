@@ -1,12 +1,12 @@
 ==========================================================
-Create Safe - Token payment
+Token payment
 ==========================================================
 
-=====  =========================  =========  ==========
-epic            title             author     created
-=====  =========================  =========  ==========
-`89`_  Create Safe Token payment  tschubotz  2019-05-15
-=====  =========================  =========  ==========
+=====  =============  =========  ==========
+epic       title       author     created
+=====  =============  =========  ==========
+`89`_  Token payment  tschubotz  2019-05-15
+=====  =============  =========  ==========
 
 .. _89: https://github.com/gnosis/safe/issues/89
 
@@ -37,13 +37,16 @@ There will a list of tokens that the relay service accepts as payment. We will a
 
 This feature affects the following flows & screens:
 
-- Safe creation 👈 this spec
+- `Safe creation`_
 - Send funds 
 - Connect browser extension
 - Replace browser extension
 - Replace recovery phrase
 - Recover Safe
 - Menu
+
+.. _`Safe creation`: 02_create_safe.rst
+
 
 The payment method is set per Safe but can be changed before making a transaction and also via the menu. 
 

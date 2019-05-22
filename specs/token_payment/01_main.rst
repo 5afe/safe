@@ -37,6 +37,22 @@ There will a list of tokens that the relay service accepts as payment. We will a
 
 This feature affects the following flows & screens:
 
+- Safe creation
+- Send funds
+- Connect browser extension
+- Replace browser extension
+- Replace recovery phrase
+- Recover Safe
+- Menu
+
+The payment method is set per Safe but can be changed before making a transaction and also via the menu. 
+
+The smart contracts and the backend are already ready for this change. We "just" have to incorporate this into the frontends now.
+
+Screens
+--------
+
+
 - `Safe creation`_
 - `Send funds`_
 - `Connect browser extension`_
@@ -52,9 +68,3 @@ This feature affects the following flows & screens:
 .. _`Replace browser extension`: 06_replace_browser_extension.rst
 .. _`Replace recovery phrase`: 07_replace_recovery_phrase.rst
 .. _`Recover Safe`: 08_recover_safe.rst
-
-
-The payment method is set per Safe but can be changed before making a transaction and also via the menu. 
-
-The smart contracts and the backend are already ready for this change. We "just" have to incorporate this into the frontends now.
-

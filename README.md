@@ -1,5 +1,5 @@
 # safe
-Repository for collecting Gnosis Safe ideas and feature requests as well as maintaining the product backlog and epics in order to manage the development process.
+Repository for collecting Gnosis Safe ideas and feature requests as well as maintaining the product backlog and epics in order to manage the development process. 
 
 # Creating a specification
 

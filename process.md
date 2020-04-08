@@ -11,30 +11,30 @@
 
 We are doing sprints with a length of 2 weeks (10 working days).
 
-| Week    | Day       | Activities Sprint A                                            | Activities Sprint B                                            | Activities Sprint C              | ... |
-|:--------|:----------|:---------------------------------------------------------------|:---------------------------------------------------------------|:---------------------------------|:----|
-| :one:   | Monday    | Work on requirements :black_nib:                               |                                                                |                                  |     |
-|         | Tuesday   | Sprint planning :bookmark_tabs:                                |                                                                |                                  |     |
-|         | Wednesday |                                                                |                                                                |                                  |     |
-|         | Thursday  |                                                                |                                                                |                                  |     |
-|         | Friday    |                                                                |                                                                |                                  |     |
-| :two:   | Monday    |                                                                | Work on requirements :black_nib:                               |                                  |     |
-|         | Tuesday   |                                                                | Work on requirements :black_nib:                               |                                  |     |
-|         | Wednesday |                                                                | Work on requirements :black_nib:                               |                                  |     |
-|         | Thursday  |                                                                | Work on requirements :black_nib:                               |                                  |     |
-|         | Friday    | QA :rotating_light:                                            | Work on requirements :black_nib:                               |                                  |     |
-| :three: | Monday    | Release :ship:                                                 | Work on requirements :black_nib:                               |                                  |     |
-|         | Tuesday   | Sprint review :vertical_traffic_light:, retro :roller_coaster: | Sprint planning :bookmark_tabs:                                |                                  |     |
-|         | Wednesday |                                                                |                                                                |                                  |     |
-|         | Thursday  |                                                                |                                                                |                                  |     |
-|         | Friday    |                                                                |                                                                |                                  |     |
-| :four:  | Monday    |                                                                |                                                                | Work on requirements :black_nib: |     |
-|         | Tuesday   |                                                                |                                                                | Work on requirements :black_nib: |     |
-|         | Wednesday |                                                                |                                                                | Work on requirements :black_nib: |     |
-|         | Thursday  |                                                                |                                                                | Work on requirements :black_nib: |     |
-|         | Friday    |                                                                | QA :rotating_light:                                            | Work on requirements :black_nib: |     |
-| :five:  | Monday    |                                                                | Release :ship:                                                 | Work on requirements :black_nib: |     |
-|         | Tuesday   |                                                                | Sprint review :vertical_traffic_light:, retro :roller_coaster: | Sprint planning :bookmark_tabs:  |     |
+| Week    | Day       | Activities Sprint A                                            | Activities Sprint B                                            | Activities Sprint C                                         | ... |
+|:--------|:----------|:---------------------------------------------------------------|:---------------------------------------------------------------|:------------------------------------------------------------|:----|
+| :one:   | Monday    | Work on requirements :black_nib:                               |                                                                |                                                             |     |
+|         | Tuesday   | Estimation :balance_scale:, Sprint planning :bookmark_tabs:    |                                                                |                                                             |     |
+|         | Wednesday |                                                                |                                                                |                                                             |     |
+|         | Thursday  |                                                                |                                                                |                                                             |     |
+|         | Friday    |                                                                |                                                                |                                                             |     |
+| :two:   | Monday    |                                                                | Work on requirements :black_nib:                               |                                                             |     |
+|         | Tuesday   |                                                                | Work on requirements :black_nib:                               |                                                             |     |
+|         | Wednesday |                                                                | Work on requirements :black_nib:                               |                                                             |     |
+|         | Thursday  |                                                                | Work on requirements :black_nib:                               |                                                             |     |
+|         | Friday    | QA :rotating_light:                                            | Work on requirements :black_nib:                               |                                                             |     |
+| :three: | Monday    | Release :ship:                                                 | Work on requirements :black_nib:                               |                                                             |     |
+|         | Tuesday   | Sprint review :vertical_traffic_light:, retro :roller_coaster: | Estimation :balance_scale:, Sprint planning :bookmark_tabs:    |                                                             |     |
+|         | Wednesday |                                                                |                                                                |                                                             |     |
+|         | Thursday  |                                                                |                                                                |                                                             |     |
+|         | Friday    |                                                                |                                                                |                                                             |     |
+| :four:  | Monday    |                                                                |                                                                | Work on requirements :black_nib:                            |     |
+|         | Tuesday   |                                                                |                                                                | Work on requirements :black_nib:                            |     |
+|         | Wednesday |                                                                |                                                                | Work on requirements :black_nib:                            |     |
+|         | Thursday  |                                                                |                                                                | Work on requirements :black_nib:                            |     |
+|         | Friday    |                                                                | QA :rotating_light:                                            | Work on requirements :black_nib:                            |     |
+| :five:  | Monday    |                                                                | Release :ship:                                                 | Work on requirements :black_nib:                            |     |
+|         | Tuesday   |                                                                | Sprint review :vertical_traffic_light:, retro :roller_coaster: | Estimation :balance_scale:, Sprint planning :bookmark_tabs: |     |
 
 Meeting outside of sprint cycle: Gnosis Safe Team weekly every Tuesday.
 
@@ -51,8 +51,12 @@ Meeting outside of sprint cycle: Gnosis Safe Team weekly every Tuesday.
   - Prototypes on Invision
   - Later stages on Zeplin
 - Software engineers :hammer_and_wrench: discuss technical details
-- Software engineers :hammer_and_wrench: estimate tickets
 - The entire team :bowling: thrives for clarifying open questions and thriving for adding details to requirements
+
+### Estimation :balance_scale:
+
+- Estimate implementation effort for features
+- Run by Software engineers :hammer_and_wrench:
 
 ### Sprint planning :bookmark_tabs:
 

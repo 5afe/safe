@@ -1,6 +1,6 @@
 # Product development process
 
-## Team members
+## Team :bowling:
 
 - Software engineers :hammer_and_wrench:
 - Product managers :rocket:
@@ -37,31 +37,48 @@ We are doing sprints with a length of 2 weeks (10 working days).
   - Prototypes on Invision
   - Later stages on Zeplin
 - Software engineers :hammer_and_wrench: discuss technical details
-- Everyone thrives for clarifying open questions and thriving for adding details to requirements
 - Product manager prioritizes tickets
 - Software engineers :hammer_and_wrench: estimate tickets
+- The entire team :bowling: thrives for clarifying open questions and thriving for adding details to requirements
 
 ### Sprint planning :bookmark_tabs:
 
-- Team commits to a set of features
+- Team :bowling: commits to a set of features
 - Potentially reprioritize tickets based on estimations
 - Ideally no technical discussions
 
 ### QA :rotating_light:
 
-tbd
+- The specific QA process is to be defined.
+- Types of QA that make sense:
+  - Feature QA
+  - Release QA
+  - Regression tests
 
 ### Release :ship:
 
-tbd
+- Requires release notes and potentially updated store assets
+- Mobile apps are release to the store
+- Further activities to be defined, e.g.
+  - Internal announcement on Slack
+  - External accouncement on Twitter
+
 
 ### Sprint review :vertical_traffic_light:
 
-tbd
+- Meeting for the entire team :bowling:
+- Review features and completion.
+- Demo current state and new features.
+
 
 ### Retro :roller_coaster:
 
+- Meeting for the entire team :bowling:
+- Reflect on performance and collaboration during the last 2 weeks
+- Decide on process changes.
+- Specific retro format to be defined
+
 ### Team weekly
 
-- Team meeting with the entire Gnosis Safe team.
+- Team meeting with the entire Gnosis Safe team :bowling:
 - Independent of the sprint activities

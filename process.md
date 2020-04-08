@@ -11,33 +11,46 @@
 
 We are doing sprints with a length of 2 weeks (10 working days).
 
-| Week    | Day       | Activities           |
-|:--------|:----------|:---------------------|
-| :zero:  |           | Work on requirements :black_nib: |
-| :zero:  | Tuesday   | Sprint planning :bookmark_tabs:, (team weekly)      |
-| :one:   | Wednesday |                      |
-| :one:   | Thursday  |                      |
-| :one:   | Friday    |                      |
-| :one:   | Monday    |                      |
-| :two:   | Tuesday   | (Team weekly)          |
-| :two:   | Wednesday |                      |
-| :two:   | Thursday  |                      |
-| :two:   | Friday    | QA :rotating_light:                  |
-| :two:   | Monday    | Release :ship:              |
-| :three: | Tuesday   | Sprint review :vertical_traffic_light:, retro :roller_coaster: |
+| Week    | Day       | Activities Sprint A                                            | Activities Sprint B                                            | Activities Sprint C              | ... |
+|:--------|:----------|:---------------------------------------------------------------|:---------------------------------------------------------------|:---------------------------------|:----|
+| :one:   | Monday    | Work on requirements :black_nib:                               |                                                                |                                  |     |
+|         | Tuesday   | Sprint planning :bookmark_tabs:                                |                                                                |                                  |     |
+|         | Wednesday |                                                                |                                                                |                                  |     |
+|         | Thursday  |                                                                |                                                                |                                  |     |
+|         | Friday    |                                                                |                                                                |                                  |     |
+| :two:   | Monday    |                                                                | Work on requirements :black_nib:                               |                                  |     |
+|         | Tuesday   |                                                                | Work on requirements :black_nib:                               |                                  |     |
+|         | Wednesday |                                                                | Work on requirements :black_nib:                               |                                  |     |
+|         | Thursday  |                                                                | Work on requirements :black_nib:                               |                                  |     |
+|         | Friday    | QA :rotating_light:                                            | Work on requirements :black_nib:                               |                                  |     |
+| :three: | Monday    | Release :ship:                                                 | Work on requirements :black_nib:                               |                                  |     |
+|         | Tuesday   | Sprint review :vertical_traffic_light:, retro :roller_coaster: | Sprint planning :bookmark_tabs:                                |                                  |     |
+|         | Wednesday |                                                                |                                                                |                                  |     |
+|         | Thursday  |                                                                |                                                                |                                  |     |
+|         | Friday    |                                                                |                                                                |                                  |     |
+| :four:  | Monday    |                                                                |                                                                | Work on requirements :black_nib: |     |
+|         | Tuesday   |                                                                |                                                                | Work on requirements :black_nib: |     |
+|         | Wednesday |                                                                |                                                                | Work on requirements :black_nib: |     |
+|         | Thursday  |                                                                |                                                                | Work on requirements :black_nib: |     |
+|         | Friday    |                                                                | QA :rotating_light:                                            | Work on requirements :black_nib: |     |
+| :five:  | Monday    |                                                                | Release :ship:                                                 | Work on requirements :black_nib: |     |
+|         | Tuesday   |                                                                | Sprint review :vertical_traffic_light:, retro :roller_coaster: | Sprint planning :bookmark_tabs:  |     |
+
+Meeting outside of sprint cycle: Gnosis Safe Team weekly every Tuesday.
 
 ## Activities
 
 ### Work on requirements :black_nib:
 
 - Product managers :rocket: define requirements
+- Product manager prioritizes tickets
+  - Always make sure that tickets are prioritized properly.
 - Software engineers :hammer_and_wrench: add technical details
 - UX researchers perform research and tests
 - UX/UI designers :dart: refine screens
   - Prototypes on Invision
   - Later stages on Zeplin
 - Software engineers :hammer_and_wrench: discuss technical details
-- Product manager prioritizes tickets
 - Software engineers :hammer_and_wrench: estimate tickets
 - The entire team :bowling: thrives for clarifying open questions and thriving for adding details to requirements
 

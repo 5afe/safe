@@ -58,7 +58,7 @@ Meeting outside of sprint cycle: Gnosis Safe Team weekly every Tuesday.
 
 - Estimate implementation effort for features
 - Run by Software engineers :hammer_and_wrench:
-- Doesn't have to happen Tuesday as indicated in the table above This is just the last possible moment.
+- Doesn't have to happen Tuesday as indicated in the table above. This is just the last possible moment.
 
 ### Sprint planning :bookmark_tabs:
 

@@ -13,8 +13,8 @@ about: Create an epic for the Gnosis Safe
 # High-level overview of the feature
 - 
 
-# Screens
-- Link to Google docs with screens. Template can be found on [Google drive](https://drive.google.com/drive/u/0/folders/1d7LH762wUBCSf2Shmb-f2O5OdAaQcOAW)
+# Expected outcome
+- Be specific about the expectations, especially for research tickets.
 
 # Other things
 - 
